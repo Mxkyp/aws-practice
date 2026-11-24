@@ -226,3 +226,5 @@ __marimo__/
 .terraform/
 *.tfstate
 *.tfstate.*
+
+functions/*.zip
