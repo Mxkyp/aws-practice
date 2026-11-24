@@ -11,3 +11,32 @@ dependencies = []
 
 [tool.uv]
 package = false
+
+[dependency-groups]
+dev = [
+    "poethepoet>=0.49.0",
+]
+
+[tool.poe.env]
+AWS_CONFIG_FILE.default = "${HOME}/.aws/emulator/9297/config"
+AWS_SHARED_CREDENTIALS_FILE.default = "${HOME}/.aws/emulator/9297/emulator_credentials"
+
+[tool.poe.tasks]
+infra-init = "terraform -chdir=infra init -input=false"
+infra-apply = "terraform -chdir=infra apply -auto-approve -input=false"
+infra.sequence = ["infra-init", "infra-apply"]
+infra.help = "Infra pipeline: function shells, roles, bucket, table"
+
+deploy.cmd = "scripts/deploy_code.sh get_serie"
+deploy.help = "Code pipeline: build, upload and deploy function code"
+
+smoke.shell = """
+mkdir -p build
+aws lambda invoke --function-name get_serie build/smoke.json > /dev/null
+echo "get_serie -> $(cat build/smoke.json)"
+! grep -q 'not deployed yet' build/smoke.json
+"""
+smoke.help = "Fail if get_serie still runs the Terraform placeholder"
+
+e2e.sequence = ["infra", "deploy", "smoke"]
+e2e.help = "Apply infra, deploy code and smoke-test against the emulator"

@@ -1,0 +1,30 @@
+name: code
+
+on:
+  pull_request:
+    paths: ["functions/**", "scripts/**", "Makefile", "pyproject.toml", "uv.lock", ".github/workflows/code.yml", ".github/actions/**"]
+  push:
+    branches: [master]
+    paths: ["functions/**", "scripts/**", "Makefile", "pyproject.toml", "uv.lock", ".github/workflows/code.yml", ".github/actions/**"]
+
+jobs:
+  e2e:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_wrapper: false
+
+      - uses: astral-sh/setup-uv@v6
+
+      - name: Install dev tools (poe)
+        run: uv sync --locked
+
+      - name: Syntax check
+        run: uv run python -m compileall -q functions
+
+      - uses: ./.github/actions/emulator
+
+      - name: Apply infra, deploy code, smoke test
+        run: uv run poe e2e

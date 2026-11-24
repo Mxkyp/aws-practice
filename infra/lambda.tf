@@ -25,7 +25,9 @@ resource "aws_lambda_function" "get_serie" {
   handler       = "handler.lambda_handler"
 
   s3_bucket = aws_s3_bucket.some_bucket.id
-  s3_key    = aws_s3_object.lambda_get_serie.key
+  s3_key    = aws_s3_object.placeholder.key
 
-  source_code_hash = data.archive_file.lambda_get_serie.output_base64sha256
+  lifecycle {
+    ignore_changes = [s3_bucket, s3_key, s3_object_version, source_code_hash]
+  }
 }

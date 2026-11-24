@@ -1,0 +1,32 @@
+name: infra
+
+on:
+  pull_request:
+    paths: ["infra/**", ".github/workflows/infra.yml", ".github/actions/**"]
+  push:
+    branches: [master]
+    paths: ["infra/**", ".github/workflows/infra.yml", ".github/actions/**"]
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_wrapper: false
+
+      - run: terraform -chdir=infra fmt -check -recursive
+      - run: terraform -chdir=infra init -input=false
+      - run: terraform -chdir=infra validate
+
+      - uses: astral-sh/setup-uv@v6
+      - name: Install dev tools (poe)
+        run: uv sync --locked
+
+      - uses: ./.github/actions/emulator
+      - name: Apply infra to a fresh emulator
+        run: uv run poe infra
+
+      # A second plan must be empty: catches resources that never converge.
+      - run: terraform -chdir=infra plan -detailed-exitcode -input=false
