@@ -9,7 +9,7 @@ data "aws_iam_policy_document" "lambda_assume_role" {
 }
 
 resource "aws_iam_role" "lambda_exec" {
-  name               = "serie-lambda-exec"
+  name               = "show-lambda-exec"
   assume_role_policy = data.aws_iam_policy_document.lambda_assume_role.json
 }
 
@@ -18,8 +18,8 @@ resource "aws_iam_role_policy_attachment" "lambda_logs" {
   policy_arn = "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
 }
 
-resource "aws_lambda_function" "get_serie" {
-  function_name = "get_serie"
+resource "aws_lambda_function" "get_show" {
+  function_name = "get_show"
   role          = aws_iam_role.lambda_exec.arn
   runtime       = "python3.12"
   handler       = "handler.lambda_handler"

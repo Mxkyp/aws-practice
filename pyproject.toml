@@ -27,16 +27,16 @@ infra-apply = "terraform -chdir=infra apply -auto-approve -input=false"
 infra.sequence = ["infra-init", "infra-apply"]
 infra.help = "Infra pipeline: function shells, roles, bucket, table"
 
-deploy.cmd = "scripts/deploy_code.sh get_serie"
+deploy.cmd = "scripts/deploy_code.sh get_show"
 deploy.help = "Code pipeline: build, upload and deploy function code"
 
 smoke.shell = """
 mkdir -p build
-aws lambda invoke --function-name get_serie build/smoke.json > /dev/null
-echo "get_serie -> $(cat build/smoke.json)"
+aws lambda invoke --function-name get_show build/smoke.json > /dev/null
+echo "get_show -> $(cat build/smoke.json)"
 ! grep -q 'not deployed yet' build/smoke.json
 """
-smoke.help = "Fail if get_serie still runs the Terraform placeholder"
+smoke.help = "Fail if get_show still runs the Terraform placeholder"
 
 e2e.sequence = ["infra", "deploy", "smoke"]
 e2e.help = "Apply infra, deploy code and smoke-test against the emulator"

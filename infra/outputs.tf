@@ -4,6 +4,6 @@ output "lambda_bucket_name" {
   value = aws_s3_bucket.some_bucket.id
 }
 
-output "get_serie_function_name" {
-  value = aws_lambda_function.get_serie.function_name
+output "get_show_function_name" {
+  value = aws_lambda_function.get_show.function_name
 }
