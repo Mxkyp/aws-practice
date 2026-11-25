@@ -7,7 +7,9 @@ authors = [
     { name = "Mxkyp", email = "157213409+Mxkyp@users.noreply.github.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "aws-lambda-powertools>=3.41.0",
+]
 
 [tool.uv]
 package = false
@@ -18,6 +20,7 @@ dev = [
 ]
 
 [tool.poe.env]
+PYTHONPATH.default = "lib"
 AWS_CONFIG_FILE.default = "${HOME}/.aws/emulator/9297/config"
 AWS_SHARED_CREDENTIALS_FILE.default = "${HOME}/.aws/emulator/9297/emulator_credentials"
 
@@ -30,21 +33,18 @@ infra.help = "Infra pipeline: function shells, roles, bucket, table"
 deploy.cmd = "scripts/deploy_code.sh get_show"
 deploy.help = "Code pipeline: build, upload and deploy function code"
 
-seed.cmd = """
-aws dynamodb put-item --table-name show --item
-  '{"pk": {"S": "firefly"}, "sk": {"S": "META"}, "name": {"S": "Firefly"}, "premiered": {"S": "2002-09-20"}}'
-"""
-seed.help = "Write one known show (firefly) to the table"
+seed.cmd = "aws dynamodb batch-write-item --request-items file://scripts/seed_shows.json"
+seed.help = "Write the example TVMaze shows (scripts/seed_shows.json) to the table"
 
 smoke.shell = """
 mkdir -p build
 aws lambda invoke --function-name get_show \
-  --cli-binary-format raw-in-base64-out --payload '{"show": "firefly"}' \
+  --cli-binary-format raw-in-base64-out --payload '{"id": 82}' \
   build/smoke.json > /dev/null
 echo "get_show -> $(cat build/smoke.json)"
-jq -e '.statusCode == 200' build/smoke.json > /dev/null
+jq -e '.statusCode == 200 and (.body | fromjson | .name == "Game of Thrones" and .rating == 8.9)' build/smoke.json > /dev/null
 """
-smoke.help = "Fail unless get_show returns the seeded show with status 200"
+smoke.help = "Fail unless get_show returns seeded show 82 with status 200 and a numeric rating"
 
 e2e.sequence = ["infra", "deploy", "seed", "smoke"]
 e2e.help = "Apply infra, deploy code, seed data and smoke-test against the emulator"

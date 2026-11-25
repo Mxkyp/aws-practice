@@ -3,9 +3,25 @@ revision = 5
 requires-python = ">=3.12"
 
 [[package]]
+name = "aws-lambda-powertools"
+version = "3.41.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "jmespath" },
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/e0/f5/596817cd2beeeb42ed5fe3e5a21bcacff2f57eef1a7aafb05b73a0f43247/aws_lambda_powertools-3.41.0.tar.gz", hash = "sha256:d3b899f851eae0e31100d8586a4d232b845e0d9319311ae33e766c77c17952ff", size = 845911, upload-time = "2026-11-18T12:13:20.1Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/87/45/519d0eb86c3f2aa586c68cbefe6765b19bdd51573936f91df4d86ec0edf5/aws_lambda_powertools-3.41.0-py3-none-any.whl", hash = "sha256:1a3a2cef8a7e6e4d460d48a2ed16ae9b0b12bd574697f23d03d14119951d8deb", size = 1023021, upload-time = "2026-11-18T12:13:18.294Z" },
+]
+
+[[package]]
 name = "aws-practice"
 version = "0.1.0"
 source = { virtual = "." }
+dependencies = [
+    { name = "aws-lambda-powertools" },
+]
 
 [package.dev-dependencies]
 dev = [
@@ -13,9 +29,19 @@ dev = [
 ]
 
 [package.metadata]
+requires-dist = [{ name = "aws-lambda-powertools", specifier = ">=3.41.0" }]
 
 [package.metadata.requires-dev]
 dev = [{ name = "poethepoet", specifier = ">=0.49.0" }]
+
+[[package]]
+name = "jmespath"
+version = "1.1.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/d3/59/322338183ecda247fb5d1763a6cbe46eff7222eaeebafd9fa65d4bf5cb11/jmespath-1.1.0.tar.gz", hash = "sha256:472c87d80f36026ae83c6ddd0f1d05d4e510134ed462851fd5f754c8c3cbb88d", size = 27377, upload-time = "2026-01-22T16:35:26.279Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/14/2f/967ba146e6d58cf6a652da73885f52fc68001525b4197effc174321d70b4/jmespath-1.1.0-py3-none-any.whl", hash = "sha256:a5663118de4908c91729bea0acadca56526eb2698e83de10cd116ae0f4e97c64", size = 20419, upload-time = "2026-01-22T16:35:24.919Z" },
+]
 
 [[package]]
 name = "poethepoet"
@@ -91,4 +117,13 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/bb/85/62d54e223b4bc89ff85f087a5ce2648e5d929d3214d64613dbae17d5e045/pyyaml-6.0.4-cp315-cp315t-musllinux_1_2_x86_64.whl", hash = "sha256:a65339c24f2fb8d4419e06ceec1bda98bdcff727b3b533a81d5af6bb2dd34520", size = 845763, upload-time = "2026-11-20T23:37:01.331Z" },
     { url = "https://files.pythonhosted.org/packages/eb/40/6bd9090368664be984a83fd7fe64f8e044b067a52449679c309706e3199d/pyyaml-6.0.4-cp315-cp315t-win_amd64.whl", hash = "sha256:a3cc63af3d639d1609143711837b926183418260aae89ed95193c07b25b99d33", size = 163170, upload-time = "2026-11-20T23:37:02.3Z" },
     { url = "https://files.pythonhosted.org/packages/0d/22/468d36762a0c650cf2295052998eb1d419053335ea9ff48a043f5ae4d578/pyyaml-6.0.4-cp315-cp315t-win_arm64.whl", hash = "sha256:d276f23e2371deb5ee68dd252cc9c2402b806b54d8d2cc7efbb6c34c3a78d886", size = 156942, upload-time = "2026-11-20T23:37:03.209Z" },
+]
+
+[[package]]
+name = "typing-extensions"
+version = "4.16.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/f6/cc/6253133b5bb138fc3306cebfbda2c520f545d36b5be2c7255cc528bb45d6/typing_extensions-4.16.0.tar.gz", hash = "sha256:dc983d19a509c94dba722ee6abd33940f7c05a89e243c47e907eb4db6f1a43e5", size = 113555, upload-time = "2026-07-02T08:40:05.92Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl", hash = "sha256:481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8", size = 45571, upload-time = "2026-07-02T08:40:04.659Z" },
 ]
