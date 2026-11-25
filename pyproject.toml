@@ -30,13 +30,21 @@ infra.help = "Infra pipeline: function shells, roles, bucket, table"
 deploy.cmd = "scripts/deploy_code.sh get_show"
 deploy.help = "Code pipeline: build, upload and deploy function code"
 
+seed.cmd = """
+aws dynamodb put-item --table-name show --item
+  '{"pk": {"S": "firefly"}, "sk": {"S": "META"}, "name": {"S": "Firefly"}, "premiered": {"S": "2002-09-20"}}'
+"""
+seed.help = "Write one known show (firefly) to the table"
+
 smoke.shell = """
 mkdir -p build
-aws lambda invoke --function-name get_show build/smoke.json > /dev/null
+aws lambda invoke --function-name get_show \
+  --cli-binary-format raw-in-base64-out --payload '{"show": "firefly"}' \
+  build/smoke.json > /dev/null
 echo "get_show -> $(cat build/smoke.json)"
-! grep -q 'not deployed yet' build/smoke.json
+jq -e '.statusCode == 200' build/smoke.json > /dev/null
 """
-smoke.help = "Fail if get_show still runs the Terraform placeholder"
+smoke.help = "Fail unless get_show returns the seeded show with status 200"
 
-e2e.sequence = ["infra", "deploy", "smoke"]
-e2e.help = "Apply infra, deploy code and smoke-test against the emulator"
+e2e.sequence = ["infra", "deploy", "seed", "smoke"]
+e2e.help = "Apply infra, deploy code, seed data and smoke-test against the emulator"
