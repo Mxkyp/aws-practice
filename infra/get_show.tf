@@ -1,3 +1,29 @@
+# Api
+resource "aws_api_gateway_method" "get_show" {
+  rest_api_id   = aws_api_gateway_rest_api.shows.id
+  resource_id   = aws_api_gateway_resource.show.id
+  http_method   = "GET"
+  authorization = "NONE"
+}
+
+resource "aws_api_gateway_integration" "get_show" {
+  rest_api_id             = aws_api_gateway_rest_api.shows.id
+  resource_id             = aws_api_gateway_resource.show.id
+  http_method             = aws_api_gateway_method.get_show.http_method
+  type                    = "AWS_PROXY"
+  integration_http_method = "POST"
+  uri                     = aws_lambda_function.get_show.invoke_arn
+}
+
+resource "aws_lambda_permission" "get_show_api" {
+  statement_id  = "allow-api-gateway-get"
+  action        = "lambda:InvokeFunction"
+  function_name = aws_lambda_function.get_show.function_name
+  principal     = "apigateway.amazonaws.com"
+  source_arn    = "${aws_api_gateway_rest_api.shows.execution_arn}/*/GET/shows/*"
+}
+
+# Policies
 resource "aws_iam_role" "get_show" {
   name = "get-show"
   assume_role_policy = jsonencode({

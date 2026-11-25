@@ -39,7 +39,7 @@ seed.help = "Write the example TVMaze shows (scripts/seed_shows.json) to the tab
 smoke.shell = """
 mkdir -p build
 aws lambda invoke --function-name get_show \
-  --cli-binary-format raw-in-base64-out --payload '{"id": 82}' \
+  --cli-binary-format raw-in-base64-out --payload file://scripts/smoke_get_show_event.json \
   build/smoke.json > /dev/null
 echo "get_show -> $(cat build/smoke.json)"
 jq -e '.statusCode == 200 and (.body | fromjson | .name == "Game of Thrones" and .rating == 8.9)' build/smoke.json > /dev/null
