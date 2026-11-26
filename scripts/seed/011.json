@@ -1,0 +1,904 @@
+{
+ "show": [
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#05#E#01"
+     },
+     "tvmaze_id": {
+      "N": "47712"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "1"
+     },
+     "name": {
+      "S": "Weight Loss (1)"
+     },
+     "airdate": {
+      "S": "2008-09-25"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.3"
+     },
+     "summary": {
+      "S": "<p>The office staff goes to extremes when they participate in a weight loss contest run by corporate.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#05#E#02"
+     },
+     "tvmaze_id": {
+      "N": "47713"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "2"
+     },
+     "name": {
+      "S": "Weight Loss (2)"
+     },
+     "airdate": {
+      "S": "2008-09-25"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.3"
+     },
+     "summary": {
+      "S": "<p>The office staff goes to extremes when they participate in a weight loss contest run by corporate.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#05#E#03"
+     },
+     "tvmaze_id": {
+      "N": "47714"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "3"
+     },
+     "name": {
+      "S": "Business Ethics"
+     },
+     "airdate": {
+      "S": "2008-10-09"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.7"
+     },
+     "summary": {
+      "S": "<p>Holly has to run an ethics meeting which leads to Meredith revealing an unethical situation. </p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#05#E#04"
+     },
+     "tvmaze_id": {
+      "N": "47715"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "4"
+     },
+     "name": {
+      "S": "Baby Shower"
+     },
+     "airdate": {
+      "S": "2008-10-16"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.8"
+     },
+     "summary": {
+      "S": "<p>Michael insists the office throw Jan a baby shower even though he is not the father of her baby.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#05#E#05"
+     },
+     "tvmaze_id": {
+      "N": "47716"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "5"
+     },
+     "name": {
+      "S": "Crime Aid"
+     },
+     "airdate": {
+      "S": "2008-10-23"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8"
+     },
+     "summary": {
+      "S": "<p>Michael arranges for a fundraiser when the office is burglarized. </p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#05#E#06"
+     },
+     "tvmaze_id": {
+      "N": "47717"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "6"
+     },
+     "name": {
+      "S": "Employee Transfer"
+     },
+     "airdate": {
+      "S": "2008-10-30"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.2"
+     },
+     "summary": {
+      "S": "<p>After corporate finds out about Michael and Holly's relationship, they transfer Holly back to New Hampshire.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#05#E#07"
+     },
+     "tvmaze_id": {
+      "N": "47718"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "7"
+     },
+     "name": {
+      "S": "Customer Survey"
+     },
+     "airdate": {
+      "S": "2008-11-06"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.4"
+     },
+     "summary": {
+      "S": "<p>Jim and Dwight are surprised by their low customer survey scores.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#05#E#08"
+     },
+     "tvmaze_id": {
+      "N": "47719"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "8"
+     },
+     "name": {
+      "S": "Business Trip"
+     },
+     "airdate": {
+      "S": "2008-11-13"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.3"
+     },
+     "summary": {
+      "S": "<p>Andy and Oscar accompany Michael on a business trip to Canada; Pam gets bad news about her art class.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#05#E#09"
+     },
+     "tvmaze_id": {
+      "N": "47720"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "9"
+     },
+     "name": {
+      "S": "Frame Toby"
+     },
+     "airdate": {
+      "S": "2008-11-20"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.7"
+     },
+     "summary": {
+      "S": "<p>Michael attempts to frame Toby when he returns to the office; Jim surprises Pam by purchasing his parents house.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#05#E#10"
+     },
+     "tvmaze_id": {
+      "N": "47721"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "10"
+     },
+     "name": {
+      "S": "The Surplus"
+     },
+     "airdate": {
+      "S": "2008-12-04"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.2"
+     },
+     "summary": {
+      "S": "<p>The office argues over what to buy with a surplus; Dwight tricks Angela.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#05#E#11"
+     },
+     "tvmaze_id": {
+      "N": "47722"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "11"
+     },
+     "name": {
+      "S": "Moroccan Christmas"
+     },
+     "airdate": {
+      "S": "2008-12-11"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.3"
+     },
+     "summary": {
+      "S": "<p>Michael turns the Office Christmas Party into an intervention for Meredith; Dwight makes money off of a popular children's toy.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#05#E#12"
+     },
+     "tvmaze_id": {
+      "N": "47723"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "12"
+     },
+     "name": {
+      "S": "The Duel"
+     },
+     "airdate": {
+      "S": "2009-01-15"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.1"
+     },
+     "summary": {
+      "S": "<p>Andy finally finds out about Dwight and Angela; Michael is called to corporate to discuss the branch's success.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#05#E#13"
+     },
+     "tvmaze_id": {
+      "N": "47724"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "13"
+     },
+     "name": {
+      "S": "Prince Family Paper"
+     },
+     "airdate": {
+      "S": "2009-01-22"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.6"
+     },
+     "summary": {
+      "S": "<p>Michael does research on a local family run company the Dunder Mifflin wants to buy out; The office debates the hotness of Hilary Swank.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#05#E#14"
+     },
+     "tvmaze_id": {
+      "N": "47725"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "14"
+     },
+     "name": {
+      "S": "Stress Relief (1)"
+     },
+     "airdate": {
+      "S": "2009-02-01"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.1"
+     },
+     "summary": {
+      "S": "<p>Dwight takes things to far during his fire drill.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#05#E#15"
+     },
+     "tvmaze_id": {
+      "N": "47726"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "15"
+     },
+     "name": {
+      "S": "Stress Relief (2)"
+     },
+     "airdate": {
+      "S": "2009-02-01"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.7"
+     },
+     "summary": {
+      "S": "<p>Michael realizes he is what is causing people to stress out in the office so he arranges a roast.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#05#E#16"
+     },
+     "tvmaze_id": {
+      "N": "47727"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "16"
+     },
+     "name": {
+      "S": "Lecture Circuit (1)"
+     },
+     "airdate": {
+      "S": "2009-02-05"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.3"
+     },
+     "summary": {
+      "S": "<p>Pam accompanies Michael on a lecture circuit at other branches where they discover Karen is pregnant; Andy becomes infatuated with Stanley's client.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#05#E#17"
+     },
+     "tvmaze_id": {
+      "N": "47728"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "17"
+     },
+     "name": {
+      "S": "Lecture Circuit (2)"
+     },
+     "airdate": {
+      "S": "2009-02-12"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.4"
+     },
+     "summary": {
+      "S": "<p>Michael and Pam head to Nashua so Michael can find closure with Holly.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#05#E#18"
+     },
+     "tvmaze_id": {
+      "N": "47729"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "18"
+     },
+     "name": {
+      "S": "Blood Drive"
+     },
+     "airdate": {
+      "S": "2009-03-05"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>After a missed opportunity at a blood drive, Michael throws a Lonely Hearts Valentine's Day party; Jim and Pam go a double date with Bob and Phyllis.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#05#E#19"
+     },
+     "tvmaze_id": {
+      "N": "47730"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "19"
+     },
+     "name": {
+      "S": "Golden Ticket"
+     },
+     "airdate": {
+      "S": "2009-03-12"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.1"
+     },
+     "summary": {
+      "S": "<p>Michael's idea to hide golden tickets in shipments backfires and Michael asks Dwight to take the heat.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#05#E#20"
+     },
+     "tvmaze_id": {
+      "N": "47731"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "20"
+     },
+     "name": {
+      "S": "New Boss"
+     },
+     "airdate": {
+      "S": "2009-03-19"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.1"
+     },
+     "summary": {
+      "S": "<p>The new supervisor clashes with Michael.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#05#E#21"
+     },
+     "tvmaze_id": {
+      "N": "47732"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "21"
+     },
+     "name": {
+      "S": "Two Weeks"
+     },
+     "airdate": {
+      "S": "2009-03-26"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.1"
+     },
+     "summary": {
+      "S": "<p>Michael decides to start his own paper company after giving his two week's notice.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#05#E#22"
+     },
+     "tvmaze_id": {
+      "N": "47733"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "22"
+     },
+     "name": {
+      "S": "Dream Team"
+     },
+     "airdate": {
+      "S": "2009-04-09"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.4"
+     },
+     "summary": {
+      "S": "<p>Michael and Pam set out to build their new company.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#05#E#23"
+     },
+     "tvmaze_id": {
+      "N": "47734"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "23"
+     },
+     "name": {
+      "S": "The Michael Scott Paper Company"
+     },
+     "airdate": {
+      "S": "2009-04-09"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.7"
+     },
+     "summary": {
+      "S": "<p>Tensions run high between Michael, Pam and Ryan as they try to get the new company off the ground; Charles asks Jim to complete a task.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#05#E#24"
+     },
+     "tvmaze_id": {
+      "N": "47735"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "24"
+     },
+     "name": {
+      "S": "Heavy Competition"
+     },
+     "airdate": {
+      "S": "2009-04-16"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.1"
+     },
+     "summary": {
+      "S": "<p>Michael and Dwight wag war over clients; Jim pretends to confide in Andy.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#05#E#25"
+     },
+     "tvmaze_id": {
+      "N": "47736"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "25"
+     },
+     "name": {
+      "S": "Broke"
+     },
+     "airdate": {
+      "S": "2009-04-23"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.8"
+     },
+     "summary": {
+      "S": "<p>The Michael Scott Paper Company runs into financial trouble but Dunder Mifflin is worried about the clients they are losing.</p>"
+     }
+    }
+   }
+  }
+ ]
+}

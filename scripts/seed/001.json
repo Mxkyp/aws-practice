@@ -1,0 +1,881 @@
+{
+ "show": [
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#02#E#09"
+     },
+     "tvmaze_id": {
+      "N": "22"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "9"
+     },
+     "name": {
+      "S": "The Red Door"
+     },
+     "airdate": {
+      "S": "2014-08-25"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.4"
+     },
+     "summary": {
+      "S": "<p>When Barbie is apprehended by a group of mysterious men, he is relentlessly interrogated about his connection to the Dome. Meanwhile, Big Jim makes a deal that could seal the fate of the residents of Chester's Mill forever.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#02#E#10"
+     },
+     "tvmaze_id": {
+      "N": "23"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "10"
+     },
+     "name": {
+      "S": "The Fall"
+     },
+     "airdate": {
+      "S": "2014-09-01"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.5"
+     },
+     "summary": {
+      "S": "<p>Big Jim finally learns the shocking truth about what really happened to his wife, Pauline, when they are reunited. Meanwhile, climate change poses a new threat to Chester's Mill.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#02#E#11"
+     },
+     "tvmaze_id": {
+      "N": "24"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "11"
+     },
+     "name": {
+      "S": "Black Ice"
+     },
+     "airdate": {
+      "S": "2014-09-08"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.4"
+     },
+     "summary": {
+      "S": "<p>When temperatures begin to plunge, Sam and Rebecca spring into action to try to save the residents of Chester's Mill. Meanwhile, Barbie risks his own life in order to save Julia after a terrible accident.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#02#E#12"
+     },
+     "tvmaze_id": {
+      "N": "25"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "12"
+     },
+     "name": {
+      "S": "Turn"
+     },
+     "airdate": {
+      "S": "2014-09-15"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.3"
+     },
+     "summary": {
+      "S": "<p>When a new threat from the Dome intensifies, the residents of Chester's Mill find themselves at risk of being crushed to death. Meanwhile, Melanie's health continues to deteriorate as the fate of the egg remains unknown.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#02#E#13"
+     },
+     "tvmaze_id": {
+      "N": "26"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "13"
+     },
+     "name": {
+      "S": "Go Now"
+     },
+     "airdate": {
+      "S": "2014-09-22"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.7"
+     },
+     "summary": {
+      "S": "<p>Potential exit from the Dome is revealed just as the walls begin closing in on those trapped in Chester's Mill.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#03#E#01"
+     },
+     "tvmaze_id": {
+      "N": "142270"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "1"
+     },
+     "name": {
+      "S": "Move On"
+     },
+     "airdate": {
+      "S": "2015-06-25"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.2"
+     },
+     "summary": {
+      "S": "<p>Season 3 begins with Chester's Mill residents appearing inside and outside the Dome following an evacuation into the tunnels beneath the town. Meanwhile, the Dome begins to reveal its ultimate agenda; and surprising alliances form as new residents emerge.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#03#E#02"
+     },
+     "tvmaze_id": {
+      "N": "151048"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "2"
+     },
+     "name": {
+      "S": "But I'm Not"
+     },
+     "airdate": {
+      "S": "2015-06-25"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.2"
+     },
+     "summary": {
+      "S": "<p>Chester's Mill residents appear inside and outside the Dome following an exit into the tunnels beneath the town. Meanwhile, the Dome begins to reveal its ultimate agenda; and surprising alliances form as new residents emerge.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#03#E#03"
+     },
+     "tvmaze_id": {
+      "N": "151645"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "3"
+     },
+     "name": {
+      "S": "Redux"
+     },
+     "airdate": {
+      "S": "2015-07-02"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "5.9"
+     },
+     "summary": {
+      "S": "<p>The residents of Chester's Mill try to move on with their lives in the aftermath of their mysterious experience in the tunnels beneath town. Meanwhile, Big Jim suspects new residents Christine and Eva are keeping secrets concerning the Dome.</p><p><br><br></p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#03#E#04"
+     },
+     "tvmaze_id": {
+      "N": "153120"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "4"
+     },
+     "name": {
+      "S": "The Kinship"
+     },
+     "airdate": {
+      "S": "2015-07-09"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.2"
+     },
+     "summary": {
+      "S": "<p>Under the guise of helping Chester's Mill rebuild, Christine urges the townspeople towards specific individuals and projects that remind them of their experience in the tunnels. Also, Julia and Big Jim make shocking discoveries that reveal a new threat within the Dome.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#03#E#05"
+     },
+     "tvmaze_id": {
+      "N": "176889"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "5"
+     },
+     "name": {
+      "S": "Alaska"
+     },
+     "airdate": {
+      "S": "2015-07-16"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.4"
+     },
+     "summary": {
+      "S": "<p>Big Jim and Julia form a tentative alliance to search for proof that will discredit Christine, which leads them to new information about the Dome's capabilities. Meanwhile, when tensions run high in town and threaten Christine's leadership, she puts a plan in play that has deadly consequences.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#03#E#06"
+     },
+     "tvmaze_id": {
+      "N": "176890"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "6"
+     },
+     "name": {
+      "S": "Caged"
+     },
+     "airdate": {
+      "S": "2015-07-23"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.5"
+     },
+     "summary": {
+      "S": "<p>For information about her agenda. Also, when Joe and Norrie question the town's new rules, they find themselves in a dangerous face-off with the increasingly unstable residents.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#03#E#07"
+     },
+     "tvmaze_id": {
+      "N": "185048"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "7"
+     },
+     "name": {
+      "S": "Ejecta"
+     },
+     "airdate": {
+      "S": "2015-07-30"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.4"
+     },
+     "summary": {
+      "S": "<p>As the world outside the Dome is rocked by a catastrophic meteor shower, unexpected alliances form inside the barrier. Eva tries to indoctrinate Barbie deeper into The Kinship and Big Jim and Julia turn to one another while isolated on Bird Island outside of town. Also, Joe is forced to accept help from Sam, the man who killed his sister.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#03#E#08"
+     },
+     "tvmaze_id": {
+      "N": "185049"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "8"
+     },
+     "name": {
+      "S": "Breaking Point"
+     },
+     "airdate": {
+      "S": "2015-08-06"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.4"
+     },
+     "summary": {
+      "S": "<p>Big Jim, Julia, Joe, Norrie and Hunter join together to form a resistance against Christine, who is mobilizing residents to work on a massive excavation project in the caves underneath the town. Also, Hunter uses his tech skills to contact the outside world.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#03#E#09"
+     },
+     "tvmaze_id": {
+      "N": "185050"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "9"
+     },
+     "name": {
+      "S": "Plan B"
+     },
+     "airdate": {
+      "S": "2015-08-13"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.3"
+     },
+     "summary": {
+      "S": "<p>Big Jim and Julia devise plans to end Christine's control over the town by initiating a life-or-death plot involving Barbie and Eva, while Joe and Norrie conduct research to better understand the Dome's ultimate agenda. Meanwhile, Hunter finds more information about the true head of Aktaion, the nefarious private corporation that wants to harness the Dome's energy.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#03#E#10"
+     },
+     "tvmaze_id": {
+      "N": "185051"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "10"
+     },
+     "name": {
+      "S": "Legacy"
+     },
+     "airdate": {
+      "S": "2015-08-20"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.3"
+     },
+     "summary": {
+      "S": "<p>The Resistance, the citizen not under Christine's control, join forces with an unexpected ally: Hektor Martin, the nefarious head of Aktaion. Despite Hektor revealing more about the Dome's origins and helping to strike back at it, Big Jim and Julia still worry he will betray them. Meanwhile, Hunter receives encrypted files that give disturbing insights into the final effect the Dome will have on the infected townspeople.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#03#E#11"
+     },
+     "tvmaze_id": {
+      "N": "185052"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "11"
+     },
+     "name": {
+      "S": "Love is a Battlefield"
+     },
+     "airdate": {
+      "S": "2015-08-27"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "5.9"
+     },
+     "summary": {
+      "S": "<p>Members of The Resistance race to release their loved ones from Christine's influence before she reaches her end game for the Dome. While Barbie risks everything in an attempt to free Eva from the Kinship, Big Jim and Julia are enlisted by Hektor, the head of Aktaion, to test a possible cure for infected townspeople.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#03#E#12"
+     },
+     "tvmaze_id": {
+      "N": "185053"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "12"
+     },
+     "name": {
+      "S": "Incandescence"
+     },
+     "airdate": {
+      "S": "2015-09-03"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.3"
+     },
+     "summary": {
+      "S": "<p>When the Dome's calcification process accelerates, Chester's Mill has 24 hours before the barrier's breakdown will suffocate everyone inside. While the new deadline puts added pressure on Joe to bring the Dome down, Barbie and Julia race to save his child from The Kinship.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#03#E#13"
+     },
+     "tvmaze_id": {
+      "N": "185054"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "13"
+     },
+     "name": {
+      "S": "The Enemy Within"
+     },
+     "airdate": {
+      "S": "2015-09-10"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "5.6"
+     },
+     "summary": {
+      "S": "<p>As the Dome in Chester's Mill comes down, The Resistance, led by Barbie, Julia and Big Jim, makes a final attempt to protect the outside world from the infected townspeople in The Kinship, including Sam and Junior, and their new queen, Dawn.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "META"
+     },
+     "tvmaze_id": {
+      "N": "82"
+     },
+     "name": {
+      "S": "Game of Thrones"
+     },
+     "slug": {
+      "S": "game-of-thrones"
+     },
+     "status": {
+      "S": "Ended"
+     },
+     "premiered": {
+      "S": "2011-04-17"
+     },
+     "ended": {
+      "S": "2019-05-19"
+     },
+     "genres": {
+      "L": [
+       {
+        "S": "Drama"
+       },
+       {
+        "S": "Adventure"
+       },
+       {
+        "S": "Fantasy"
+       }
+      ]
+     },
+     "rating": {
+      "N": "8.9"
+     },
+     "summary": {
+      "S": "<p>Based on the bestselling book series <i>A Song of Ice and Fire</i> by George R.R. Martin, this sprawling new HBO drama is set in a world where summers span decades and winters can last a lifetime. From the scheming south and the savage eastern lands, to the frozen north and ancient Wall that protects the realm from the mysterious darkness beyond, the powerful families of the Seven Kingdoms are locked in a battle for the Iron Throne. This is a story of duplicity and treachery, nobility and honor, conquest and triumph. In the <b>Game of Thrones</b>, you either win or you die.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "SEASON#01"
+     },
+     "tvmaze_id": {
+      "N": "307"
+     },
+     "number": {
+      "N": "1"
+     },
+     "episode_order": {
+      "N": "10"
+     },
+     "premiered": {
+      "S": "2011-04-17"
+     },
+     "ended": {
+      "S": "2011-06-19"
+     },
+     "summary": {
+      "S": "<p>Lord Eddard Stark is asked by his old friend, King Robert Baratheon, to serve as the King's Hand following the death of the previous incumbent, Eddard's mentor Jon Arryn. Eddard is reluctant, but receives intelligence suggesting that Jon was murdered. Eddard accepts Robert's offer, planning to use his position and authority to investigate the alleged murder.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "SEASON#02"
+     },
+     "tvmaze_id": {
+      "N": "308"
+     },
+     "number": {
+      "N": "2"
+     },
+     "episode_order": {
+      "N": "10"
+     },
+     "premiered": {
+      "S": "2012-04-01"
+     },
+     "ended": {
+      "S": "2012-06-03"
+     },
+     "summary": {
+      "S": "<p>The Seven Kingdoms are at war, with the King in the North, Robb Stark, fighting to win independence for his people and those of the Riverlands. Robb decides that he must win the allegiance of the fiercely independent ironborn to his cause, and sends his best friend Theon Greyjoy to treat with his father, who is hatching plans of his own. Meanwhile, Joffrey Baratheon holds the Iron Throne with the backing of the powerful House Lannister, but his uncle Renly has also claimed the throne with the support of House Tyrell, whose armies are much larger. As they struggle for the throne, Tyrion Lannister arrives in King's Landing to take matters in hand, only to face opposition from his scheming sister, Cersei, now the Queen Regent.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "SEASON#03"
+     },
+     "tvmaze_id": {
+      "N": "309"
+     },
+     "number": {
+      "N": "3"
+     },
+     "episode_order": {
+      "N": "10"
+     },
+     "premiered": {
+      "S": "2013-03-31"
+     },
+     "ended": {
+      "S": "2013-06-09"
+     },
+     "summary": {
+      "S": "<p>The Seven Kingdoms of Westeros remain gripped by civil war. Would-be king Renly Baratheon has been assassinated, altering the alliances in the war. The cruel boy-king Joffrey Baratheon has won a great victory by securing an alliance with House Tyrell, with his supporters defeating his uncle Stannis in an epic battle. Joffrey now commands the largest armies in the realm and his triumph appears inevitable.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "SEASON#04"
+     },
+     "tvmaze_id": {
+      "N": "310"
+     },
+     "number": {
+      "N": "4"
+     },
+     "episode_order": {
+      "N": "10"
+     },
+     "premiered": {
+      "S": "2014-04-06"
+     },
+     "ended": {
+      "S": "2014-06-15"
+     },
+     "summary": {
+      "S": "<p>The War of the Five Kings is drawing to a close, but new intrigues and plots are in motion, and the surviving factions must contend with enemies not only outside their ranks, but within.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "SEASON#05"
+     },
+     "tvmaze_id": {
+      "N": "5317"
+     },
+     "number": {
+      "N": "5"
+     },
+     "episode_order": {
+      "N": "10"
+     },
+     "premiered": {
+      "S": "2015-04-12"
+     },
+     "ended": {
+      "S": "2015-06-14"
+     },
+     "summary": {
+      "S": "<p>In Meereen, the insurgent \"Sons of the Harpy\" have started to revolt against Daenerys Targaryen's regime by murdering citizens and Unsullied, also taking the life of Barristan Selmy. In order to regain peace and control, Daenerys complies with the request of re-opening the fighting pits. Tyrion Lannister arrives in Pentos along with Varys, and they begin their journey to Meereen together. They pass through Volantis, where Tyrion is abducted by Jorah Mormont, who takes him to Meereen as a way to redeem himself to Daenerys. Daenerys takes Tyrion as her advisor, but orders Jorah exiled once more. After the Sons of the Harpy mount an attack on Daenerys and her retinue at the fighting pits, Jorah saves her life. Drogon reappears and Daenerys flies away on his back. After landing for safety, Drogon rests on a hillside. Daenerys goes looking for food, only to be surrounded by Dothraki horsemen. Jorah and Daario Naharis leave to search for Daenerys, while Tyrion, Varys, Missandei, and Grey Worm remain to rule Meereen.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "SEASON#06"
+     },
+     "tvmaze_id": {
+      "N": "7946"
+     },
+     "number": {
+      "N": "6"
+     },
+     "episode_order": {
+      "N": "10"
+     },
+     "premiered": {
+      "S": "2016-04-24"
+     },
+     "ended": {
+      "S": "2016-06-26"
+     },
+     "summary": {
+      "S": "<p>Following the shocking developments at the conclusion of season five, including Jon Snow's bloody fate at the hands of Castle Black mutineers, Daenerys' near-demise at the fighting pits of Meereen, and Cersei's public humiliation in the streets of King's Landing, survivors from all parts of Westeros and Essos regroup to press forward, inexorably, towards their uncertain individual fates. Familiar faces will forge new alliances to bolster their strategic chances at survival, while new characters will emerge to challenge the balance of power in the east, west, north and south.</p>"
+     }
+    }
+   }
+  }
+ ]
+}

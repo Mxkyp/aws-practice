@@ -1,0 +1,904 @@
+{
+ "show": [
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#06#E#23"
+     },
+     "tvmaze_id": {
+      "N": "47762"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "23"
+     },
+     "name": {
+      "S": "Body Language"
+     },
+     "airdate": {
+      "S": "2010-04-29"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.1"
+     },
+     "summary": {
+      "S": "<p>Michael thinks that a new client is interested in him; Dwight tries to recruit different minorities into Sabre executive program.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#06#E#24"
+     },
+     "tvmaze_id": {
+      "N": "47763"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "24"
+     },
+     "name": {
+      "S": "The Cover-Up"
+     },
+     "airdate": {
+      "S": "2010-05-06"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.2"
+     },
+     "summary": {
+      "S": "<p>Michael thinks Donna is cheating on him; Darryl tries to set Andy up.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#06#E#25"
+     },
+     "tvmaze_id": {
+      "N": "47764"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "25"
+     },
+     "name": {
+      "S": "The Chump"
+     },
+     "airdate": {
+      "S": "2010-05-13"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8"
+     },
+     "summary": {
+      "S": "<p>Michael doesn't break up with Donna after learning she is married; Jim and Pam struggle to stay awake at work; Dwight and Angela take their baby contract to a mediator. </p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#06#E#26"
+     },
+     "tvmaze_id": {
+      "N": "47765"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "26"
+     },
+     "name": {
+      "S": "Whistleblower"
+     },
+     "airdate": {
+      "S": "2010-05-20"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8"
+     },
+     "summary": {
+      "S": "<p>Jo returns to the branch to find who contacted the press about the printer's starting on fire.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#07#E#01"
+     },
+     "tvmaze_id": {
+      "N": "47766"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "1"
+     },
+     "name": {
+      "S": "Nepotism"
+     },
+     "airdate": {
+      "S": "2010-09-23"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.2"
+     },
+     "summary": {
+      "S": "<p>The staff demands that Michael fire the new assistant who keeps screwing things up.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#07#E#02"
+     },
+     "tvmaze_id": {
+      "N": "47767"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "2"
+     },
+     "name": {
+      "S": "Counseling"
+     },
+     "airdate": {
+      "S": "2010-09-30"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.4"
+     },
+     "summary": {
+      "S": "<p>Michael has to go to counseling with Toby; Dwight seeks revenge on a local mall; Pam fakes her way into a new position.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#07#E#03"
+     },
+     "tvmaze_id": {
+      "N": "47768"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "3"
+     },
+     "name": {
+      "S": "Andy's Play"
+     },
+     "airdate": {
+      "S": "2010-10-07"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.1"
+     },
+     "summary": {
+      "S": "<p>Andy invites the entire office to his community theatre production of \"Sweeney Todd'.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#07#E#04"
+     },
+     "tvmaze_id": {
+      "N": "47769"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "4"
+     },
+     "name": {
+      "S": "Sex Ed"
+     },
+     "airdate": {
+      "S": "2010-10-14"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>Michael contacts all of his former girlfriends thinking he has herpes.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#07#E#05"
+     },
+     "tvmaze_id": {
+      "N": "47770"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "5"
+     },
+     "name": {
+      "S": "The Sting"
+     },
+     "airdate": {
+      "S": "2010-10-21"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.7"
+     },
+     "summary": {
+      "S": "<p>Michael, Dwight and Jim arrange a sting on a rival company salesman.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#07#E#06"
+     },
+     "tvmaze_id": {
+      "N": "47771"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "6"
+     },
+     "name": {
+      "S": "Costume Contest"
+     },
+     "airdate": {
+      "S": "2010-10-28"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8"
+     },
+     "summary": {
+      "S": "<p>While the office celebrates Halloween, Michael comes upset that Darryl went to corporate with an idea; Jim is set on figuring out why Danny didn't call Pam back when they went on some dates.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#07#E#07"
+     },
+     "tvmaze_id": {
+      "N": "47772"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "7"
+     },
+     "name": {
+      "S": "Christening"
+     },
+     "airdate": {
+      "S": "2010-11-04"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.5"
+     },
+     "summary": {
+      "S": "<p>The entire office staff attends CiCi's christening.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#07#E#08"
+     },
+     "tvmaze_id": {
+      "N": "47773"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "8"
+     },
+     "name": {
+      "S": "Viewing Party"
+     },
+     "airdate": {
+      "S": "2010-11-11"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.1"
+     },
+     "summary": {
+      "S": "<p>Gabe and Erin throw a Glee viewing party which Michael attempts to sabotage; Pam discovers Dwight is the secret to CiCi's sleeping problem.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#07#E#09"
+     },
+     "tvmaze_id": {
+      "N": "47774"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "9"
+     },
+     "name": {
+      "S": "WUPHF.com"
+     },
+     "airdate": {
+      "S": "2010-11-18"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.7"
+     },
+     "summary": {
+      "S": "<p>Ryan tries to get more investors in his internet company; Jim lacks motivation to work when Sabra institutes commission caps.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#07#E#10"
+     },
+     "tvmaze_id": {
+      "N": "47775"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "10"
+     },
+     "name": {
+      "S": "China"
+     },
+     "airdate": {
+      "S": "2010-12-02"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.8"
+     },
+     "summary": {
+      "S": "<p>Michael outsmarts Oscar in a debate about China; Pam goes toe to toe with Dwight about the changes he has made to the office building. </p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#07#E#11"
+     },
+     "tvmaze_id": {
+      "N": "47776"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "11"
+     },
+     "name": {
+      "S": "Classy Christmas (1)"
+     },
+     "airdate": {
+      "S": "2010-12-09"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.2"
+     },
+     "summary": {
+      "S": "<p>Michael insists on an elaborate Christmas party when he finds out that Holly is returning.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#07#E#12"
+     },
+     "tvmaze_id": {
+      "N": "47777"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "12"
+     },
+     "name": {
+      "S": "Classy Christmas (2)"
+     },
+     "airdate": {
+      "S": "2010-12-09"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.6"
+     },
+     "summary": {
+      "S": "<p>Michael gets jealous when he finds out that Holly is still dating A.J.; Jim is paranoid when Dwight starts a snow ball war with him.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#07#E#13"
+     },
+     "tvmaze_id": {
+      "N": "47778"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "13"
+     },
+     "name": {
+      "S": "Ultimatum"
+     },
+     "airdate": {
+      "S": "2011-01-20"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.8"
+     },
+     "summary": {
+      "S": "<p>Michael is initially exited when Holly returns from vacation without an engagement ring but left disappointed that she didn't follow through on her ultimatum; Pam tries to boost staff morale.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#07#E#14"
+     },
+     "tvmaze_id": {
+      "N": "47779"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "14"
+     },
+     "name": {
+      "S": "The Seminar"
+     },
+     "airdate": {
+      "S": "2011-01-27"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.8"
+     },
+     "summary": {
+      "S": "<p>Andy hosts a small business seminar at the office.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#07#E#15"
+     },
+     "tvmaze_id": {
+      "N": "47780"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "15"
+     },
+     "name": {
+      "S": "The Search"
+     },
+     "airdate": {
+      "S": "2011-02-03"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.3"
+     },
+     "summary": {
+      "S": "<p>After Jim gets an emergency phone call about CeCe he leaves Michael at a gas station leading to Holly, Erin and Dwight to search for him.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#07#E#16"
+     },
+     "tvmaze_id": {
+      "N": "47781"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "16"
+     },
+     "name": {
+      "S": "PDA"
+     },
+     "airdate": {
+      "S": "2011-02-10"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>The office is grossed out by Michael and Holly's PDA.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#07#E#17"
+     },
+     "tvmaze_id": {
+      "N": "47782"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "17"
+     },
+     "name": {
+      "S": "Threat Level Midnight"
+     },
+     "airdate": {
+      "S": "2011-02-17"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.6"
+     },
+     "summary": {
+      "S": "<p>Michael finally finishes his movie.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#07#E#18"
+     },
+     "tvmaze_id": {
+      "N": "47783"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "18"
+     },
+     "name": {
+      "S": "Todd Packer"
+     },
+     "airdate": {
+      "S": "2011-02-24"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.4"
+     },
+     "summary": {
+      "S": "<p>Everyone is upset when Todd Packer is hired back to the office; Andy is upset when Pam gets a new computer for Erin.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#07#E#19"
+     },
+     "tvmaze_id": {
+      "N": "47784"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "19"
+     },
+     "name": {
+      "S": "Garage Sale"
+     },
+     "airdate": {
+      "S": "2011-03-24"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.8"
+     },
+     "summary": {
+      "S": "<p>Michael prepares to propose to Holly; The staff holds a garage sale in the warehouse.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#07#E#20"
+     },
+     "tvmaze_id": {
+      "N": "47785"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "20"
+     },
+     "name": {
+      "S": "Training Day"
+     },
+     "airdate": {
+      "S": "2011-04-14"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.4"
+     },
+     "summary": {
+      "S": "<p>The new boss, Deangelo Vickers, arrives to begin training.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#07#E#21"
+     },
+     "tvmaze_id": {
+      "N": "47786"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "21"
+     },
+     "name": {
+      "S": "Michael's Last Dundies"
+     },
+     "airdate": {
+      "S": "2011-04-21"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.7"
+     },
+     "summary": {
+      "S": "<p>Michael prepares to host his last Dundies.</p>"
+     }
+    }
+   }
+  }
+ ]
+}

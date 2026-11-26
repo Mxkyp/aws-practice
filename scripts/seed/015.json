@@ -1,0 +1,904 @@
+{
+ "show": [
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#08#E#20"
+     },
+     "tvmaze_id": {
+      "N": "47811"
+     },
+     "season": {
+      "N": "8"
+     },
+     "number": {
+      "N": "20"
+     },
+     "name": {
+      "S": "Welcome Party"
+     },
+     "airdate": {
+      "S": "2012-04-12"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.5"
+     },
+     "summary": {
+      "S": "<p>Robert California forces the staff to throw a welcome party for Nellie; Andy tries to break-up with Jessica.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#08#E#21"
+     },
+     "tvmaze_id": {
+      "N": "47812"
+     },
+     "season": {
+      "N": "8"
+     },
+     "number": {
+      "N": "21"
+     },
+     "name": {
+      "S": "Angry Andy"
+     },
+     "airdate": {
+      "S": "2012-04-19"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7"
+     },
+     "summary": {
+      "S": "<p>Andy returns to the office to discover Nellie has taken over his job and refuses to give it up; Ryan is jealous when Kelly starts dating Jim and Pam's pediatrician.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#08#E#22"
+     },
+     "tvmaze_id": {
+      "N": "47813"
+     },
+     "season": {
+      "N": "8"
+     },
+     "number": {
+      "N": "22"
+     },
+     "name": {
+      "S": "Fundraiser"
+     },
+     "airdate": {
+      "S": "2012-04-26"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.1"
+     },
+     "summary": {
+      "S": "<p>The staff attend a fundraiser hosted by Angela's husband.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#08#E#23"
+     },
+     "tvmaze_id": {
+      "N": "47814"
+     },
+     "season": {
+      "N": "8"
+     },
+     "number": {
+      "N": "23"
+     },
+     "name": {
+      "S": "Turf War"
+     },
+     "airdate": {
+      "S": "2012-05-03"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.1"
+     },
+     "summary": {
+      "S": "<p>A turf war ensues when Robert fails to implement a transition plan when a branch closes.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#08#E#24"
+     },
+     "tvmaze_id": {
+      "N": "47815"
+     },
+     "season": {
+      "N": "8"
+     },
+     "number": {
+      "N": "24"
+     },
+     "name": {
+      "S": "Free Family Portrait Studio"
+     },
+     "airdate": {
+      "S": "2012-05-10"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.5"
+     },
+     "summary": {
+      "S": "<p>Andy arranges for David Wallace to buy back the company to make him the regional manager again.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#09#E#01"
+     },
+     "tvmaze_id": {
+      "N": "47816"
+     },
+     "season": {
+      "N": "9"
+     },
+     "number": {
+      "N": "1"
+     },
+     "name": {
+      "S": "The New Guys"
+     },
+     "airdate": {
+      "S": "2012-09-20"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.2"
+     },
+     "summary": {
+      "S": "<p>The office is joined by two new guys who the office dubs new Dwight and new Jim. Andy tries to force Nellie out.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#09#E#02"
+     },
+     "tvmaze_id": {
+      "N": "47817"
+     },
+     "season": {
+      "N": "9"
+     },
+     "number": {
+      "N": "2"
+     },
+     "name": {
+      "S": "Roy's Wedding"
+     },
+     "airdate": {
+      "S": "2012-09-27"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7"
+     },
+     "summary": {
+      "S": "<p>Jim and Pam attend Roy's wedding. Nellie tries to initiate a special project involving charity. </p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#09#E#03"
+     },
+     "tvmaze_id": {
+      "N": "47818"
+     },
+     "season": {
+      "N": "9"
+     },
+     "number": {
+      "N": "3"
+     },
+     "name": {
+      "S": "Andy's Ancestry"
+     },
+     "airdate": {
+      "S": "2012-10-04"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.2"
+     },
+     "summary": {
+      "S": "<p>Nellie convinces Andy that he is distantly related to Michelle Obama; Pam tries to teach Nellie how to drive.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#09#E#04"
+     },
+     "tvmaze_id": {
+      "N": "47819"
+     },
+     "season": {
+      "N": "9"
+     },
+     "number": {
+      "N": "4"
+     },
+     "name": {
+      "S": "Work Bus"
+     },
+     "airdate": {
+      "S": "2012-10-18"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.6"
+     },
+     "summary": {
+      "S": "<p>Jim convinces Dwight that the office has safety issues so Jim sets up a temporary office in the parking lot.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#09#E#05"
+     },
+     "tvmaze_id": {
+      "N": "47820"
+     },
+     "season": {
+      "N": "9"
+     },
+     "number": {
+      "N": "5"
+     },
+     "name": {
+      "S": "Here Comes Treble"
+     },
+     "airdate": {
+      "S": "2012-10-25"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "6.8"
+     },
+     "summary": {
+      "S": "<p>It's Halloween at the office and Andy invites his college's capella group to perform at the party; Jim and Pam disagree over how much to invest in the new sports business.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#09#E#06"
+     },
+     "tvmaze_id": {
+      "N": "47821"
+     },
+     "season": {
+      "N": "9"
+     },
+     "number": {
+      "N": "6"
+     },
+     "name": {
+      "S": "The Boat"
+     },
+     "airdate": {
+      "S": "2012-11-08"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.5"
+     },
+     "summary": {
+      "S": "<p>Andy deals with the aftermath of his family losing all their money; Jim, Pam and Nellie pulls a radio interview prank on Dwight; Kevin finds out about Oscar and Angela's husband.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#09#E#07"
+     },
+     "tvmaze_id": {
+      "N": "47822"
+     },
+     "season": {
+      "N": "9"
+     },
+     "number": {
+      "N": "7"
+     },
+     "name": {
+      "S": "The Whale"
+     },
+     "airdate": {
+      "S": "2012-11-15"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.3"
+     },
+     "summary": {
+      "S": "<p>The ladies of the office try and help Dwight pitch to a female client; Angela and Oscar think the Senator is cheating on them.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#09#E#08"
+     },
+     "tvmaze_id": {
+      "N": "47823"
+     },
+     "season": {
+      "N": "9"
+     },
+     "number": {
+      "N": "8"
+     },
+     "name": {
+      "S": "The Target"
+     },
+     "airdate": {
+      "S": "2012-11-29"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.5"
+     },
+     "summary": {
+      "S": "<p>Angela wants to put a hit out on Oscar; Jim has to wine and dine Phyllis and Stanley for a favor.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#09#E#09"
+     },
+     "tvmaze_id": {
+      "N": "47824"
+     },
+     "season": {
+      "N": "9"
+     },
+     "number": {
+      "N": "9"
+     },
+     "name": {
+      "S": "Dwight Christmas"
+     },
+     "airdate": {
+      "S": "2012-12-06"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.1"
+     },
+     "summary": {
+      "S": "<p>When the staff forgets about Christmas, Dwight is able to throw his version of Christmas.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#09#E#10"
+     },
+     "tvmaze_id": {
+      "N": "47825"
+     },
+     "season": {
+      "N": "9"
+     },
+     "number": {
+      "N": "10"
+     },
+     "name": {
+      "S": "Lice"
+     },
+     "airdate": {
+      "S": "2013-01-10"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.5"
+     },
+     "summary": {
+      "S": "<p>Pam brings lice into the office and lets Meredith take the fall.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#09#E#11"
+     },
+     "tvmaze_id": {
+      "N": "47826"
+     },
+     "season": {
+      "N": "9"
+     },
+     "number": {
+      "N": "11"
+     },
+     "name": {
+      "S": "Suit Warehouse"
+     },
+     "airdate": {
+      "S": "2013-01-17"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.5"
+     },
+     "summary": {
+      "S": "<p>Dwight gets Clark to help him with a sale; Darryl has an interview at Jim's company.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#09#E#12"
+     },
+     "tvmaze_id": {
+      "N": "47827"
+     },
+     "season": {
+      "N": "9"
+     },
+     "number": {
+      "N": "12"
+     },
+     "name": {
+      "S": "Customer Loyalty"
+     },
+     "airdate": {
+      "S": "2013-01-24"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.7"
+     },
+     "summary": {
+      "S": "<p>The office believes that Erin and Pete have feelings for each other; Jim misses his daughter's recital because of a business meeting.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#09#E#13"
+     },
+     "tvmaze_id": {
+      "N": "47828"
+     },
+     "season": {
+      "N": "9"
+     },
+     "number": {
+      "N": "13"
+     },
+     "name": {
+      "S": "Junior Salesman"
+     },
+     "airdate": {
+      "S": "2013-01-31"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7"
+     },
+     "summary": {
+      "S": "<p>Clark has to compete against a bunch of Dwight's friends and family for the job of junior salesman.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#09#E#14"
+     },
+     "tvmaze_id": {
+      "N": "47829"
+     },
+     "season": {
+      "N": "9"
+     },
+     "number": {
+      "N": "14"
+     },
+     "name": {
+      "S": "Vandalism"
+     },
+     "airdate": {
+      "S": "2013-01-31"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.1"
+     },
+     "summary": {
+      "S": "<p>Pam is upset when she finds her mural has been defaced; Darryl finds out Jim is a slob when they sublet an apartment together in Philly.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#09#E#15"
+     },
+     "tvmaze_id": {
+      "N": "47830"
+     },
+     "season": {
+      "N": "9"
+     },
+     "number": {
+      "N": "15"
+     },
+     "name": {
+      "S": "Couples Discount"
+     },
+     "airdate": {
+      "S": "2013-02-07"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.2"
+     },
+     "summary": {
+      "S": "<p>The staff celebrates Valentine's Day by going out to a local nail salon for couple's discounts; Jim and Pam have lunch with Brian.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#09#E#16"
+     },
+     "tvmaze_id": {
+      "N": "47831"
+     },
+     "season": {
+      "N": "9"
+     },
+     "number": {
+      "N": "16"
+     },
+     "name": {
+      "S": "Moving On"
+     },
+     "airdate": {
+      "S": "2013-02-14"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.4"
+     },
+     "summary": {
+      "S": "<p>Andy learns that Erin is now seeing Pete; Pam interviews for a job in Philadelphia.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#09#E#17"
+     },
+     "tvmaze_id": {
+      "N": "47832"
+     },
+     "season": {
+      "N": "9"
+     },
+     "number": {
+      "N": "17"
+     },
+     "name": {
+      "S": "The Farm"
+     },
+     "airdate": {
+      "S": "2013-03-14"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.3"
+     },
+     "summary": {
+      "S": "<p>After Dwight's aunt dies, his sister and brother return for her funeral; Todd Packer returns to the office.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#09#E#18"
+     },
+     "tvmaze_id": {
+      "N": "47833"
+     },
+     "season": {
+      "N": "9"
+     },
+     "number": {
+      "N": "18"
+     },
+     "name": {
+      "S": "Promos"
+     },
+     "airdate": {
+      "S": "2013-04-04"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.5"
+     },
+     "summary": {
+      "S": "<p>The promo for the documentary is finally released.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#09#E#19"
+     },
+     "tvmaze_id": {
+      "N": "47834"
+     },
+     "season": {
+      "N": "9"
+     },
+     "number": {
+      "N": "19"
+     },
+     "name": {
+      "S": "Stairmageddon"
+     },
+     "airdate": {
+      "S": "2013-04-11"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.1"
+     },
+     "summary": {
+      "S": "<p>Stanley refuses to go on a sales call with Dwight because the elevator is broke; Jim and Pam begin marriage counseling. </p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#09#E#20"
+     },
+     "tvmaze_id": {
+      "N": "47835"
+     },
+     "season": {
+      "N": "9"
+     },
+     "number": {
+      "N": "20"
+     },
+     "name": {
+      "S": "Paper Airplane"
+     },
+     "airdate": {
+      "S": "2013-04-25"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.4"
+     },
+     "summary": {
+      "S": "<p>The staff competes in a paper airplane contest.</p>"
+     }
+    }
+   }
+  }
+ ]
+}

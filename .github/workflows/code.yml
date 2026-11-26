@@ -2,10 +2,10 @@ name: code
 
 on:
   pull_request:
-    paths: ["functions/**", "scripts/**", "Makefile", "pyproject.toml", "uv.lock", ".github/workflows/code.yml", ".github/actions/**"]
+    paths: ["functions/**", "lib/**", "tests/**", "scripts/**", "pyproject.toml", "uv.lock", ".github/workflows/code.yml", ".github/actions/**"]
   push:
     branches: [master]
-    paths: ["functions/**", "scripts/**", "Makefile", "pyproject.toml", "uv.lock", ".github/workflows/code.yml", ".github/actions/**"]
+    paths: ["functions/**", "lib/**", "tests/**", "scripts/**", "pyproject.toml", "uv.lock", ".github/workflows/code.yml", ".github/actions/**"]
 
 jobs:
   e2e:

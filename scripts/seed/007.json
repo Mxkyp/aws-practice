@@ -1,0 +1,875 @@
+{
+ "show": [
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#04#E#12"
+     },
+     "tvmaze_id": {
+      "N": "12236"
+     },
+     "season": {
+      "N": "4"
+     },
+     "number": {
+      "N": "12"
+     },
+     "name": {
+      "S": "End Times"
+     },
+     "airdate": {
+      "S": "2011-10-02"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "9"
+     },
+     "summary": {
+      "S": "<p>Hank leans on Gomez to explore one final lead, as Walt scrambles to protect his family. Meanwhile, Jesse learns some unsettling news and races to share it with Walt.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#04#E#13"
+     },
+     "tvmaze_id": {
+      "N": "12237"
+     },
+     "season": {
+      "N": "4"
+     },
+     "number": {
+      "N": "13"
+     },
+     "name": {
+      "S": "Face Off"
+     },
+     "airdate": {
+      "S": "2011-10-09"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "9.1"
+     },
+     "summary": {
+      "S": "<p>The fourth season ends with Walt and Jesse squaring off against Gus. Elsewhere, Walt acquires a surprise confederate with help from Saul.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#05#E#01"
+     },
+     "tvmaze_id": {
+      "N": "12238"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "1"
+     },
+     "name": {
+      "S": "Live Free or Die"
+     },
+     "airdate": {
+      "S": "2012-07-15"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.7"
+     },
+     "summary": {
+      "S": "<p>In the series 5 premiere, Walt deals with the aftermath of the explosion, while Hank wraps up his investigation of Gus and his criminal empire.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#05#E#02"
+     },
+     "tvmaze_id": {
+      "N": "12239"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "2"
+     },
+     "name": {
+      "S": "Madrigal"
+     },
+     "airdate": {
+      "S": "2012-07-22"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.8"
+     },
+     "summary": {
+      "S": "<p>Walt and Jesse seek out an unlikely partner for a new business venture. The DEA follows up new leads in its investigation.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#05#E#03"
+     },
+     "tvmaze_id": {
+      "N": "12240"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "3"
+     },
+     "name": {
+      "S": "Hazard Pay"
+     },
+     "airdate": {
+      "S": "2012-07-29"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.6"
+     },
+     "summary": {
+      "S": "<p>Walt and Jesse put a business plan into action. Walt confesses a secret to Marie.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#05#E#04"
+     },
+     "tvmaze_id": {
+      "N": "12241"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "4"
+     },
+     "name": {
+      "S": "Fifty-One"
+     },
+     "airdate": {
+      "S": "2012-08-05"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.4"
+     },
+     "summary": {
+      "S": "<p>Walt celebrates another birthday. Skyler considers her options. An associate complicates Walt and Jesse's plan.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#05#E#05"
+     },
+     "tvmaze_id": {
+      "N": "12242"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "5"
+     },
+     "name": {
+      "S": "Dead Freight"
+     },
+     "airdate": {
+      "S": "2012-08-12"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.3"
+     },
+     "summary": {
+      "S": "<p>Walt's team must get creative to obtain the materials they need to continue their operation.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#05#E#06"
+     },
+     "tvmaze_id": {
+      "N": "12243"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "6"
+     },
+     "name": {
+      "S": "Buyout"
+     },
+     "airdate": {
+      "S": "2012-08-19"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.8"
+     },
+     "summary": {
+      "S": "<p>Walt, Jesse, and Mike struggle over the future of their business, as occupational hazards weigh on Jesse.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#05#E#07"
+     },
+     "tvmaze_id": {
+      "N": "12244"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "7"
+     },
+     "name": {
+      "S": "Say My Name"
+     },
+     "airdate": {
+      "S": "2012-08-26"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.3"
+     },
+     "summary": {
+      "S": "<p>Walt takes control of business matters as Mike grapples with the consequences of his actions.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#05#E#08"
+     },
+     "tvmaze_id": {
+      "N": "12245"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "8"
+     },
+     "name": {
+      "S": "Gliding Over All"
+     },
+     "airdate": {
+      "S": "2012-09-02"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.9"
+     },
+     "summary": {
+      "S": "<p>Walt ties up loose ends. Seeing the evidence of his success, he makes a startling and dangerous decision.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#05#E#09"
+     },
+     "tvmaze_id": {
+      "N": "12246"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "9"
+     },
+     "name": {
+      "S": "Blood Money"
+     },
+     "airdate": {
+      "S": "2013-08-11"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.3"
+     },
+     "summary": {
+      "S": "<p>As Walt and Jesse adjust to life out of the business, Hank grapples with a troubling lead.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#05#E#10"
+     },
+     "tvmaze_id": {
+      "N": "12247"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "10"
+     },
+     "name": {
+      "S": "Buried"
+     },
+     "airdate": {
+      "S": "2013-08-18"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>While Skyler's past catches up with her, Walt covers his tracks. Jesse continues to struggle with his guilt.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#05#E#11"
+     },
+     "tvmaze_id": {
+      "N": "12248"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "11"
+     },
+     "name": {
+      "S": "Confessions"
+     },
+     "airdate": {
+      "S": "2013-08-25"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.1"
+     },
+     "summary": {
+      "S": "<p>Jesse decides to make a change, while Walt and Skyler try to deal with an unexpected demand.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#05#E#12"
+     },
+     "tvmaze_id": {
+      "N": "12249"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "12"
+     },
+     "name": {
+      "S": "Rabid Dog"
+     },
+     "airdate": {
+      "S": "2013-09-01"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.3"
+     },
+     "summary": {
+      "S": "<p>An unusual strategy starts to bear fruit, while plans are set in motion that could change everything.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#05#E#13"
+     },
+     "tvmaze_id": {
+      "N": "12250"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "13"
+     },
+     "name": {
+      "S": "To'hajiilee"
+     },
+     "airdate": {
+      "S": "2013-09-08"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.3"
+     },
+     "summary": {
+      "S": "<p>Things heat up for Walt in unexpected ways.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#05#E#14"
+     },
+     "tvmaze_id": {
+      "N": "12251"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "14"
+     },
+     "name": {
+      "S": "Ozymandias"
+     },
+     "airdate": {
+      "S": "2013-09-15"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "9.1"
+     },
+     "summary": {
+      "S": "<p>Everyone copes with radically changed circumstances.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#05#E#15"
+     },
+     "tvmaze_id": {
+      "N": "12252"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "15"
+     },
+     "name": {
+      "S": "Granite State"
+     },
+     "airdate": {
+      "S": "2013-09-22"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.2"
+     },
+     "summary": {
+      "S": "<p>Events set in motion long ago move toward a conclusion.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#05#E#16"
+     },
+     "tvmaze_id": {
+      "N": "12253"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "16"
+     },
+     "name": {
+      "S": "Felina"
+     },
+     "airdate": {
+      "S": "2013-09-29"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8"
+     },
+     "summary": {
+      "S": "<p>The acclaimed crime drama comes to a close in the series finale.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "META"
+     },
+     "tvmaze_id": {
+      "N": "526"
+     },
+     "name": {
+      "S": "The Office"
+     },
+     "slug": {
+      "S": "the-office"
+     },
+     "status": {
+      "S": "Ended"
+     },
+     "premiered": {
+      "S": "2005-03-24"
+     },
+     "ended": {
+      "S": "2013-05-16"
+     },
+     "genres": {
+      "L": [
+       {
+        "S": "Comedy"
+       }
+      ]
+     },
+     "rating": {
+      "N": "8.5"
+     },
+     "summary": {
+      "S": "<p>Steve Carell stars in <b>The Office</b>, a fresh and funny mockumentary-style glimpse into the daily interactions of the eccentric workers at the Dunder Mifflin paper supply company. Based on the smash-hit British series of the same name and adapted for American Television by Greg Daniels, this fast-paced comedy parodies contemporary American water-cooler culture. Earnest but clueless regional manager Michael Scott believes himself to be an exceptional boss and mentor, but actually receives more eye-rolls than respect from his oddball staff.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "SEASON#01"
+     },
+     "tvmaze_id": {
+      "N": "2087"
+     },
+     "number": {
+      "N": "1"
+     },
+     "episode_order": {
+      "N": "6"
+     },
+     "premiered": {
+      "S": "2005-03-24"
+     },
+     "ended": {
+      "S": "2005-04-26"
+     },
+     "summary": {
+      "S": "<p>In this first season of The Office, Dunder Mifflin Regional Manager Michael Scott leads the documentary team and his staff on a journey through inappropriate behavior, well-intentioned but misguided comments and a myriad of poor management techniques.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "SEASON#02"
+     },
+     "tvmaze_id": {
+      "N": "2088"
+     },
+     "number": {
+      "N": "2"
+     },
+     "episode_order": {
+      "N": "22"
+     },
+     "premiered": {
+      "S": "2005-09-20"
+     },
+     "ended": {
+      "S": "2006-05-11"
+     },
+     "summary": {
+      "S": "<p>Season 2 of this critically acclaimed comedy continues the day-to-day of Dunder Mifflin Regional Manager Michael Scott and his ambivalent staffers.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "SEASON#03"
+     },
+     "tvmaze_id": {
+      "N": "2089"
+     },
+     "number": {
+      "N": "3"
+     },
+     "episode_order": {
+      "N": "25"
+     },
+     "premiered": {
+      "S": "2006-09-21"
+     },
+     "ended": {
+      "S": "2007-05-17"
+     },
+     "summary": {
+      "S": "<p>Season 3 punches in with Jim Halpert's unexpected transfer to the Stamford office but will it punch out the closing of the Scranton branch?</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "SEASON#04"
+     },
+     "tvmaze_id": {
+      "N": "2090"
+     },
+     "number": {
+      "N": "4"
+     },
+     "episode_order": {
+      "N": "19"
+     },
+     "premiered": {
+      "S": "2007-09-27"
+     },
+     "ended": {
+      "S": "2008-05-15"
+     },
+     "summary": {
+      "S": "<p>It's Season 4 and there are lots of changes at the office. Former temp Ryan is now everyone's boss and is pushing a new website initiative that threatens to upset the Scranton branch's comfortable world. Former boss Jan is trying her hand at domesticity by living with Michael in his condo. Jim and Pam's relationship is at a new level, but Dwight and Angela run into major problems.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "SEASON#05"
+     },
+     "tvmaze_id": {
+      "N": "2091"
+     },
+     "number": {
+      "N": "5"
+     },
+     "episode_order": {
+      "N": "28"
+     },
+     "premiered": {
+      "S": "2008-09-25"
+     },
+     "ended": {
+      "S": "2009-05-14"
+     },
+     "summary": {
+      "S": "<p>Last season left Office fans gasping and worked up for more - and so, the most anticipated season of the Emmy-winning comedy is finally on the clock. New and poignant foolishness continues to plague the world of the unwary Dunder Mifflin 9-to-5'ers.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "SEASON#06"
+     },
+     "tvmaze_id": {
+      "N": "2092"
+     },
+     "number": {
+      "N": "6"
+     },
+     "episode_order": {
+      "N": "26"
+     },
+     "premiered": {
+      "S": "2009-09-17"
+     },
+     "ended": {
+      "S": "2010-05-20"
+     },
+     "summary": {
+      "S": "<p>Are those wedding bells in the air? Is that the pitter-patter of little feet on the office floor? Has Michael turned mafia boss? With Dunder Mifflin on the brink of bankruptcy, who knows, he may just have to - or maybe it's just time to replace the Dunder Mifflin leadership.</p>"
+     }
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,887 @@
+{
+ "show": [
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "META"
+     },
+     "tvmaze_id": {
+      "N": "169"
+     },
+     "name": {
+      "S": "Breaking Bad"
+     },
+     "slug": {
+      "S": "breaking-bad"
+     },
+     "status": {
+      "S": "Ended"
+     },
+     "premiered": {
+      "S": "2008-01-20"
+     },
+     "ended": {
+      "S": "2019-10-11"
+     },
+     "genres": {
+      "L": [
+       {
+        "S": "Drama"
+       },
+       {
+        "S": "Crime"
+       },
+       {
+        "S": "Thriller"
+       }
+      ]
+     },
+     "rating": {
+      "N": "9.2"
+     },
+     "summary": {
+      "S": "<p><b>Breaking Bad</b> follows protagonist Walter White, a chemistry teacher who lives in New Mexico with his wife and teenage son who has cerebral palsy. White is diagnosed with Stage III cancer and given a prognosis of two years left to live. With a new sense of fearlessness based on his medical prognosis, and a desire to secure his family's financial security, White chooses to enter a dangerous world of drugs and crime and ascends to power in this world. The series explores how a fatal diagnosis such as White's releases a typical man from the daily concerns and constraints of normal society and follows his transformation from mild family man to a kingpin of the drug trade.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "SEASON#01"
+     },
+     "tvmaze_id": {
+      "N": "753"
+     },
+     "number": {
+      "N": "1"
+     },
+     "episode_order": {
+      "N": "7"
+     },
+     "premiered": {
+      "S": "2008-01-20"
+     },
+     "ended": {
+      "S": "2008-03-09"
+     },
+     "summary": {
+      "S": "<p>Emmy award winner Bryan Cranston stars as Walt White is a down-on-his-luck chemistry teacher struggling to make ends meet for his wife (Anna Gunn) and physically challenged son (RJ Mitte). Everything changes when Walt receives a startling diagnosis: terminal lung cancer. With only a few years to live and nothing to lose, Walt uses his training as a chemist to cook and sell crystal meth with one of his former students (Aaron Paul). As his status grows, so do his lies, but Walt will stop at nothing to make sure his family is taken care of after he's gone, even if it means putting all their lives on the line. Executive produced by Vince Gilligan and Mark Johnson.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "SEASON#02"
+     },
+     "tvmaze_id": {
+      "N": "754"
+     },
+     "number": {
+      "N": "2"
+     },
+     "episode_order": {
+      "N": "13"
+     },
+     "premiered": {
+      "S": "2009-03-08"
+     },
+     "ended": {
+      "S": "2009-05-31"
+     },
+     "summary": {
+      "S": "<p>As their partnership reaches new heights, Walt and Jesse begin to see the extremes of the drug trafficking business. Their trademark blue meth is making them rich, but it's getting more difficult than ever for Walt to conceal the truth from his wife Skyler, his son Walter Jr., and his DEA agent brother-in-law Hank. Walt struggles to maintain control of his life as he contends with vicious drug dealers, an increasingly distant wife and son, the impending birth of his daughter, and a strung-out business partner \u2013 all while battling terminal lung cancer.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "SEASON#03"
+     },
+     "tvmaze_id": {
+      "N": "755"
+     },
+     "number": {
+      "N": "3"
+     },
+     "episode_order": {
+      "N": "13"
+     },
+     "premiered": {
+      "S": "2010-03-21"
+     },
+     "ended": {
+      "S": "2010-06-13"
+     },
+     "summary": {
+      "S": "<p>Abandoned by his wife, feuding with his reckless partner and hunted by a Mexican cartel, teacher-turned-meth-cook Walt faces an impossible choice: make a fortune working for a dangerous kingpin or walk away and risk everything he cares about.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "SEASON#04"
+     },
+     "tvmaze_id": {
+      "N": "756"
+     },
+     "number": {
+      "N": "4"
+     },
+     "episode_order": {
+      "N": "13"
+     },
+     "premiered": {
+      "S": "2011-07-17"
+     },
+     "ended": {
+      "S": "2011-10-09"
+     },
+     "summary": {
+      "S": "<p>As his young accomplice, Jesse, turns increasingly distant and hostile, Walt must deal with his estranged wife, his relentless DEA agent brother-in-law, and the ruthless kingpin manipulating the entire operation.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "SEASON#05"
+     },
+     "tvmaze_id": {
+      "N": "757"
+     },
+     "number": {
+      "N": "5"
+     },
+     "episode_order": {
+      "N": "16"
+     },
+     "premiered": {
+      "S": "2012-07-15"
+     },
+     "ended": {
+      "S": "2019-10-11"
+     },
+     "summary": {
+      "S": "<p>With Gus Fring dead, Walt's transformation from well-meaning family man to ruthless drug kingpin is nearly complete. Forming a partnership with Jesse and Mike, Walt proceeds to make a killing in the meth business until the fruits of his murderous schemes are threatened by a new development in the investigation led by his relentless brother-in-law Hank.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#01#E#01"
+     },
+     "tvmaze_id": {
+      "N": "12192"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "1"
+     },
+     "name": {
+      "S": "Pilot"
+     },
+     "airdate": {
+      "S": "2008-01-20"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.3"
+     },
+     "summary": {
+      "S": "<p>A high-school chemistry teacher (Bryan Cranston) is diagnosed with a deadly cancer, so he puts his expertise to use and teams with an ex-student (Aaron Paul) to manufacture top-grade crystal meth in hopes of providing for his family after he's gone.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#01#E#02"
+     },
+     "tvmaze_id": {
+      "N": "12193"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "2"
+     },
+     "name": {
+      "S": "Cat's in the Bag..."
+     },
+     "airdate": {
+      "S": "2008-01-27"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>After the accident in the desert, Walter and Jesse need to dispose of the unfortunate mess in their rolling lab of an RV, and Skyler begins to suspect that Walter and Jesse are involved in some mysterious goings-on.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#01#E#03"
+     },
+     "tvmaze_id": {
+      "N": "12194"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "3"
+     },
+     "name": {
+      "S": "...and the Bag's in the River"
+     },
+     "airdate": {
+      "S": "2008-02-10"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.1"
+     },
+     "summary": {
+      "S": "<p>Walter and Jesse fight about the latter's drug use, so he leaves, forcing Walter to deal with their captive, Krazy-8 (Max Arciniega); Hank uses scared-straight tactics with Walter Jr. when his aunt suspects he's smoking pot; Skyler is furious when Walter stays away from home.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#01#E#04"
+     },
+     "tvmaze_id": {
+      "N": "12195"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "4"
+     },
+     "name": {
+      "S": "Cancer Man"
+     },
+     "airdate": {
+      "S": "2008-02-17"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.6"
+     },
+     "summary": {
+      "S": "<p>Walter announces to the family that he has cancer; the DEA believes there is a new big-time player in the Albuquerque drug business; a depressed Walter takes his anger out on a worthy recipient; Jesse pays a surprise visit to his parents' house.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#01#E#05"
+     },
+     "tvmaze_id": {
+      "N": "12196"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "5"
+     },
+     "name": {
+      "S": "Gray Matter"
+     },
+     "airdate": {
+      "S": "2008-02-24"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.8"
+     },
+     "summary": {
+      "S": "<p>At a birthday party for a successful former science colleague, Walter is offered a job; Jesse tries gaining legitimate employment but winds up back cooking meth, and an inferior kind at that; Skyler assembles the family for an intervention to get Walter to agree to chemotherapy, but he's concerned about quality-of-life issues and their financial difficulties.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#01#E#06"
+     },
+     "tvmaze_id": {
+      "N": "12197"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "6"
+     },
+     "name": {
+      "S": "Crazy Handful of Nothin'"
+     },
+     "airdate": {
+      "S": "2008-03-02"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.8"
+     },
+     "summary": {
+      "S": "<p>Walter, in the throes of his chemotherapy treatment and needing money more than ever, agrees to cook more crystal meth with Jesse; Skinny Pete hooks Jesse up with an important new contact, while the DEA intensifies its investigation of Albuquerque's new drug kingpin.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#01#E#07"
+     },
+     "tvmaze_id": {
+      "N": "12198"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "7"
+     },
+     "name": {
+      "S": "A No-Rough-Stuff-Type Deal"
+     },
+     "airdate": {
+      "S": "2008-03-09"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8"
+     },
+     "summary": {
+      "S": "<p>Walter and Jesse do business with a new partner-in-crime, but immediately run into \"production problems,\" which necessitates a nearly impossible mission to knock off a chemical-supply house. Meanwhile, Marie throws a baby shower for Skyler and presents her with an unusual gift that shows a different side of the aunt-to-be.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#02#E#01"
+     },
+     "tvmaze_id": {
+      "N": "12199"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "1"
+     },
+     "name": {
+      "S": "Seven Thirty-Seven"
+     },
+     "airdate": {
+      "S": "2009-03-08"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>Season 2 kicks off with Walt and Jesse once again bearing witness to Tuco's incendiary disposition, which leads them to the conclusion that it's time to put an end to their business dealings with him. But the question is how. Meanwhile, Hank serves as a go-between for estranged sisters Skyler and Marie.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#02#E#02"
+     },
+     "tvmaze_id": {
+      "N": "12200"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "2"
+     },
+     "name": {
+      "S": "Grilled"
+     },
+     "airdate": {
+      "S": "2009-03-15"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.4"
+     },
+     "summary": {
+      "S": "<p><br></p><p>Trying to dissociate themselves from the volatile Tuco takes a bad turn when Walt and Jesse get trapped with the dealer, and Skyler, worried about her missing husband, receives comfort from her sister and brother-in-law. Hank, meanwhile, pays a business call on Jesse's mother.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#02#E#03"
+     },
+     "tvmaze_id": {
+      "N": "12201"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "3"
+     },
+     "name": {
+      "S": "Bit by a Dead Bee"
+     },
+     "airdate": {
+      "S": "2009-03-22"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>Walt and Jesse attempt to cover their tracks and distance themselves from Tuco, but they soon find that business is taking a hit along with their financial situation. Meanwhile, Hank and his DEA investigation into the meth ring get a major break that just might put Walt and Jesse in their crosshairs.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#02#E#04"
+     },
+     "tvmaze_id": {
+      "N": "12202"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "4"
+     },
+     "name": {
+      "S": "Down"
+     },
+     "airdate": {
+      "S": "2009-03-29"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.5"
+     },
+     "summary": {
+      "S": "<p>Despite Walt's attempt to reconnect with the family, a suspicious Skyler keeps him at arm's length and worries about what he's been up to while he's been away from the house; Jesse finds himself on the streets once again and struggles to improve his lot in life.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#02#E#05"
+     },
+     "tvmaze_id": {
+      "N": "12203"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "5"
+     },
+     "name": {
+      "S": "Breakage"
+     },
+     "airdate": {
+      "S": "2009-04-05"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>Hank deals with some lingering aftereffects from his confrontation with Tuco; bills are piling up at the White house and tensions are beginning to run high; Jesse organizes a crew of dealers to take their product to the streets.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#02#E#06"
+     },
+     "tvmaze_id": {
+      "N": "12204"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "6"
+     },
+     "name": {
+      "S": "Peekaboo"
+     },
+     "airdate": {
+      "S": "2009-04-12"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.3"
+     },
+     "summary": {
+      "S": "<p>Walt returns to teaching at the high school; when Skinny Pete gets taken advantage of and ripped off, Jesse steps in, but bites off more than he can chew; Skyler takes the opportunity to show her appreciation for Gretchen's kindness in picking up the tab for Walt's treatments.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#02#E#07"
+     },
+     "tvmaze_id": {
+      "N": "12205"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "7"
+     },
+     "name": {
+      "S": "Negro Y Azul"
+     },
+     "airdate": {
+      "S": "2009-04-19"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.1"
+     },
+     "summary": {
+      "S": "<p>Walt and Jesse contemplate an expansion of their business; Hank experiences a hassle in El Paso as he tries to adapt to his new coworkers; Skyler's new job opportunity leads to her reconnecting with an ex-colleague; and Jesse interacts with his new landlady.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#02#E#08"
+     },
+     "tvmaze_id": {
+      "N": "12206"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "8"
+     },
+     "name": {
+      "S": "Better Call Saul"
+     },
+     "airdate": {
+      "S": "2009-04-26"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.7"
+     },
+     "summary": {
+      "S": "<p>Badger's brush with the law leads Walt and Jesse to call in a shady lawyer; the DEA believes it has a line on the mysterious and elusive \"Heisenberg\"; Hank's stint in El Paso is up and he returns to Albuquerque, but his mental makeup causes concern for Marie.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#02#E#09"
+     },
+     "tvmaze_id": {
+      "N": "12207"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "9"
+     },
+     "name": {
+      "S": "4 Days Out"
+     },
+     "airdate": {
+      "S": "2009-05-03"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.4"
+     },
+     "summary": {
+      "S": "<p>After undergoing a PET-CAT scan and fearing the worst, Walt takes lawyer Saul's advice and hunkers down for a marathon session of cooking product; Jesse's romance with his landlady is heating up, but must cool off quickly when he and Walt head for the desert to take care of business.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#02#E#10"
+     },
+     "tvmaze_id": {
+      "N": "12208"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "10"
+     },
+     "name": {
+      "S": "Over"
+     },
+     "airdate": {
+      "S": "2009-05-10"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8"
+     },
+     "summary": {
+      "S": "<p>The Whites throw a party to thank family and friends for their support through Walt's trying time, but it turns ugly when he and Hank get into a bitter argument; later, a pent-up and fed-up Walt tries to occupy his time with home-improvement projects. Worried about Walt's physical and emotional states, Skyler confides in her boss; Jane keeps her relationship with Jesse a secret from her father.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#02#E#11"
+     },
+     "tvmaze_id": {
+      "N": "12209"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "11"
+     },
+     "name": {
+      "S": "Mandala"
+     },
+     "airdate": {
+      "S": "2009-05-17"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8"
+     },
+     "summary": {
+      "S": "<p>Saul suggests a new business partner for Walt and Jesse after they begin to lose their dealers to some unforeseen circumstances. At work, Skyler confronts Ted after she uncovers some unnerving information; and Jesse opens up to Jane about what he does for a living, with disastrous results.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#02#E#12"
+     },
+     "tvmaze_id": {
+      "N": "12210"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "12"
+     },
+     "name": {
+      "S": "Phoenix"
+     },
+     "airdate": {
+      "S": "2009-05-24"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.8"
+     },
+     "summary": {
+      "S": "<p>A new addition joins the White family as Walter Jr. attempts to help out his struggling family by launching a new Web site. Elsewhere, Jesse's addiction worsens and his relationship with Jane begins to negatively impact Walt and her father.</p>"
+     }
+    }
+   }
+  }
+ ]
+}

@@ -1,11 +1,16 @@
-resource "aws_dynamodb_table" "serie" {
-  name         = "serie"
+resource "aws_dynamodb_table" "shows" {
+  name         = "show"
   billing_mode = "PAY_PER_REQUEST"
-  hash_key     = "title"
+  hash_key     = "pk"
+  range_key    = "sk"
 
   attribute {
-    name = "title"
+    name = "pk"
     type = "S"
   }
 
+  attribute {
+    name = "sk"
+    type = "S"
+  }
 }

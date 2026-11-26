@@ -1,0 +1,898 @@
+{
+ "show": [
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#07#E#22"
+     },
+     "tvmaze_id": {
+      "N": "47787"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "22"
+     },
+     "name": {
+      "S": "Goodbye, Michael (1)"
+     },
+     "airdate": {
+      "S": "2011-04-28"
+     },
+     "runtime": {
+      "N": "52"
+     },
+     "rating": {
+      "N": "9"
+     },
+     "summary": {
+      "S": "<p>Michael doesn't tell the staff that he is leaving a day early; Deangelo helps Andy with a big client.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#07#E#23"
+     },
+     "tvmaze_id": {
+      "N": "2326095"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "23"
+     },
+     "name": {
+      "S": "Goodbye, Michael (2)"
+     },
+     "airdate": {
+      "S": "2011-04-28"
+     },
+     "rating": {
+      "N": "9"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#07#E#24"
+     },
+     "tvmaze_id": {
+      "N": "47788"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "24"
+     },
+     "name": {
+      "S": "The Inner Circle"
+     },
+     "airdate": {
+      "S": "2011-05-05"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.4"
+     },
+     "summary": {
+      "S": "<p>Deangelo creates tension when he created an inner circle of only men at the office.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#07#E#25"
+     },
+     "tvmaze_id": {
+      "N": "47789"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "25"
+     },
+     "name": {
+      "S": "Dwight K. Schrute, (Acting) Manager"
+     },
+     "airdate": {
+      "S": "2011-05-12"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.1"
+     },
+     "summary": {
+      "S": "<p>Dwight becomes acting manager of the branch.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#07#E#26"
+     },
+     "tvmaze_id": {
+      "N": "47790"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "26"
+     },
+     "name": {
+      "S": "Search Committee (1)"
+     },
+     "airdate": {
+      "S": "2011-05-19"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>Jim, Toby and Gabe head up the search committee for a new manager for the branch.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#07#E#27"
+     },
+     "tvmaze_id": {
+      "N": "47791"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "27"
+     },
+     "name": {
+      "S": "Search Committee (2)"
+     },
+     "airdate": {
+      "S": "2011-05-19"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>Jim, Toby and Gabe head up the search committee for a new manager for the branch.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#08#E#01"
+     },
+     "tvmaze_id": {
+      "N": "47792"
+     },
+     "season": {
+      "N": "8"
+     },
+     "number": {
+      "N": "1"
+     },
+     "name": {
+      "S": "The List"
+     },
+     "airdate": {
+      "S": "2011-09-22"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.5"
+     },
+     "summary": {
+      "S": "<p>The office staff become obsessed when they find a list of names in two columns in Robert California's notebook.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#08#E#02"
+     },
+     "tvmaze_id": {
+      "N": "47793"
+     },
+     "season": {
+      "N": "8"
+     },
+     "number": {
+      "N": "2"
+     },
+     "name": {
+      "S": "The Incentive"
+     },
+     "airdate": {
+      "S": "2011-09-29"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.6"
+     },
+     "summary": {
+      "S": "<p>Under pressure from Robert California, Andy introduces an incentive program to increase sales.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#08#E#03"
+     },
+     "tvmaze_id": {
+      "N": "47794"
+     },
+     "season": {
+      "N": "8"
+     },
+     "number": {
+      "N": "3"
+     },
+     "name": {
+      "S": "Lotto"
+     },
+     "airdate": {
+      "S": "2011-10-06"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.2"
+     },
+     "summary": {
+      "S": "<p>The warehouse staff quits after winning the lottery.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#08#E#04"
+     },
+     "tvmaze_id": {
+      "N": "47795"
+     },
+     "season": {
+      "N": "8"
+     },
+     "number": {
+      "N": "4"
+     },
+     "name": {
+      "S": "Garden Party"
+     },
+     "airdate": {
+      "S": "2011-10-13"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.8"
+     },
+     "summary": {
+      "S": "<p>Andy throws a garden party to impress his parents.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#08#E#05"
+     },
+     "tvmaze_id": {
+      "N": "47796"
+     },
+     "season": {
+      "N": "8"
+     },
+     "number": {
+      "N": "5"
+     },
+     "name": {
+      "S": "Spooked"
+     },
+     "airdate": {
+      "S": "2011-10-27"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.1"
+     },
+     "summary": {
+      "S": "<p>Erin worries that Andy will fire her when her Halloween party doesn't live up to Robert California's expectations. </p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#08#E#06"
+     },
+     "tvmaze_id": {
+      "N": "47797"
+     },
+     "season": {
+      "N": "8"
+     },
+     "number": {
+      "N": "6"
+     },
+     "name": {
+      "S": "Doomsday"
+     },
+     "airdate": {
+      "S": "2011-11-03"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.1"
+     },
+     "summary": {
+      "S": "<p>Dwight convinces Andy to let him install a doomsday device that sends an e-mail to Robert California after the office makes five mistakes.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#08#E#07"
+     },
+     "tvmaze_id": {
+      "N": "47798"
+     },
+     "season": {
+      "N": "8"
+     },
+     "number": {
+      "N": "7"
+     },
+     "name": {
+      "S": "Pam's Replacement"
+     },
+     "airdate": {
+      "S": "2011-11-10"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.4"
+     },
+     "summary": {
+      "S": "<p>Pam worries that Jim thinks the temp filling in for her during her maternity leave is attractive.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#08#E#08"
+     },
+     "tvmaze_id": {
+      "N": "47799"
+     },
+     "season": {
+      "N": "8"
+     },
+     "number": {
+      "N": "8"
+     },
+     "name": {
+      "S": "Gettysburg"
+     },
+     "airdate": {
+      "S": "2011-11-17"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "6.7"
+     },
+     "summary": {
+      "S": "<p>Andy takes a portion of the staff on an outing to Gettysburg; Part of the staff stays behind where they pitch the next big idea to Robert.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#08#E#09"
+     },
+     "tvmaze_id": {
+      "N": "47800"
+     },
+     "season": {
+      "N": "8"
+     },
+     "number": {
+      "N": "9"
+     },
+     "name": {
+      "S": "Mrs. California"
+     },
+     "airdate": {
+      "S": "2011-12-01"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.2"
+     },
+     "summary": {
+      "S": "<p>Andy is in a tight spot when Robert doesn't want him to hire his wife at the office.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#08#E#10"
+     },
+     "tvmaze_id": {
+      "N": "47801"
+     },
+     "season": {
+      "N": "8"
+     },
+     "number": {
+      "N": "10"
+     },
+     "name": {
+      "S": "Christmas Wishes"
+     },
+     "airdate": {
+      "S": "2011-12-08"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.8"
+     },
+     "summary": {
+      "S": "<p>Andy attempts to grant each person's holiday wish.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#08#E#11"
+     },
+     "tvmaze_id": {
+      "N": "47802"
+     },
+     "season": {
+      "N": "8"
+     },
+     "number": {
+      "N": "11"
+     },
+     "name": {
+      "S": "Trivia"
+     },
+     "airdate": {
+      "S": "2012-01-12"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.6"
+     },
+     "summary": {
+      "S": "<p>Andy brings the staff to a trivia night in order to win money to buy Dunder Mifflin's paper to meet their sales goal.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#08#E#12"
+     },
+     "tvmaze_id": {
+      "N": "47803"
+     },
+     "season": {
+      "N": "8"
+     },
+     "number": {
+      "N": "12"
+     },
+     "name": {
+      "S": "Pool Party"
+     },
+     "airdate": {
+      "S": "2012-01-19"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.4"
+     },
+     "summary": {
+      "S": "<p>Robert California invites the staff to his house for a pool party before he sells the property.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#08#E#13"
+     },
+     "tvmaze_id": {
+      "N": "47804"
+     },
+     "season": {
+      "N": "8"
+     },
+     "number": {
+      "N": "13"
+     },
+     "name": {
+      "S": "Jury Duty"
+     },
+     "airdate": {
+      "S": "2012-02-02"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.1"
+     },
+     "summary": {
+      "S": "<p>Jim gets caught lying about having jury duty; Angela has her baby.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#08#E#14"
+     },
+     "tvmaze_id": {
+      "N": "47805"
+     },
+     "season": {
+      "N": "8"
+     },
+     "number": {
+      "N": "14"
+     },
+     "name": {
+      "S": "Special Project"
+     },
+     "airdate": {
+      "S": "2012-02-09"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.5"
+     },
+     "summary": {
+      "S": "<p>Dwight gets the opportunity to lead a special project team.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#08#E#15"
+     },
+     "tvmaze_id": {
+      "N": "47806"
+     },
+     "season": {
+      "N": "8"
+     },
+     "number": {
+      "N": "15"
+     },
+     "name": {
+      "S": "Tallahassee"
+     },
+     "airdate": {
+      "S": "2012-02-16"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.5"
+     },
+     "summary": {
+      "S": "<p>Dwight is set on securing the VP position up for grabs even as he battles appendicitis.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#08#E#16"
+     },
+     "tvmaze_id": {
+      "N": "47807"
+     },
+     "season": {
+      "N": "8"
+     },
+     "number": {
+      "N": "16"
+     },
+     "name": {
+      "S": "After Hours"
+     },
+     "airdate": {
+      "S": "2012-02-23"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.8"
+     },
+     "summary": {
+      "S": "<p>Dwight and Todd Packer try to win over Nellie by trying to sleep with her; Jim worries that Cathy is trying to hit on him; The office staff works late.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#08#E#17"
+     },
+     "tvmaze_id": {
+      "N": "47808"
+     },
+     "season": {
+      "N": "8"
+     },
+     "number": {
+      "N": "17"
+     },
+     "name": {
+      "S": "Test the Store"
+     },
+     "airdate": {
+      "S": "2012-03-01"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>The team in Florida launch the test store; Andy and Pam are attacked by a group of kids in the parking lot.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#08#E#18"
+     },
+     "tvmaze_id": {
+      "N": "47809"
+     },
+     "season": {
+      "N": "8"
+     },
+     "number": {
+      "N": "18"
+     },
+     "name": {
+      "S": "Last Day in Florida"
+     },
+     "airdate": {
+      "S": "2012-03-08"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.8"
+     },
+     "summary": {
+      "S": "<p>Jim learns that Robert plans to kill the store idea at the board meeting and tries to warn Dwight; Erin tells Andy that she is staying in Florida.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#08#E#19"
+     },
+     "tvmaze_id": {
+      "N": "47810"
+     },
+     "season": {
+      "N": "8"
+     },
+     "number": {
+      "N": "19"
+     },
+     "name": {
+      "S": "Get the Girl"
+     },
+     "airdate": {
+      "S": "2012-03-15"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.7"
+     },
+     "summary": {
+      "S": "<p>Andy heads to Florida to win Erin back; Nellie shows up at the office and attempts to take over the manager job.</p>"
+     }
+    }
+   }
+  }
+ ]
+}
