@@ -43,16 +43,11 @@ resource "aws_api_gateway_deployment" "shows" {
   stage_name  = "dev" # WORKAROUND: emulator rejects stageName "" (see notes); AWS-idiomatic = separate aws_api_gateway_stage
 
   triggers = {
-    # Every resource/method/integration the stage serves; a change to any of
-    # them must produce a new deployment snapshot.
-    redeploy = sha1(jsonencode([
-      aws_api_gateway_resource.show,
-      aws_api_gateway_resource.seasons,
-      aws_api_gateway_resource.season,
-      aws_api_gateway_resource.episodes,
-      aws_api_gateway_resource.episode,
-      aws_api_gateway_method.get_show,
-      aws_api_gateway_integration.get_show,
+    # Redeploy whenever a file defining routes/methods/integrations changes.
+    # (Hashing the resource objects themselves never settled: see notes.)
+    redeploy = sha1(join(",", [
+      filesha1("${path.module}/api.tf"),
+      filesha1("${path.module}/get_show.tf"),
     ]))
   }
 
