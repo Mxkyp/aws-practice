@@ -2,10 +2,7 @@ import os
 
 import boto3
 from aws_lambda_powertools.event_handler import APIGatewayRestResolver
-from aws_lambda_powertools.event_handler.exceptions import (
-    BadRequestError,
-    NotFoundError,
-)
+from aws_lambda_powertools.event_handler.exceptions import NotFoundError
 from boto3.dynamodb.conditions import Key
 from shows.keys import (
     SEASON_PREFIX,
@@ -16,15 +13,10 @@ from shows.keys import (
     show_pk,
 )
 from shows.models import EpisodeResponse, SeasonResponse, ShowResponse
+from shows.params import parse_number as _number
 
 table = boto3.resource("dynamodb").Table(os.environ["TABLE_NAME"])
 app = APIGatewayRestResolver()
-
-
-def _number(raw: str, what: str) -> int:
-    if not raw.isdecimal() or int(raw) == 0:
-        raise BadRequestError(f"{what} must be a positive integer, got {raw!r}")
-    return int(raw)
 
 
 def _get(pk: str, sk: str, not_found: str) -> dict:
