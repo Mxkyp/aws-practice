@@ -3,7 +3,15 @@ import os
 import boto3
 from aws_lambda_powertools.event_handler import APIGatewayRestResolver, Response
 from boto3.dynamodb.conditions import Key
-from shows.keys import episode_prefix, episode_sk, season_sk, show_pk
+from shows.keys import (
+    ALL_EPISODES_PREFIX,
+    SEASON_PREFIX,
+    SHOW_SK,
+    episode_prefix,
+    episode_sk,
+    season_sk,
+    show_pk,
+)
 from shows.params import parse_number
 
 table = boto3.resource("dynamodb").Table(os.environ["TABLE_NAME"])
@@ -28,20 +36,35 @@ def _keys_with_prefix(pk: str, prefix: str) -> list[dict]:
         kwargs["ExclusiveStartKey"] = resp["LastEvaluatedKey"]
 
 
+def _delete_all(keys: list[dict]) -> None:
+    """batch_writer sends deletes in chunks of 25 and resends UnprocessedItems;
+    returning from here means every one was accepted. A batch has no order
+    guarantee, so anything that must go after these needs its own call.
+    """
+    with table.batch_writer() as batch:
+        for key in keys:
+            batch.delete_item(Key=key)
+
+
+# Rule for every multi-item delete: a parent item outlives its children.
+# If the Lambda dies midway, the parent is still listed and a retried DELETE
+# (idempotent) finishes the job; no season is ever left without its episodes.
+
+
+@app.delete("/shows/<show_id>")
+def delete_show(show_id: str):
+    pk = show_pk(show_id)
+    _delete_all(_keys_with_prefix(pk, ALL_EPISODES_PREFIX))
+    _delete_all(_keys_with_prefix(pk, SEASON_PREFIX))
+    table.delete_item(Key={"pk": pk, "sk": SHOW_SK})
+    return Response(status_code=204)
+
+
 @app.delete("/shows/<show_id>/seasons/<season>")
 def delete_season(show_id: str, season: str):
     n = parse_number(season, "season")
     pk = show_pk(show_id)
-
-    # Episodes first. batch_writer sends deletes in chunks of 25 and resends
-    # UnprocessedItems; leaving the `with` block means every one was accepted.
-    with table.batch_writer() as batch:
-        for key in _keys_with_prefix(pk, episode_prefix(n)):
-            batch.delete_item(Key=key)
-
-    # Season item last, outside the batch (a batch has no order guarantee).
-    # If the Lambda dies above, the season is still listed and a retried
-    # DELETE finishes the job.
+    _delete_all(_keys_with_prefix(pk, episode_prefix(n)))
     table.delete_item(Key={"pk": pk, "sk": season_sk(n)})
     return Response(status_code=204)
 

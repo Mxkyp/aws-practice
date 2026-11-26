@@ -14,6 +14,9 @@ Numbers are zero-padded so the string sort order matches the numeric order
 
 SHOW_SK = "META"
 SEASON_PREFIX = "SEASON#"
+# Start of every episode sk, whatever the season: "S#" is the season part of
+# "S#01#E#03". begins_with() on it can't hit "SEASON#" items (2nd char differs).
+ALL_EPISODES_PREFIX = "S#"
 
 
 def show_pk(show_id: int | str) -> str:
@@ -25,7 +28,7 @@ def season_sk(season: int) -> str:
 
 
 def episode_prefix(season: int) -> str:
-    return f"S#{season:02d}#E#"
+    return f"{ALL_EPISODES_PREFIX}{season:02d}#E#"
 
 
 def episode_sk(season: int, episode: int) -> str:

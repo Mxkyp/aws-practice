@@ -1,6 +1,7 @@
 # Api: DELETE routes go to their own Lambda, so only this role can write.
 locals {
   delete_show_routes = {
+    show    = aws_api_gateway_resource.show.id    # /shows/{show_id}
     season  = aws_api_gateway_resource.season.id  # …/seasons/{season}
     episode = aws_api_gateway_resource.episode.id # …/episodes/{episode}
   }
@@ -84,6 +85,7 @@ resource "aws_lambda_function" "delete_show" {
   role          = aws_iam_role.delete_show.arn
   runtime       = "python3.12"
   handler       = "handler.lambda_handler"
+  timeout       = 30 # default 3 s; a show delete is ~9 batch calls (largest seed show: 212 items). API Gateway still cuts off at 29 s.
 
   environment {
     variables = { TABLE_NAME = aws_dynamodb_table.shows.name }
