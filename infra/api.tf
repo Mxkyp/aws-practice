@@ -58,8 +58,8 @@ resource "aws_api_gateway_deployment" "shows" {
   depends_on = [
     aws_api_gateway_method.get_show,
     aws_api_gateway_integration.get_show,
-    aws_api_gateway_method.delete_episode,
-    aws_api_gateway_integration.delete_episode,
+    aws_api_gateway_method.delete_show,
+    aws_api_gateway_integration.delete_show,
   ]
 
   lifecycle {
