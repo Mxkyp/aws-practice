@@ -22,10 +22,6 @@ app = APIGatewayRestResolver()
 
 
 def _number(raw: str, what: str) -> int:
-    """Path segments arrive as strings; turn bad ones into a 400, not a 500.
-
-    isdecimal, not isdigit: "²".isdigit() is True but int("²") raises.
-    """
     if not raw.isdecimal() or int(raw) == 0:
         raise BadRequestError(f"{what} must be a positive integer, got {raw!r}")
     return int(raw)
