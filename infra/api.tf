@@ -51,6 +51,14 @@ resource "aws_api_gateway_deployment" "shows" {
     ]))
   }
 
+  # filesha1() references no resources, so Terraform can't see that the
+  # deployment needs the routes: without this it is created in parallel with
+  # them and fails with "The REST API doesn't contain any methods".
+  depends_on = [
+    aws_api_gateway_method.get_show,
+    aws_api_gateway_integration.get_show,
+  ]
+
   lifecycle {
     create_before_destroy = true
   }
