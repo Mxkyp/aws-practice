@@ -10,5 +10,6 @@
 - [ ] DELETE show / season / episode
 - [ ] ZIP upload: S3 → SQS → ingest Lambda (concurrency 1)
 - [ ] Input validation and error responses (400 / 404)
+- [ ] Paginate list routes: `query` stops at 1 MB and `get_show` ignores `LastEvaluatedKey` (fine for seed data, max 28 episodes)
 - [ ] Make `deploy_code.sh` more readable
 - [ ] Emulator vs AWS experiments (`~/notes/aws-emulator-vs-real-aws.md`)
