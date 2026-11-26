@@ -1,0 +1,904 @@
+{
+ "show": [
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#05#E#26"
+     },
+     "tvmaze_id": {
+      "N": "47737"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "26"
+     },
+     "name": {
+      "S": "Casual Friday"
+     },
+     "airdate": {
+      "S": "2009-04-30"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.3"
+     },
+     "summary": {
+      "S": "<p>Michael, Pam and Ryan return to Dunder Mifflin; Some staff takes casual Friday too far; The other sales people are upset that they are not getting their clients back.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#05#E#27"
+     },
+     "tvmaze_id": {
+      "N": "47738"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "27"
+     },
+     "name": {
+      "S": "Cafe Disco"
+     },
+     "airdate": {
+      "S": "2009-05-07"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.7"
+     },
+     "summary": {
+      "S": "<p>Michael tries to create a disco in his old Michael Scott Paper Company office.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#05#E#28"
+     },
+     "tvmaze_id": {
+      "N": "47739"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "28"
+     },
+     "name": {
+      "S": "Company Picnic"
+     },
+     "airdate": {
+      "S": "2009-05-14"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "9"
+     },
+     "summary": {
+      "S": "<p>The staff attend the Dunder Mifflin company picnic.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#06#E#01"
+     },
+     "tvmaze_id": {
+      "N": "47740"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "1"
+     },
+     "name": {
+      "S": "Gossip"
+     },
+     "airdate": {
+      "S": "2009-09-17"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8"
+     },
+     "summary": {
+      "S": "<p>Michael accidentally reveals that Stanley is having an affair so he makes up a bunch of other rumors to divert people's attention.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#06#E#02"
+     },
+     "tvmaze_id": {
+      "N": "47741"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "2"
+     },
+     "name": {
+      "S": "The Meeting"
+     },
+     "airdate": {
+      "S": "2009-09-24"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.1"
+     },
+     "summary": {
+      "S": "<p>Michael attempts to sabotage Jim's efforts at a promotion. </p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#06#E#03"
+     },
+     "tvmaze_id": {
+      "N": "47742"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "3"
+     },
+     "name": {
+      "S": "The Promotion"
+     },
+     "airdate": {
+      "S": "2009-10-01"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.4"
+     },
+     "summary": {
+      "S": "<p>Michael and Jim have to decide who is getting a raise and who is not.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#06#E#04"
+     },
+     "tvmaze_id": {
+      "N": "47743"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "4"
+     },
+     "name": {
+      "S": "Niagara (1)"
+     },
+     "airdate": {
+      "S": "2009-10-08"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "9"
+     },
+     "summary": {
+      "S": "<p>The office staff head to Niagara Falls for Jim and Pam's wedding.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#06#E#05"
+     },
+     "tvmaze_id": {
+      "N": "47744"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "5"
+     },
+     "name": {
+      "S": "Niagara (2)"
+     },
+     "airdate": {
+      "S": "2009-10-08"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.9"
+     },
+     "summary": {
+      "S": "<p>The office staff travels to Jim and Pam's wedding.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#06#E#06"
+     },
+     "tvmaze_id": {
+      "N": "47745"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "6"
+     },
+     "name": {
+      "S": "Mafia"
+     },
+     "airdate": {
+      "S": "2009-10-15"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.8"
+     },
+     "summary": {
+      "S": "<p>With Jim and Pam on their honeymoon, Michael ends up signing up for insurance thinking the guy selling is in the mafia.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#06#E#07"
+     },
+     "tvmaze_id": {
+      "N": "47746"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "7"
+     },
+     "name": {
+      "S": "The Lover"
+     },
+     "airdate": {
+      "S": "2009-10-22"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.7"
+     },
+     "summary": {
+      "S": "<p>Pam finds out that Michael is dating her mother.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#06#E#08"
+     },
+     "tvmaze_id": {
+      "N": "47747"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "8"
+     },
+     "name": {
+      "S": "Koi Pond"
+     },
+     "airdate": {
+      "S": "2009-10-29"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8"
+     },
+     "summary": {
+      "S": "<p>Michael ends up becoming the butt of everyone's jokes when he falls into a koi pond while on a sales call; Pam and Andy are mistaken for a couple when they go on sales calls together.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#06#E#09"
+     },
+     "tvmaze_id": {
+      "N": "47748"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "9"
+     },
+     "name": {
+      "S": "Double Date"
+     },
+     "airdate": {
+      "S": "2009-11-05"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.1"
+     },
+     "summary": {
+      "S": "<p>Michael breaks up with Pam's mom on her birthday; Dwight tries to get the rest of the staff to owe him in order to get Jim fired.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#06#E#10"
+     },
+     "tvmaze_id": {
+      "N": "47749"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "10"
+     },
+     "name": {
+      "S": "Murder"
+     },
+     "airdate": {
+      "S": "2009-11-12"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.1"
+     },
+     "summary": {
+      "S": "<p>Michael attempts to distract the office when rumors of Dunder Mifflin's bankruptcy surface.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#06#E#11"
+     },
+     "tvmaze_id": {
+      "N": "47750"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "11"
+     },
+     "name": {
+      "S": "Shareholder Meeting"
+     },
+     "airdate": {
+      "S": "2009-11-19"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.2"
+     },
+     "summary": {
+      "S": "<p>Michael is invited to be honored at a shareholder's meeting; Jim tries to get the rest of the office to understand he is one of the \"real\" bosses.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#06#E#12"
+     },
+     "tvmaze_id": {
+      "N": "47751"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "12"
+     },
+     "name": {
+      "S": "Scott's Tots"
+     },
+     "airdate": {
+      "S": "2009-12-03"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.5"
+     },
+     "summary": {
+      "S": "<p>Michael is in hot water when it comes time to pay up for promising a bunch of kids he would pay for their college tuition; Dwight tries to set Jim up.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#06#E#13"
+     },
+     "tvmaze_id": {
+      "N": "47752"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "13"
+     },
+     "name": {
+      "S": "Secret Santa"
+     },
+     "airdate": {
+      "S": "2009-12-10"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.3"
+     },
+     "summary": {
+      "S": "<p>Michael is upset when Jim allows Phyllis to be the office Santa for Christmas.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#06#E#14"
+     },
+     "tvmaze_id": {
+      "N": "47753"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "14"
+     },
+     "name": {
+      "S": "The Banker"
+     },
+     "airdate": {
+      "S": "2010-01-21"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.4"
+     },
+     "summary": {
+      "S": "<p>A banker from the potential buyer visits the office.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#06#E#15"
+     },
+     "tvmaze_id": {
+      "N": "47754"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "15"
+     },
+     "name": {
+      "S": "Sabre"
+     },
+     "airdate": {
+      "S": "2010-02-04"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.7"
+     },
+     "summary": {
+      "S": "<p>Michael doesn't like the changes that the new owner is making to Dunder Mifflin; Jim and Pam interview at a day care.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#06#E#16"
+     },
+     "tvmaze_id": {
+      "N": "47755"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "16"
+     },
+     "name": {
+      "S": "The Manager and the Salesman"
+     },
+     "airdate": {
+      "S": "2010-02-11"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.1"
+     },
+     "summary": {
+      "S": "<p>When the new CEO visits the office, she informs Michael and Jim that only one of the can be manager; Andy gives Valentine's Day cards to all the staff giving Kelly the wrong impression.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#06#E#17"
+     },
+     "tvmaze_id": {
+      "N": "47756"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "17"
+     },
+     "name": {
+      "S": "The Delivery (1)"
+     },
+     "airdate": {
+      "S": "2010-03-04"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.2"
+     },
+     "summary": {
+      "S": "<p>Pam insists on waiting until after midnight to check in to the hospital; Dwight and Angela make a business agreement to have their own baby.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#06#E#18"
+     },
+     "tvmaze_id": {
+      "N": "47757"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "18"
+     },
+     "name": {
+      "S": "The Delivery (2)"
+     },
+     "airdate": {
+      "S": "2010-03-04"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8"
+     },
+     "summary": {
+      "S": "<p>After the birth of the baby, Pam has trouble getting the baby to breastfeed. Michael tries to set up other members of the office.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#06#E#19"
+     },
+     "tvmaze_id": {
+      "N": "47758"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "19"
+     },
+     "name": {
+      "S": "St. Patrick's Day"
+     },
+     "airdate": {
+      "S": "2010-03-11"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.6"
+     },
+     "summary": {
+      "S": "<p>Dwight becomes obsessed with a mega desk recreated while Jim and Pam were gone; Michael's attempts to suck up to Jo are unsuccessful.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#06#E#20"
+     },
+     "tvmaze_id": {
+      "N": "47759"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "20"
+     },
+     "name": {
+      "S": "New Leads"
+     },
+     "airdate": {
+      "S": "2010-03-18"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.7"
+     },
+     "summary": {
+      "S": "<p>Tensions rise in the office when the sales staff thinks they are the top dog.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#06#E#21"
+     },
+     "tvmaze_id": {
+      "N": "47760"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "21"
+     },
+     "name": {
+      "S": "Happy Hour"
+     },
+     "airdate": {
+      "S": "2010-03-25"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.1"
+     },
+     "summary": {
+      "S": "<p>Oscar gets the staff to go out after work in order to see Matt from the warehouse. </p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#06#E#22"
+     },
+     "tvmaze_id": {
+      "N": "47761"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "22"
+     },
+     "name": {
+      "S": "Secretary's Day"
+     },
+     "airdate": {
+      "S": "2010-04-22"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.5"
+     },
+     "summary": {
+      "S": "<p>Andy tries to create a special secretary's day for Erin but Michael accidentally reveals a secret.</p>"
+     }
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,886 @@
+{
+ "show": [
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "SEASON#07"
+     },
+     "tvmaze_id": {
+      "N": "2093"
+     },
+     "number": {
+      "N": "7"
+     },
+     "episode_order": {
+      "N": "26"
+     },
+     "premiered": {
+      "S": "2010-09-23"
+     },
+     "ended": {
+      "S": "2011-05-19"
+     },
+     "summary": {
+      "S": "<p>To err is human. To irr is Michael Scott. He's irritating, irrational and irrepressible. And those are the very same qualities that make him so irresistible.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "SEASON#08"
+     },
+     "tvmaze_id": {
+      "N": "2094"
+     },
+     "number": {
+      "N": "8"
+     },
+     "episode_order": {
+      "N": "24"
+     },
+     "premiered": {
+      "S": "2011-09-22"
+     },
+     "ended": {
+      "S": "2012-05-10"
+     },
+     "summary": {
+      "S": "<p>Inappropriate remarks, petty behavior, zero productivity -- you can change the boss, but you can't change the office. Season 8 of the hit comedy series promises to be the most interesting yet as the beloved cast keeps Dunder Mifflin moving in a world (and office building) without Michael Scott.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "SEASON#09"
+     },
+     "tvmaze_id": {
+      "N": "2095"
+     },
+     "number": {
+      "N": "9"
+     },
+     "episode_order": {
+      "N": "27"
+     },
+     "premiered": {
+      "S": "2012-09-20"
+     },
+     "ended": {
+      "S": "2013-05-16"
+     },
+     "summary": {
+      "S": "<p>In the series 9th season, Andy Bernard, the preppy salesman and die-hard Cornell alumni whose endless and unique musical talents keep the office entertained, is the new Dunder Mifflin Scranton manager.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#01#E#01"
+     },
+     "tvmaze_id": {
+      "N": "47640"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "1"
+     },
+     "name": {
+      "S": "Pilot"
+     },
+     "airdate": {
+      "S": "2005-03-24"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.6"
+     },
+     "summary": {
+      "S": "<p>A documentary crew arrives at Dundler Mifflin to observe the workplace. Michael Scott tries to paint a happy picture while facing potential downsizing.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#01#E#02"
+     },
+     "tvmaze_id": {
+      "N": "47641"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "2"
+     },
+     "name": {
+      "S": "Diversity Day"
+     },
+     "airdate": {
+      "S": "2005-03-29"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.1"
+     },
+     "summary": {
+      "S": "<p>Corporate sends in a consultant after Michael attempts to imitate a Chris Rock routine. Michael ends up staging his own Diversity Day event.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#01#E#03"
+     },
+     "tvmaze_id": {
+      "N": "47642"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "3"
+     },
+     "name": {
+      "S": "Health Care"
+     },
+     "airdate": {
+      "S": "2005-04-05"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>Dwight ends up in charge of picking a new health care plan.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#01#E#04"
+     },
+     "tvmaze_id": {
+      "N": "47643"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "4"
+     },
+     "name": {
+      "S": "The Alliance"
+     },
+     "airdate": {
+      "S": "2005-04-12"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8"
+     },
+     "summary": {
+      "S": "<p>With Dwight worried about downsizing, Jim agrees to an alliance; Michael tries to increase moral be throwing a birthday party for Meredith.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#01#E#05"
+     },
+     "tvmaze_id": {
+      "N": "47644"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "5"
+     },
+     "name": {
+      "S": "Basketball"
+     },
+     "airdate": {
+      "S": "2005-04-19"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.4"
+     },
+     "summary": {
+      "S": "<p>Michael challenges the warehouse staff to a basketball game versus the office staff.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#01#E#06"
+     },
+     "tvmaze_id": {
+      "N": "47645"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "6"
+     },
+     "name": {
+      "S": "Hot Girl"
+     },
+     "airdate": {
+      "S": "2005-04-26"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.1"
+     },
+     "summary": {
+      "S": "<p>Several male staff members vie for the attention of an attractive purse sales woman.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#02#E#01"
+     },
+     "tvmaze_id": {
+      "N": "47646"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "1"
+     },
+     "name": {
+      "S": "The Dundies"
+     },
+     "airdate": {
+      "S": "2005-09-20"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.1"
+     },
+     "summary": {
+      "S": "<p>Michael hosts the annual Dundies awards.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#02#E#02"
+     },
+     "tvmaze_id": {
+      "N": "47647"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "2"
+     },
+     "name": {
+      "S": "Sexual Harassment"
+     },
+     "airdate": {
+      "S": "2005-09-27"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.2"
+     },
+     "summary": {
+      "S": "<p>Michael's continual sending of explicit e-mail forwards forces Dunder Mifflin to review it's sexual harassment policy; Pam's mom makes a visit to the office.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#02#E#03"
+     },
+     "tvmaze_id": {
+      "N": "47648"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "3"
+     },
+     "name": {
+      "S": "Office Olympics"
+     },
+     "airdate": {
+      "S": "2005-10-04"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.3"
+     },
+     "summary": {
+      "S": "<p>With Michael and Dwight out of the house, Jim organizes an office Olympics.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#02#E#04"
+     },
+     "tvmaze_id": {
+      "N": "47649"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "4"
+     },
+     "name": {
+      "S": "The Fire"
+     },
+     "airdate": {
+      "S": "2005-10-11"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.4"
+     },
+     "summary": {
+      "S": "<p>A fire starts in the office kitchen.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#02#E#05"
+     },
+     "tvmaze_id": {
+      "N": "47650"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "5"
+     },
+     "name": {
+      "S": "Halloween"
+     },
+     "airdate": {
+      "S": "2005-10-18"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.3"
+     },
+     "summary": {
+      "S": "<p>Michael has to fire someone on Halloween.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#02#E#06"
+     },
+     "tvmaze_id": {
+      "N": "47651"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "6"
+     },
+     "name": {
+      "S": "The Fight"
+     },
+     "airdate": {
+      "S": "2005-11-01"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.3"
+     },
+     "summary": {
+      "S": "<p>Michael challenges Dwight to a fight at his martial arts studio.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#02#E#07"
+     },
+     "tvmaze_id": {
+      "N": "47652"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "7"
+     },
+     "name": {
+      "S": "The Client"
+     },
+     "airdate": {
+      "S": "2005-11-08"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.5"
+     },
+     "summary": {
+      "S": "<p>Jan helps Michael with an important pitch for a client; The staff discovers a screenplay in Michael's office.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#02#E#08"
+     },
+     "tvmaze_id": {
+      "N": "47653"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "8"
+     },
+     "name": {
+      "S": "Performance Review"
+     },
+     "airdate": {
+      "S": "2005-11-15"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.4"
+     },
+     "summary": {
+      "S": "<p>Michael uses each employee's performance review to discuss his relationship with Jan.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#02#E#09"
+     },
+     "tvmaze_id": {
+      "N": "47654"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "9"
+     },
+     "name": {
+      "S": "E-Mail Surveillance"
+     },
+     "airdate": {
+      "S": "2005-11-22"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.6"
+     },
+     "summary": {
+      "S": "<p>The office staff finds out that Michael has set up e-mail surveillance.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#02#E#10"
+     },
+     "tvmaze_id": {
+      "N": "47655"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "10"
+     },
+     "name": {
+      "S": "Christmas Party"
+     },
+     "airdate": {
+      "S": "2005-12-06"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.5"
+     },
+     "summary": {
+      "S": "<p>At the office Christmas party, Michael changes secret santa into a gift exchange.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#02#E#11"
+     },
+     "tvmaze_id": {
+      "N": "47656"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "11"
+     },
+     "name": {
+      "S": "Booze Cruise"
+     },
+     "airdate": {
+      "S": "2006-01-05"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.4"
+     },
+     "summary": {
+      "S": "<p>Michael takes the staff on a booze cruise.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#02#E#12"
+     },
+     "tvmaze_id": {
+      "N": "47657"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "12"
+     },
+     "name": {
+      "S": "The Injury"
+     },
+     "airdate": {
+      "S": "2006-01-12"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.3"
+     },
+     "summary": {
+      "S": "<p>Michael accidentally burns his foot on his George Foreman Grill, but insists on coming to work anyway. When none of his employees, except for Dwight , help him, Michael feels under-appreciated. Meanwhile, Dwight starts acting strangely nice to everyone, especially Pam.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#02#E#13"
+     },
+     "tvmaze_id": {
+      "N": "47658"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "13"
+     },
+     "name": {
+      "S": "The Secret"
+     },
+     "airdate": {
+      "S": "2006-01-19"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>Jim is forced into spending time with Michael so that he will not reveal Jim's feelings for Pam. Meanwhile, Oscar takes a \"sick day\" and Dwight investigates whether he is actually sick.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#02#E#14"
+     },
+     "tvmaze_id": {
+      "N": "47659"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "14"
+     },
+     "name": {
+      "S": "The Carpet"
+     },
+     "airdate": {
+      "S": "2006-01-26"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8"
+     },
+     "summary": {
+      "S": "<p>A disgusting \"thing\" \u2013 implied to be human feces \u2013 is left in Michael's office, and he tries to discover who did it. While his carpet is being replaced, he uses Jim's desk, forcing him to move away from Pam into the annex.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#02#E#15"
+     },
+     "tvmaze_id": {
+      "N": "47660"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "15"
+     },
+     "name": {
+      "S": "Boys and Girls"
+     },
+     "airdate": {
+      "S": "2006-02-02"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.6"
+     },
+     "summary": {
+      "S": "<p>When Jan comes to the office for a women in the office session, Michael stages a men's only session.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#02#E#16"
+     },
+     "tvmaze_id": {
+      "N": "47661"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "16"
+     },
+     "name": {
+      "S": "Valentine's Day"
+     },
+     "airdate": {
+      "S": "2006-02-09"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.2"
+     },
+     "summary": {
+      "S": "<p>Michael has a big meeting in New York with Jan and the companies new CEO; Pam deals with all the Valentine's Day deliveries hoping Roy will remember to send her something.</p>"
+     }
+    }
+   }
+  }
+ ]
+}

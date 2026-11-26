@@ -1,0 +1,112 @@
+{
+ "show": [
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#05#E#06"
+     },
+     "tvmaze_id": {
+      "N": "3046156"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "6"
+     },
+     "name": {
+      "S": "Chapter Six: Escape from Camazotz"
+     },
+     "airdate": {
+      "S": "2025-12-25"
+     },
+     "runtime": {
+      "N": "75"
+     },
+     "rating": {
+      "N": "7.3"
+     },
+     "summary": {
+      "S": "<p>As Holly and Max fight to escape Vecna's mind, El must find a way into Will's. Joyce wrestles with guilt. Jonathan and Nancy face a turning point.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#05#E#07"
+     },
+     "tvmaze_id": {
+      "N": "3046157"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "7"
+     },
+     "name": {
+      "S": "Chapter Seven: The Bridge"
+     },
+     "airdate": {
+      "S": "2025-12-25"
+     },
+     "runtime": {
+      "N": "66"
+     },
+     "rating": {
+      "N": "6.8"
+     },
+     "summary": {
+      "S": "<p>On the anniversary of Will's disappearance, the party reunites to prepare for a battle with world-altering implications.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#05#E#08"
+     },
+     "tvmaze_id": {
+      "N": "3046158"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "8"
+     },
+     "name": {
+      "S": "Chapter Eight: The Rightside Up"
+     },
+     "airdate": {
+      "S": "2025-12-31"
+     },
+     "runtime": {
+      "N": "128"
+     },
+     "rating": {
+      "N": "7.8"
+     },
+     "summary": {
+      "S": "<p>As Vecna prepares to destroy the world as we know it, the party must put everything on the line to defeat him once and for all.</p>"
+     }
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,904 @@
+{
+ "show": [
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#02#E#17"
+     },
+     "tvmaze_id": {
+      "N": "47662"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "17"
+     },
+     "name": {
+      "S": "Dwight's Speech"
+     },
+     "airdate": {
+      "S": "2006-03-02"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.3"
+     },
+     "summary": {
+      "S": "<p>Dwight has to make a big speech when he is named Salesmen of the Year.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#02#E#18"
+     },
+     "tvmaze_id": {
+      "N": "47663"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "18"
+     },
+     "name": {
+      "S": "Take Your Daughter to Work Day"
+     },
+     "airdate": {
+      "S": "2006-03-16"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.1"
+     },
+     "summary": {
+      "S": "<p>Staff members bring their children to work.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#02#E#19"
+     },
+     "tvmaze_id": {
+      "N": "47664"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "19"
+     },
+     "name": {
+      "S": "Michael's Birthday"
+     },
+     "airdate": {
+      "S": "2006-03-30"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.3"
+     },
+     "summary": {
+      "S": "<p>Michael's birthday coincides with Kevin awaiting the news to see if he has skin cancer.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#02#E#20"
+     },
+     "tvmaze_id": {
+      "N": "47665"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "20"
+     },
+     "name": {
+      "S": "Drug Testing"
+     },
+     "airdate": {
+      "S": "2006-04-27"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.2"
+     },
+     "summary": {
+      "S": "<p>After Dwight finds a joint in the office park, he goes overboard with an investigation.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#02#E#21"
+     },
+     "tvmaze_id": {
+      "N": "47666"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "21"
+     },
+     "name": {
+      "S": "Conflict Resolution"
+     },
+     "airdate": {
+      "S": "2006-05-04"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.4"
+     },
+     "summary": {
+      "S": "<p>Michael's attempt to resolve conflict resolution in the office just leads to more conflict.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#02#E#22"
+     },
+     "tvmaze_id": {
+      "N": "47667"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "22"
+     },
+     "name": {
+      "S": "Casino Night"
+     },
+     "airdate": {
+      "S": "2006-05-11"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "9.3"
+     },
+     "summary": {
+      "S": "<p>The office holds a casino night for charity in the warehouse.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#03#E#01"
+     },
+     "tvmaze_id": {
+      "N": "47668"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "1"
+     },
+     "name": {
+      "S": "Gay Witch Hunt"
+     },
+     "airdate": {
+      "S": "2006-09-21"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.7"
+     },
+     "summary": {
+      "S": "<p>Michael finds out that Oscar is gay after Oscar files a complaint when Michael uses a homosexual slur.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#03#E#02"
+     },
+     "tvmaze_id": {
+      "N": "47669"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "2"
+     },
+     "name": {
+      "S": "The Convention"
+     },
+     "airdate": {
+      "S": "2006-09-28"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.2"
+     },
+     "summary": {
+      "S": "<p>Michael and Dwight go to a convention that Jim is also attending; Pam goes on her first date after her engagement.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#03#E#03"
+     },
+     "tvmaze_id": {
+      "N": "47670"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "3"
+     },
+     "name": {
+      "S": "The Coup"
+     },
+     "airdate": {
+      "S": "2006-10-05"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.2"
+     },
+     "summary": {
+      "S": "<p>After Jan discovers Michael has been having \"movie Monday's\", Angela encourages Dwight to make a move for Michael's job.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#03#E#04"
+     },
+     "tvmaze_id": {
+      "N": "47671"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "4"
+     },
+     "name": {
+      "S": "Grief Counseling"
+     },
+     "airdate": {
+      "S": "2006-10-12"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>Michael organizes grief counseling sessions following the death of his old boss, Ed Truck.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#03#E#05"
+     },
+     "tvmaze_id": {
+      "N": "47672"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "5"
+     },
+     "name": {
+      "S": "Initiation"
+     },
+     "airdate": {
+      "S": "2006-10-19"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>Dwight initiates Ryan into his new job as a salesmen at Dunder Mifflin; Pam is tasked with keeping track of everything Michael does during the day by Jan.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#03#E#06"
+     },
+     "tvmaze_id": {
+      "N": "47673"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "6"
+     },
+     "name": {
+      "S": "Diwali"
+     },
+     "airdate": {
+      "S": "2006-11-02"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.1"
+     },
+     "summary": {
+      "S": "<p>Kelly invites the office staff to a Diwali celebration.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#03#E#07"
+     },
+     "tvmaze_id": {
+      "N": "47674"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "7"
+     },
+     "name": {
+      "S": "Branch Closing"
+     },
+     "airdate": {
+      "S": "2006-11-09"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.3"
+     },
+     "summary": {
+      "S": "<p>Jan gives Michael the news that the Scranton branch is closing.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#03#E#08"
+     },
+     "tvmaze_id": {
+      "N": "47675"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "8"
+     },
+     "name": {
+      "S": "The Merger"
+     },
+     "airdate": {
+      "S": "2006-11-16"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.4"
+     },
+     "summary": {
+      "S": "<p>Jim and other members of the Stamford branch have their first day at Scranton.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#03#E#09"
+     },
+     "tvmaze_id": {
+      "N": "47676"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "9"
+     },
+     "name": {
+      "S": "The Convict"
+     },
+     "airdate": {
+      "S": "2006-11-30"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8"
+     },
+     "summary": {
+      "S": "<p>The office discovers than one of the new Stamford people is a former convict.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#03#E#10"
+     },
+     "tvmaze_id": {
+      "N": "47677"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "10"
+     },
+     "name": {
+      "S": "A Benihana Christmas (1)"
+     },
+     "airdate": {
+      "S": "2006-12-14"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.4"
+     },
+     "summary": {
+      "S": "<p>Michael gets dumped by Carol; Pam and Karen start a rival party planning committee.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#03#E#11"
+     },
+     "tvmaze_id": {
+      "N": "47678"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "11"
+     },
+     "name": {
+      "S": "A Benihana Christmas (2)"
+     },
+     "airdate": {
+      "S": "2006-12-14"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.5"
+     },
+     "summary": {
+      "S": "<p>Michael gets dumped by Carol; Karen and Pam start a rival party planning committee.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#03#E#12"
+     },
+     "tvmaze_id": {
+      "N": "47679"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "12"
+     },
+     "name": {
+      "S": "Back from Vacation"
+     },
+     "airdate": {
+      "S": "2007-01-04"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.6"
+     },
+     "summary": {
+      "S": "<p>Michael returns from his vacation and accidentally sends a picture of Jan sunbathing to everyone in the office.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#03#E#13"
+     },
+     "tvmaze_id": {
+      "N": "47680"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "13"
+     },
+     "name": {
+      "S": "Traveling Salesmen"
+     },
+     "airdate": {
+      "S": "2007-01-11"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.1"
+     },
+     "summary": {
+      "S": "<p>Dwight does a favor for Angela that puts him in hot water with Michael; The sales team heads out on partner sales calls.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#03#E#14"
+     },
+     "tvmaze_id": {
+      "N": "47681"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "14"
+     },
+     "name": {
+      "S": "The Return"
+     },
+     "airdate": {
+      "S": "2007-01-18"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.3"
+     },
+     "summary": {
+      "S": "<p>Oscar returns to work; Dwight gets a job at Staples.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#03#E#15"
+     },
+     "tvmaze_id": {
+      "N": "47682"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "15"
+     },
+     "name": {
+      "S": "Ben Franklin"
+     },
+     "airdate": {
+      "S": "2007-02-01"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.3"
+     },
+     "summary": {
+      "S": "<p>The ladies of the office throw a bridal shower for Phyllis; Michael tries to throw a rival bachelor party for Bob.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#03#E#16"
+     },
+     "tvmaze_id": {
+      "N": "47683"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "16"
+     },
+     "name": {
+      "S": "Phyllis' Wedding"
+     },
+     "airdate": {
+      "S": "2007-02-08"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.3"
+     },
+     "summary": {
+      "S": "<p>Michael tries to expand his role at Phyllis' wedding; Pam realizes that Phyllis stole all of her ideas from her canceled wedding to Roy.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#03#E#17"
+     },
+     "tvmaze_id": {
+      "N": "47684"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "17"
+     },
+     "name": {
+      "S": "Business School"
+     },
+     "airdate": {
+      "S": "2007-02-15"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.5"
+     },
+     "summary": {
+      "S": "<p>Michael is a guest speaker at Ryan's business school class; A bat gets lose in the office; Pam has an art show that she invites the entire office too.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#03#E#18"
+     },
+     "tvmaze_id": {
+      "N": "47685"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "18"
+     },
+     "name": {
+      "S": "Cocktails"
+     },
+     "airdate": {
+      "S": "2007-02-22"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.5"
+     },
+     "summary": {
+      "S": "<p>David Wallace hosts a party at his host which Michael, Jan, Dwight, Jim and Karen attend; The rest of the office staff go out for Happy Hour.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#03#E#19"
+     },
+     "tvmaze_id": {
+      "N": "47686"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "19"
+     },
+     "name": {
+      "S": "The Negotiation"
+     },
+     "airdate": {
+      "S": "2007-04-05"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.5"
+     },
+     "summary": {
+      "S": "<p>Dwight saves Jim when Roy shows up at the office planning to hit him for kissing Pam; Darryl asks Michael for a raise which leads to Michael asking for a raise from Jan.</p>"
+     }
+    }
+   }
+  }
+ ]
+}

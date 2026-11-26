@@ -1,0 +1,904 @@
+{
+ "show": [
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#05#E#09"
+     },
+     "tvmaze_id": {
+      "N": "160040"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "9"
+     },
+     "name": {
+      "S": "The Dance of Dragons"
+     },
+     "airdate": {
+      "S": "2015-06-07"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>Stannis confronts a troubling decision. Jon returns to The Wall. Mace visits the Iron Bank. Arya encounters someone from her past. Dany reluctantly oversees a traditional celebration of athleticism.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#05#E#10"
+     },
+     "tvmaze_id": {
+      "N": "162186"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "10"
+     },
+     "name": {
+      "S": "Mother's Mercy"
+     },
+     "airdate": {
+      "S": "2015-06-14"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>Cersei seeks forgiveness; Jon faces a new challenge; Arya plots to cross a name off her list; Tyrion sees a familiar face; and Daenerys finds herself surrounded by strangers.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#06#E#01"
+     },
+     "tvmaze_id": {
+      "N": "560813"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "1"
+     },
+     "name": {
+      "S": "The Red Woman"
+     },
+     "airdate": {
+      "S": "2016-04-24"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.4"
+     },
+     "summary": {
+      "S": "<p>Jon Snow is dead. Daenerys meets a strong man. Cersei sees her daughter again.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#06#E#02"
+     },
+     "tvmaze_id": {
+      "N": "664672"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "2"
+     },
+     "name": {
+      "S": "Home"
+     },
+     "airdate": {
+      "S": "2016-05-01"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.8"
+     },
+     "summary": {
+      "S": "<p>Bran trains with the Three-Eyed Raven. In King's Landing, Jaime advises Tommen. Tyrion demands good news, but has to make his own. At Castle Black, the Night's Watch stands behind Thorne. Ramsay Bolton proposes a plan, and Balon Greyjoy entertains other proposals.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#06#E#03"
+     },
+     "tvmaze_id": {
+      "N": "664673"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "3"
+     },
+     "name": {
+      "S": "Oathbreaker"
+     },
+     "airdate": {
+      "S": "2016-05-08"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.4"
+     },
+     "summary": {
+      "S": "<p>Daenerys meets her future. Bran meets the past. Tommen confronts the High Sparrow. Arya trains to be No One. Varys finds an answer. Ramsay gets a gift.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#06#E#04"
+     },
+     "tvmaze_id": {
+      "N": "664674"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "4"
+     },
+     "name": {
+      "S": "Book of the Stranger"
+     },
+     "airdate": {
+      "S": "2016-05-15"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.8"
+     },
+     "summary": {
+      "S": "<p>Tyrion strikes a deal. Jorah and Daario undertake a difficult task. Jaime and Cersei try to improve their situation.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#06#E#05"
+     },
+     "tvmaze_id": {
+      "N": "664675"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "5"
+     },
+     "name": {
+      "S": "The Door"
+     },
+     "airdate": {
+      "S": "2016-05-22"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>Tyrion seeks a strange ally. Bran learns a great deal. Brienne goes on a mission. Arya is given a chance to prove herself.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#06#E#06"
+     },
+     "tvmaze_id": {
+      "N": "664676"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "6"
+     },
+     "name": {
+      "S": "Blood of My Blood"
+     },
+     "airdate": {
+      "S": "2016-05-29"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.5"
+     },
+     "summary": {
+      "S": "<p>An old foe comes back into the picture. Gilly meets Sam's family. Arya faces a difficult choice. Jaime faces off against the High Sparrow.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#06#E#07"
+     },
+     "tvmaze_id": {
+      "N": "717449"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "7"
+     },
+     "name": {
+      "S": "The Broken Man"
+     },
+     "airdate": {
+      "S": "2016-06-05"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.5"
+     },
+     "summary": {
+      "S": "<p>The High Sparrow eyes another target. Jaime confronts a hero. Arya makes a plan. The North is reminded.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#06#E#08"
+     },
+     "tvmaze_id": {
+      "N": "729573"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "8"
+     },
+     "name": {
+      "S": "No One"
+     },
+     "airdate": {
+      "S": "2016-06-12"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.2"
+     },
+     "summary": {
+      "S": "<p>Jaime encounters a hero; the High Sparrow fixates on another prey; Arya hatches a new plan; Yara and Theon plot their next move; Olenna and Cersei discuss their families' futures.</p><p>\u00a0</p><p>While Jaime weighs his options, Cersei answers a request. Tyrion's plans bear fruit. Arya faces a new test.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#06#E#09"
+     },
+     "tvmaze_id": {
+      "N": "729574"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "9"
+     },
+     "name": {
+      "S": "Battle of the Bastards"
+     },
+     "airdate": {
+      "S": "2016-06-19"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.4"
+     },
+     "summary": {
+      "S": "<p>Ramsay surprises his audience. Jon retaliates. Dany is true to her word.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#06#E#10"
+     },
+     "tvmaze_id": {
+      "N": "729575"
+     },
+     "season": {
+      "N": "6"
+     },
+     "number": {
+      "N": "10"
+     },
+     "name": {
+      "S": "The Winds of Winter"
+     },
+     "airdate": {
+      "S": "2016-06-26"
+     },
+     "runtime": {
+      "N": "69"
+     },
+     "rating": {
+      "N": "8.9"
+     },
+     "summary": {
+      "S": "<p>Alliances are made, the High Sparrow is holding trials at King's Landing, Daenerys is sailing for the Seven Kingdoms and a new King of the North is crowned.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#07#E#01"
+     },
+     "tvmaze_id": {
+      "N": "937256"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "1"
+     },
+     "name": {
+      "S": "Dragonstone"
+     },
+     "airdate": {
+      "S": "2017-07-16"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.3"
+     },
+     "summary": {
+      "S": "<p>Jon organizes the defense of the North. Cersei tries to even the odds. Daenerys comes home.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#07#E#02"
+     },
+     "tvmaze_id": {
+      "N": "1221410"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "2"
+     },
+     "name": {
+      "S": "Stormborn"
+     },
+     "airdate": {
+      "S": "2017-07-23"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.5"
+     },
+     "summary": {
+      "S": "<p>Daenerys receives an unexpected visitor. Jon faces a revolt. Tyrion plans the conquest of Westeros.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#07#E#03"
+     },
+     "tvmaze_id": {
+      "N": "1221411"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "3"
+     },
+     "name": {
+      "S": "The Queen's Justice"
+     },
+     "airdate": {
+      "S": "2017-07-30"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.7"
+     },
+     "summary": {
+      "S": "<p>Daenerys holds court. Cersei returns a gift. Jaime learns from his mistakes.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#07#E#04"
+     },
+     "tvmaze_id": {
+      "N": "1221412"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "4"
+     },
+     "name": {
+      "S": "The Spoils of War"
+     },
+     "airdate": {
+      "S": "2017-08-06"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.1"
+     },
+     "summary": {
+      "S": "<p>Arya gets to the final destination. Daenerys takes it upon herself to strike back.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#07#E#05"
+     },
+     "tvmaze_id": {
+      "N": "1221413"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "5"
+     },
+     "name": {
+      "S": "Eastwatch"
+     },
+     "airdate": {
+      "S": "2017-08-13"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.7"
+     },
+     "summary": {
+      "S": "<p>Daenerys demands loyalty from the surviving Lannister soldiers; Jon heeds Bran's warning about White Walkers on the move; Cersei vows to vanquish anyone or anything that stands in her way.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#07#E#06"
+     },
+     "tvmaze_id": {
+      "N": "1221414"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "6"
+     },
+     "name": {
+      "S": "Beyond the Wall"
+     },
+     "airdate": {
+      "S": "2017-08-20"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8"
+     },
+     "summary": {
+      "S": "<p>Jon's mission continues north of the wall, but the odds against his ragged band of misfits may be greater than he imagined.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#07#E#07"
+     },
+     "tvmaze_id": {
+      "N": "1221415"
+     },
+     "season": {
+      "N": "7"
+     },
+     "number": {
+      "N": "7"
+     },
+     "name": {
+      "S": "The Dragon and the Wolf"
+     },
+     "airdate": {
+      "S": "2017-08-27"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.1"
+     },
+     "summary": {
+      "S": "<p>Cersei sits on the Iron Throne; Daenerys sails across the Narrow Sea; Jon Snow is King in the North, and winter is finally here.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#08#E#01"
+     },
+     "tvmaze_id": {
+      "N": "1590943"
+     },
+     "season": {
+      "N": "8"
+     },
+     "number": {
+      "N": "1"
+     },
+     "name": {
+      "S": "Winterfell"
+     },
+     "airdate": {
+      "S": "2019-04-14"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7"
+     },
+     "summary": {
+      "S": "<p>Arriving at Winterfell, Jon and Daenerys struggle to unite a divided North. Jon gets some big news.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#08#E#02"
+     },
+     "tvmaze_id": {
+      "N": "1623964"
+     },
+     "season": {
+      "N": "8"
+     },
+     "number": {
+      "N": "2"
+     },
+     "name": {
+      "S": "A Knight of the Seven Kingdoms"
+     },
+     "airdate": {
+      "S": "2019-04-21"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7"
+     },
+     "summary": {
+      "S": "<p>Jaime faces judgement and Winterfell prepares for the battle to come.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#08#E#03"
+     },
+     "tvmaze_id": {
+      "N": "1623965"
+     },
+     "season": {
+      "N": "8"
+     },
+     "number": {
+      "N": "3"
+     },
+     "name": {
+      "S": "The Long Night"
+     },
+     "airdate": {
+      "S": "2019-04-28"
+     },
+     "runtime": {
+      "N": "90"
+     },
+     "rating": {
+      "N": "7.2"
+     },
+     "summary": {
+      "S": "<p>Winterfell fights the Army of the Dead.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#08#E#04"
+     },
+     "tvmaze_id": {
+      "N": "1623966"
+     },
+     "season": {
+      "N": "8"
+     },
+     "number": {
+      "N": "4"
+     },
+     "name": {
+      "S": "The Last of the Starks"
+     },
+     "airdate": {
+      "S": "2019-05-05"
+     },
+     "runtime": {
+      "N": "78"
+     },
+     "rating": {
+      "N": "6.1"
+     },
+     "summary": {
+      "S": "<p>The survivors plan their next steps; Cersei makes a power move.</p><p>\u00a0</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#08#E#05"
+     },
+     "tvmaze_id": {
+      "N": "1623967"
+     },
+     "season": {
+      "N": "8"
+     },
+     "number": {
+      "N": "5"
+     },
+     "name": {
+      "S": "The Bells"
+     },
+     "airdate": {
+      "S": "2019-05-12"
+     },
+     "runtime": {
+      "N": "79"
+     },
+     "rating": {
+      "N": "6.2"
+     },
+     "summary": {
+      "S": "<p>Varys betrays his queen, and Daenerys brings her forces to King's Landing.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#08#E#06"
+     },
+     "tvmaze_id": {
+      "N": "1623968"
+     },
+     "season": {
+      "N": "8"
+     },
+     "number": {
+      "N": "6"
+     },
+     "name": {
+      "S": "The Iron Throne"
+     },
+     "airdate": {
+      "S": "2019-05-19"
+     },
+     "runtime": {
+      "N": "80"
+     },
+     "rating": {
+      "N": "5.3"
+     },
+     "summary": {
+      "S": "<p>In the aftermath of the devastating attack on King's Landing, Daenerys must face the survivors.</p>"
+     }
+    }
+   }
+  }
+ ]
+}

@@ -33,8 +33,15 @@ infra.help = "Infra pipeline: function shells, roles, bucket, table"
 deploy.cmd = "scripts/deploy_code.sh get_show"
 deploy.help = "Code pipeline: build, upload and deploy function code"
 
-seed.cmd = "aws dynamodb batch-write-item --request-items file://scripts/seed_shows.json"
-seed.help = "Write the example TVMaze shows (scripts/seed_shows.json) to the table"
+seed.shell = """
+for f in scripts/seed/*.json; do
+  left=$(aws dynamodb batch-write-item --request-items "file://$f" \
+    --query 'length(keys(UnprocessedItems))' --output text)
+  [ "$left" = 0 ] || { echo "$f: unprocessed items left" >&2; exit 1; }
+done
+echo "seeded $(ls scripts/seed/*.json | wc -l) batches"
+"""
+seed.help = "Load the committed seed batches (scripts/seed/*.json, <=25 puts each) into the table"
 
 smoke.shell = """
 mkdir -p build

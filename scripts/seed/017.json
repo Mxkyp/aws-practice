@@ -1,0 +1,904 @@
+{
+ "show": [
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#02#E#07"
+     },
+     "tvmaze_id": {
+      "N": "909347"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "7"
+     },
+     "name": {
+      "S": "Chapter Seven: The Lost Sister"
+     },
+     "airdate": {
+      "S": "2017-10-27"
+     },
+     "runtime": {
+      "N": "46"
+     },
+     "rating": {
+      "N": "7.1"
+     },
+     "summary": {
+      "S": "<p>Psychic visions draw Eleven to a band of violent outcasts and an angry girl with a shadowy past.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#02#E#08"
+     },
+     "tvmaze_id": {
+      "N": "909348"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "8"
+     },
+     "name": {
+      "S": "Chapter Eight: The Mind Flayer"
+     },
+     "airdate": {
+      "S": "2017-10-27"
+     },
+     "runtime": {
+      "N": "48"
+     },
+     "rating": {
+      "N": "8.5"
+     },
+     "summary": {
+      "S": "<p>An unlikely hero steps forward when a deadly development puts the Hawkins Lab on lockdown, trapping Will and several others inside.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#02#E#09"
+     },
+     "tvmaze_id": {
+      "N": "909349"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "9"
+     },
+     "name": {
+      "S": "Chapter Nine: The Gate"
+     },
+     "airdate": {
+      "S": "2017-10-27"
+     },
+     "runtime": {
+      "N": "62"
+     },
+     "rating": {
+      "N": "8.5"
+     },
+     "summary": {
+      "S": "<p>Eleven makes plans to finish what she started while the survivors turn up the heat on the monstrous force that's holding Will hostage.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#03#E#01"
+     },
+     "tvmaze_id": {
+      "N": "1576469"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "1"
+     },
+     "name": {
+      "S": "Chapter One: Suzie, Do You Copy?"
+     },
+     "airdate": {
+      "S": "2019-07-04"
+     },
+     "runtime": {
+      "N": "51"
+     },
+     "rating": {
+      "N": "7.4"
+     },
+     "summary": {
+      "S": "<p>Summer brings new jobs and budding romance. But the mood shifts when Dustin's radio picks up a Russian broadcast, and Will senses something is wrong.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#03#E#02"
+     },
+     "tvmaze_id": {
+      "N": "1576470"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "2"
+     },
+     "name": {
+      "S": "Chapter Two: The Mall Rats"
+     },
+     "airdate": {
+      "S": "2019-07-04"
+     },
+     "runtime": {
+      "N": "50"
+     },
+     "rating": {
+      "N": "7.4"
+     },
+     "summary": {
+      "S": "<p>Nancy and Jonathan follow a lead, Steve and Robin sign on to a secret mission, and Max and Eleven go shopping. A rattled Billy has troubling visions.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#03#E#03"
+     },
+     "tvmaze_id": {
+      "N": "1576471"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "3"
+     },
+     "name": {
+      "S": "Chapter Three: The Case of the Missing Lifeguard"
+     },
+     "airdate": {
+      "S": "2019-07-04"
+     },
+     "runtime": {
+      "N": "50"
+     },
+     "rating": {
+      "N": "7.6"
+     },
+     "summary": {
+      "S": "<p>With El and Max looking for Billy, Will declares a day without girls. Steve and Dustin go on a stakeout, and Joyce and Hopper return to Hawkins Lab.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#03#E#04"
+     },
+     "tvmaze_id": {
+      "N": "1576472"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "4"
+     },
+     "name": {
+      "S": "Chapter Four: The Sauna Test"
+     },
+     "airdate": {
+      "S": "2019-07-04"
+     },
+     "runtime": {
+      "N": "53"
+     },
+     "rating": {
+      "N": "8"
+     },
+     "summary": {
+      "S": "<p>A code red brings the gang back together to face a frighteningly familiar evil. Karen urges Nancy to keep digging, and Robin finds a useful map.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#03#E#05"
+     },
+     "tvmaze_id": {
+      "N": "1576473"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "5"
+     },
+     "name": {
+      "S": "Chapter Five: The Flayed"
+     },
+     "airdate": {
+      "S": "2019-07-04"
+     },
+     "runtime": {
+      "N": "52"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>Strange surprises lurk inside an old farmhouse and deep beneath the Starcourt Mall. Meanwhile, the Mind Flayer is gathering strength.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#03#E#06"
+     },
+     "tvmaze_id": {
+      "N": "1576474"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "6"
+     },
+     "name": {
+      "S": "Chapter Six: E Pluribus Unum"
+     },
+     "airdate": {
+      "S": "2019-07-04"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.8"
+     },
+     "summary": {
+      "S": "<p>Dr. Alexei reveals what the Russians have been building, and Eleven sees where Billy has been. Dustin and Erica stage a daring rescue.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#03#E#07"
+     },
+     "tvmaze_id": {
+      "N": "1576475"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "7"
+     },
+     "name": {
+      "S": "Chapter Seven: The Bite"
+     },
+     "airdate": {
+      "S": "2019-07-04"
+     },
+     "runtime": {
+      "N": "55"
+     },
+     "rating": {
+      "N": "8"
+     },
+     "summary": {
+      "S": "<p>With time running out -- and an assassin close behind -- Hopper's crew races back to Hawkins, where El and the kids are preparing for war.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#03#E#08"
+     },
+     "tvmaze_id": {
+      "N": "1576476"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "8"
+     },
+     "name": {
+      "S": "Chapter Eight: The Battle of Starcourt"
+     },
+     "airdate": {
+      "S": "2019-07-04"
+     },
+     "runtime": {
+      "N": "78"
+     },
+     "rating": {
+      "N": "8.2"
+     },
+     "summary": {
+      "S": "<p>Terror reigns in the food court when the Mind Flayer comes to collect. But down below, in the dark, the future of the world is at stake.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#04#E#01"
+     },
+     "tvmaze_id": {
+      "N": "1752754"
+     },
+     "season": {
+      "N": "4"
+     },
+     "number": {
+      "N": "1"
+     },
+     "name": {
+      "S": "Chapter One: The Hellfire Club"
+     },
+     "airdate": {
+      "S": "2022-05-27"
+     },
+     "runtime": {
+      "N": "78"
+     },
+     "rating": {
+      "N": "7.8"
+     },
+     "summary": {
+      "S": "<p>El is bullied at school. Joyce opens a mysterious package. A scrappy player shakes up D&amp;D night.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#04#E#02"
+     },
+     "tvmaze_id": {
+      "N": "1949379"
+     },
+     "season": {
+      "N": "4"
+     },
+     "number": {
+      "N": "2"
+     },
+     "name": {
+      "S": "Chapter Two: Vecna's Curse"
+     },
+     "airdate": {
+      "S": "2022-05-27"
+     },
+     "runtime": {
+      "N": "77"
+     },
+     "rating": {
+      "N": "8.1"
+     },
+     "summary": {
+      "S": "<p>A plane brings Mike to California \u2014 and a dead body brings Hawkins to a halt. Nancy goes looking for leads. A shaken Eddie tells the gang what he saw.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#04#E#03"
+     },
+     "tvmaze_id": {
+      "N": "1949380"
+     },
+     "season": {
+      "N": "4"
+     },
+     "number": {
+      "N": "3"
+     },
+     "name": {
+      "S": "Chapter Three: The Monster and the Superhero"
+     },
+     "airdate": {
+      "S": "2022-05-27"
+     },
+     "runtime": {
+      "N": "63"
+     },
+     "rating": {
+      "N": "8"
+     },
+     "summary": {
+      "S": "<p>Murray and Joyce fly to Alaska, and El faces serious consequences. Robin and Nancy dig up dirt on Hawkins' demons. Dr. Owens delivers sobering news.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#04#E#04"
+     },
+     "tvmaze_id": {
+      "N": "2209851"
+     },
+     "season": {
+      "N": "4"
+     },
+     "number": {
+      "N": "4"
+     },
+     "name": {
+      "S": "Chapter Four: Dear Billy"
+     },
+     "airdate": {
+      "S": "2022-05-27"
+     },
+     "runtime": {
+      "N": "79"
+     },
+     "rating": {
+      "N": "8.4"
+     },
+     "summary": {
+      "S": "<p>Max is in grave danger... and running out of time. A patient at Pennhurst asylum has visitors. Elsewhere, in Russia, Hopper is hard at work.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#04#E#05"
+     },
+     "tvmaze_id": {
+      "N": "2209853"
+     },
+     "season": {
+      "N": "4"
+     },
+     "number": {
+      "N": "5"
+     },
+     "name": {
+      "S": "Chapter Five: The Nina Project"
+     },
+     "airdate": {
+      "S": "2022-05-27"
+     },
+     "runtime": {
+      "N": "75"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>Owens takes El to Nevada, where she's forced to confront her past, while the Hawkins kids comb a crumbling house for clues. Vecna claims another victim.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#04#E#06"
+     },
+     "tvmaze_id": {
+      "N": "2209854"
+     },
+     "season": {
+      "N": "4"
+     },
+     "number": {
+      "N": "6"
+     },
+     "name": {
+      "S": "Chapter Six: The Dive"
+     },
+     "airdate": {
+      "S": "2022-05-27"
+     },
+     "runtime": {
+      "N": "73"
+     },
+     "rating": {
+      "N": "8.1"
+     },
+     "summary": {
+      "S": "<p>Behind the Iron Curtain, a risky rescue mission gets underway. The California crew seeks help from a hacker. Steve takes one for the team.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#04#E#07"
+     },
+     "tvmaze_id": {
+      "N": "2209855"
+     },
+     "season": {
+      "N": "4"
+     },
+     "number": {
+      "N": "7"
+     },
+     "name": {
+      "S": "Chapter Seven: The Massacre at Hawkins Lab"
+     },
+     "airdate": {
+      "S": "2022-05-27"
+     },
+     "runtime": {
+      "N": "100"
+     },
+     "rating": {
+      "N": "8.4"
+     },
+     "summary": {
+      "S": "<p>As Hopper braces to battle a monster, Dustin dissects Vecna's motives \u2014 and decodes a message from beyond. El finds strength in a distant memory.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#04#E#08"
+     },
+     "tvmaze_id": {
+      "N": "2209856"
+     },
+     "season": {
+      "N": "4"
+     },
+     "number": {
+      "N": "8"
+     },
+     "name": {
+      "S": "Chapter Eight: Papa"
+     },
+     "airdate": {
+      "S": "2022-07-01"
+     },
+     "runtime": {
+      "N": "86"
+     },
+     "rating": {
+      "N": "8.1"
+     },
+     "summary": {
+      "S": "<p>Nancy has sobering visions, and El passes an important test. Back in Hawkins, the gang gathers supplies and prepares for battle.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#04#E#09"
+     },
+     "tvmaze_id": {
+      "N": "2209857"
+     },
+     "season": {
+      "N": "4"
+     },
+     "number": {
+      "N": "9"
+     },
+     "name": {
+      "S": "Chapter Nine: The Piggyback"
+     },
+     "airdate": {
+      "S": "2022-07-01"
+     },
+     "runtime": {
+      "N": "142"
+     },
+     "rating": {
+      "N": "8.2"
+     },
+     "summary": {
+      "S": "<p>With selfless hearts and a clash of metal, heroes fight from every corner of the battlefield to save Hawkins \u2014 and the world itself.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#05#E#01"
+     },
+     "tvmaze_id": {
+      "N": "2427134"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "1"
+     },
+     "name": {
+      "S": "Chapter One: The Crawl"
+     },
+     "airdate": {
+      "S": "2025-11-26"
+     },
+     "runtime": {
+      "N": "71"
+     },
+     "rating": {
+      "N": "7.5"
+     },
+     "summary": {
+      "S": "<p>November, 1987. The gang evades the military to scour the Upside Down for Vecna \u2014 but fails to notice a threat lurking closer to home.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#05#E#02"
+     },
+     "tvmaze_id": {
+      "N": "3046152"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "2"
+     },
+     "name": {
+      "S": "Chapter Two: The Vanishing of Holly Wheeler"
+     },
+     "airdate": {
+      "S": "2025-11-26"
+     },
+     "runtime": {
+      "N": "57"
+     },
+     "rating": {
+      "N": "7.5"
+     },
+     "summary": {
+      "S": "<p>After a vicious attack at the Wheeler home, Mike and Nancy confront the cost of secrecy, while El and Hopper embark on a rescue mission.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#05#E#03"
+     },
+     "tvmaze_id": {
+      "N": "3046153"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "3"
+     },
+     "name": {
+      "S": "Chapter Three: The Turnbow Trap"
+     },
+     "airdate": {
+      "S": "2025-11-26"
+     },
+     "runtime": {
+      "N": "69"
+     },
+     "rating": {
+      "N": "7.6"
+     },
+     "summary": {
+      "S": "<p>Will gains unique insight into Vecna's next move, giving the crew an opportunity to set a trap. Holly explores her new surroundings.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#05#E#04"
+     },
+     "tvmaze_id": {
+      "N": "3046154"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "4"
+     },
+     "name": {
+      "S": "Chapter Four: Sorcerer"
+     },
+     "airdate": {
+      "S": "2025-11-26"
+     },
+     "runtime": {
+      "N": "86"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>The military tightens its grip on the town. Mike, Lucas and Robin orchestrate a daring escape. El comes face-to-face with the enemy.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#05#E#05"
+     },
+     "tvmaze_id": {
+      "N": "3046155"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "5"
+     },
+     "name": {
+      "S": "Chapter Five: Shock Jock"
+     },
+     "airdate": {
+      "S": "2025-12-25"
+     },
+     "runtime": {
+      "N": "68"
+     },
+     "rating": {
+      "N": "7.4"
+     },
+     "summary": {
+      "S": "<p>The gang hatches an electrifying plan to reconnect Will to the hive mind. Tensions flare during a search of the Upside Down's Hawkins Lab.</p>"
+     }
+    }
+   }
+  }
+ ]
+}

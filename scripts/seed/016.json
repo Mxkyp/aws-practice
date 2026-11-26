@@ -1,0 +1,902 @@
+{
+ "show": [
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#09#E#21"
+     },
+     "tvmaze_id": {
+      "N": "47836"
+     },
+     "season": {
+      "N": "9"
+     },
+     "number": {
+      "N": "21"
+     },
+     "name": {
+      "S": "Livin' the Dream"
+     },
+     "airdate": {
+      "S": "2013-05-02"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8"
+     },
+     "summary": {
+      "S": "<p>Andy quits as regional manager to focus on his acting career; Jim dedicates more time at Dunder Mifflin to save his marriage.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#09#E#22"
+     },
+     "tvmaze_id": {
+      "N": "47837"
+     },
+     "season": {
+      "N": "9"
+     },
+     "number": {
+      "N": "22"
+     },
+     "name": {
+      "S": "A.A.R.M. (1)"
+     },
+     "airdate": {
+      "S": "2013-05-09"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.5"
+     },
+     "summary": {
+      "S": "<p>Andy auditions for a singing competition; Dwight hires an assistant to his assistant to the regional manager...himself; Kevin is jealous of Phillip.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#09#E#23"
+     },
+     "tvmaze_id": {
+      "N": "47838"
+     },
+     "season": {
+      "N": "9"
+     },
+     "number": {
+      "N": "23"
+     },
+     "name": {
+      "S": "A.A.R.M. (2)"
+     },
+     "airdate": {
+      "S": "2013-05-09"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "8.9"
+     },
+     "summary": {
+      "S": "<p>Andy auditions for a singing competition; Dwight hires an assistant to his assistant to the regional manager...himself; Kevin is jealous of Phillip</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#09#E#24"
+     },
+     "tvmaze_id": {
+      "N": "711197"
+     },
+     "season": {
+      "N": "9"
+     },
+     "number": {
+      "N": "24"
+     },
+     "name": {
+      "S": "Finale (1)"
+     },
+     "airdate": {
+      "S": "2013-05-16"
+     },
+     "runtime": {
+      "N": "30"
+     },
+     "rating": {
+      "N": "9.5"
+     },
+     "summary": {
+      "S": "<p>The office staff reunites for a panel discussion and Dwight and Angela's wedding.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#526"
+     },
+     "sk": {
+      "S": "S#09#E#25"
+     },
+     "tvmaze_id": {
+      "N": "711203"
+     },
+     "season": {
+      "N": "9"
+     },
+     "number": {
+      "N": "25"
+     },
+     "name": {
+      "S": "Finale (2)"
+     },
+     "airdate": {
+      "S": "2013-05-16"
+     },
+     "runtime": {
+      "N": "45"
+     },
+     "rating": {
+      "N": "9"
+     },
+     "summary": {
+      "S": "<p>The office staff reunites for a panel discussion and Dwight and Angela's wedding.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "META"
+     },
+     "tvmaze_id": {
+      "N": "2993"
+     },
+     "name": {
+      "S": "Stranger Things"
+     },
+     "slug": {
+      "S": "stranger-things"
+     },
+     "status": {
+      "S": "Ended"
+     },
+     "premiered": {
+      "S": "2016-07-15"
+     },
+     "ended": {
+      "S": "2025-12-31"
+     },
+     "genres": {
+      "L": [
+       {
+        "S": "Drama"
+       },
+       {
+        "S": "Horror"
+       },
+       {
+        "S": "Science-Fiction"
+       }
+      ]
+     },
+     "rating": {
+      "N": "8.4"
+     },
+     "summary": {
+      "S": "<p>When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "SEASON#01"
+     },
+     "tvmaze_id": {
+      "N": "9601"
+     },
+     "number": {
+      "N": "1"
+     },
+     "name": {
+      "S": "Stranger Things"
+     },
+     "episode_order": {
+      "N": "8"
+     },
+     "premiered": {
+      "S": "2016-07-15"
+     },
+     "ended": {
+      "S": "2016-07-15"
+     },
+     "summary": {
+      "S": "<p>When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "SEASON#02"
+     },
+     "tvmaze_id": {
+      "N": "52465"
+     },
+     "number": {
+      "N": "2"
+     },
+     "name": {
+      "S": "Stranger Things 2"
+     },
+     "episode_order": {
+      "N": "9"
+     },
+     "premiered": {
+      "S": "2017-10-27"
+     },
+     "ended": {
+      "S": "2017-10-27"
+     },
+     "summary": {
+      "S": "<p>A year after Will's return, everything seems back to normal\u2026 but a darkness lurks just beneath the surface, threatening all of Hawkins.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "SEASON#03"
+     },
+     "tvmaze_id": {
+      "N": "73742"
+     },
+     "number": {
+      "N": "3"
+     },
+     "name": {
+      "S": "Stranger Things 3"
+     },
+     "episode_order": {
+      "N": "8"
+     },
+     "premiered": {
+      "S": "2019-07-04"
+     },
+     "ended": {
+      "S": "2019-07-04"
+     },
+     "summary": {
+      "S": "<p>Budding romance. A brand-new mall. And rabid rats running toward danger. It's the summer of 1985 in Hawkins ... and one summer can change everything.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "SEASON#04"
+     },
+     "tvmaze_id": {
+      "N": "100928"
+     },
+     "number": {
+      "N": "4"
+     },
+     "name": {
+      "S": "Stranger Things 4"
+     },
+     "episode_order": {
+      "N": "9"
+     },
+     "premiered": {
+      "S": "2022-05-27"
+     },
+     "ended": {
+      "S": "2022-07-01"
+     },
+     "summary": {
+      "S": "<p>It's been six months since the Battle of Starcourt, which brought terror and destruction to Hawkins. Struggling with the aftermath, our group of friends are separated for the first time - and navigating the complexities of high school hasn't made things any easier. In this most vulnerable time, a new and horrifying supernatural threat surfaces, presenting a gruesome mystery that, if solved, might finally put an end to the horrors of the Upside Down.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "SEASON#05"
+     },
+     "tvmaze_id": {
+      "N": "137136"
+     },
+     "number": {
+      "N": "5"
+     },
+     "name": {
+      "S": "Stranger Things 5"
+     },
+     "episode_order": {
+      "N": "8"
+     },
+     "premiered": {
+      "S": "2025-11-26"
+     },
+     "ended": {
+      "S": "2025-12-31"
+     },
+     "summary": {
+      "S": "<p>The fall of 1987. Hawkins is scarred by the opening of the Rifts, and our heroes are united by a single goal: find and kill Vecna. But he has vanished \u2014 his whereabouts and plans unknown. Complicating their mission, the government has placed the town under military quarantine and intensified its hunt for Eleven, forcing her back into hiding. As the anniversary of Will's disappearance approaches, so does a heavy, familiar dread. The final battle is looming \u2014 and with it, a darkness more powerful and more deadly than anything they've faced before. To end this nightmare, they'll need everyone \u2014 the full party \u2014 standing together, one last time.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#01#E#01"
+     },
+     "tvmaze_id": {
+      "N": "553946"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "1"
+     },
+     "name": {
+      "S": "Chapter One: The Vanishing of Will Byers"
+     },
+     "airdate": {
+      "S": "2016-07-15"
+     },
+     "runtime": {
+      "N": "49"
+     },
+     "rating": {
+      "N": "8"
+     },
+     "summary": {
+      "S": "<p>On his way home from a friend's house, young Will sees something terrifying. Nearby, a sinister secret lurks in the depths of a government lab.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#01#E#02"
+     },
+     "tvmaze_id": {
+      "N": "578663"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "2"
+     },
+     "name": {
+      "S": "Chapter Two: The Weirdo on Maple Street"
+     },
+     "airdate": {
+      "S": "2016-07-15"
+     },
+     "runtime": {
+      "N": "56"
+     },
+     "rating": {
+      "N": "7.8"
+     },
+     "summary": {
+      "S": "<p>Lucas, Mike and Dustin try to talk to the girl they found in the woods. Hopper questions an anxious Joyce about an unsettling phone call.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#01#E#03"
+     },
+     "tvmaze_id": {
+      "N": "578664"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "3"
+     },
+     "name": {
+      "S": "Chapter Three: Holly, Jolly"
+     },
+     "airdate": {
+      "S": "2016-07-15"
+     },
+     "runtime": {
+      "N": "52"
+     },
+     "rating": {
+      "N": "8.3"
+     },
+     "summary": {
+      "S": "<p>An increasingly concerned Nancy looks for Barb and finds out what Jonathan's been up to. Joyce is convinced Will is trying to talk to her.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#01#E#04"
+     },
+     "tvmaze_id": {
+      "N": "578665"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "4"
+     },
+     "name": {
+      "S": "Chapter Four: The Body"
+     },
+     "airdate": {
+      "S": "2016-07-15"
+     },
+     "runtime": {
+      "N": "51"
+     },
+     "rating": {
+      "N": "8.3"
+     },
+     "summary": {
+      "S": "<p>Refusing to believe Will is dead, Joyce tries to connect with her son. The boys give Eleven a makeover. Nancy and Jonathan form an unlikely alliance.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#01#E#05"
+     },
+     "tvmaze_id": {
+      "N": "578666"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "5"
+     },
+     "name": {
+      "S": "Chapter Five: The Flea and the Acrobat"
+     },
+     "airdate": {
+      "S": "2016-07-15"
+     },
+     "runtime": {
+      "N": "53"
+     },
+     "rating": {
+      "N": "8.3"
+     },
+     "summary": {
+      "S": "<p>Hopper breaks into the lab while Nancy and Jonathan confront the force that took Will. The boys ask Mr. Clarke how to travel to another dimension.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#01#E#06"
+     },
+     "tvmaze_id": {
+      "N": "578667"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "6"
+     },
+     "name": {
+      "S": "Chapter Six: The Monster"
+     },
+     "airdate": {
+      "S": "2016-07-15"
+     },
+     "runtime": {
+      "N": "47"
+     },
+     "rating": {
+      "N": "8.5"
+     },
+     "summary": {
+      "S": "<p>A frantic Jonathan looks for Nancy in the darkness, but Steve's looking for her, too. Hopper and Joyce uncover the truth about the lab's experiments.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#01#E#07"
+     },
+     "tvmaze_id": {
+      "N": "578668"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "7"
+     },
+     "name": {
+      "S": "Chapter Seven: The Bathtub"
+     },
+     "airdate": {
+      "S": "2016-07-15"
+     },
+     "runtime": {
+      "N": "42"
+     },
+     "rating": {
+      "N": "8.4"
+     },
+     "summary": {
+      "S": "<p>Eleven struggles to reach Will, while Lucas warns that \"the bad men are coming.\" Nancy and Jonathan show the police what Jonathan caught on camera.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#01#E#08"
+     },
+     "tvmaze_id": {
+      "N": "578669"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "8"
+     },
+     "name": {
+      "S": "Chapter Eight: The Upside Down"
+     },
+     "airdate": {
+      "S": "2016-07-15"
+     },
+     "runtime": {
+      "N": "55"
+     },
+     "rating": {
+      "N": "8.6"
+     },
+     "summary": {
+      "S": "<p>Dr. Brenner holds Hopper and Joyce for questioning while the boys wait with Eleven in the gym. Back at Will's, Nancy and Jonathan prepare for battle.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#02#E#01"
+     },
+     "tvmaze_id": {
+      "N": "909340"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "1"
+     },
+     "name": {
+      "S": "Chapter One: MADMAX"
+     },
+     "airdate": {
+      "S": "2017-10-27"
+     },
+     "runtime": {
+      "N": "48"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>As the town preps for Halloween, a high-scoring rival shakes things up at the arcade, and a skeptical Hopper inspects a field of rotting pumpkins.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#02#E#02"
+     },
+     "tvmaze_id": {
+      "N": "909342"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "2"
+     },
+     "name": {
+      "S": "Chapter Two: Trick or Treat, Freak"
+     },
+     "airdate": {
+      "S": "2017-10-27"
+     },
+     "runtime": {
+      "N": "56"
+     },
+     "rating": {
+      "N": "8"
+     },
+     "summary": {
+      "S": "<p>After Will sees something terrible on trick-or-treat night, Mike wonders whether Eleven's still out there. Nancy wrestles with the truth about Barb.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#02#E#03"
+     },
+     "tvmaze_id": {
+      "N": "909343"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "3"
+     },
+     "name": {
+      "S": "Chapter Three: The Pollywog"
+     },
+     "airdate": {
+      "S": "2017-10-27"
+     },
+     "runtime": {
+      "N": "51"
+     },
+     "rating": {
+      "N": "8"
+     },
+     "summary": {
+      "S": "<p>Dustin adopts a strange new pet, and Eleven grows increasingly impatient. A well-meaning Bob urges Will to stand up to his fears.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#02#E#04"
+     },
+     "tvmaze_id": {
+      "N": "909344"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "4"
+     },
+     "name": {
+      "S": "Chapter Four: Will the Wise"
+     },
+     "airdate": {
+      "S": "2017-10-27"
+     },
+     "runtime": {
+      "N": "46"
+     },
+     "rating": {
+      "N": "8"
+     },
+     "summary": {
+      "S": "<p>An ailing Will opens up to Joyce -- with disturbing results. While Hopper digs for the truth, Eleven unearths a surprising discovery.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#02#E#05"
+     },
+     "tvmaze_id": {
+      "N": "909345"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "5"
+     },
+     "name": {
+      "S": "Chapter Five: Dig Dug"
+     },
+     "airdate": {
+      "S": "2017-10-27"
+     },
+     "runtime": {
+      "N": "58"
+     },
+     "rating": {
+      "N": "8.2"
+     },
+     "summary": {
+      "S": "<p>Nancy and Jonathan swap conspiracy theories with a new ally as Eleven searches for someone from her past. \"Bob the Brain\" tackles a difficult problem.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#2993"
+     },
+     "sk": {
+      "S": "S#02#E#06"
+     },
+     "tvmaze_id": {
+      "N": "909346"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "6"
+     },
+     "name": {
+      "S": "Chapter Six: The Spy"
+     },
+     "airdate": {
+      "S": "2017-10-27"
+     },
+     "runtime": {
+      "N": "52"
+     },
+     "rating": {
+      "N": "8.4"
+     },
+     "summary": {
+      "S": "<p>Will's connection to a shadowy evil grows stronger, but no one's quite sure how to stop it. Elsewhere, Dustin and Steve forge an unlikely bond.</p>"
+     }
+    }
+   }
+  }
+ ]
+}

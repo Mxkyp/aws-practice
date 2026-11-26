@@ -1,0 +1,904 @@
+{
+ "show": [
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#03#E#04"
+     },
+     "tvmaze_id": {
+      "N": "4975"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "4"
+     },
+     "name": {
+      "S": "And Now His Watch is Ended"
+     },
+     "airdate": {
+      "S": "2013-04-21"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.9"
+     },
+     "summary": {
+      "S": "<p>The Night's Watch takes stock. Varys meets his better. Arya is taken to the commander of the Brotherhood. Daenerys exchanges a chain for a Whip.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#03#E#05"
+     },
+     "tvmaze_id": {
+      "N": "4976"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "5"
+     },
+     "name": {
+      "S": "Kissed by Fire"
+     },
+     "airdate": {
+      "S": "2013-04-28"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.7"
+     },
+     "summary": {
+      "S": "<p>The Hound is judged by the gods; Jaime is judged by men. Jon proves himself; Robb is betrayed. Tyrion learns the cost of weddings.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#03#E#06"
+     },
+     "tvmaze_id": {
+      "N": "4977"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "6"
+     },
+     "name": {
+      "S": "The Climb"
+     },
+     "airdate": {
+      "S": "2013-05-05"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.3"
+     },
+     "summary": {
+      "S": "<p>Tywin plans strategic unions for the Lannisters. Melisandre visits the Riverlands. Robb weighs a compromise to repair his alliance with House Frey. Roose Bolton decides what to do with Jaime Lannister. Jon, Ygritte and the Wildlings face a daunting climb.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#03#E#07"
+     },
+     "tvmaze_id": {
+      "N": "4978"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "7"
+     },
+     "name": {
+      "S": "The Bear and the Maiden Fair"
+     },
+     "airdate": {
+      "S": "2013-05-12"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>Daenerys exchanges gifts with a slave lord outside Yunkai. As Sansa frets about her prospects, Shae chafes at Tyrion's new situation. Tywin counsels the king, and Melisandre reveals a secret to Gendry. Brienne faces a formidable foe in Harrenhal.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#03#E#08"
+     },
+     "tvmaze_id": {
+      "N": "4979"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "8"
+     },
+     "name": {
+      "S": "Second Sons"
+     },
+     "airdate": {
+      "S": "2013-05-19"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.6"
+     },
+     "summary": {
+      "S": "<p>King's Landing hosts a wedding, and Tyrion and Sansa spend the night together. Daenerys meets the Titan's Bastard. Davos demands proof from Melisandre. Sam and Gilly meet an older Gentleman.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#03#E#09"
+     },
+     "tvmaze_id": {
+      "N": "4980"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "9"
+     },
+     "name": {
+      "S": "The Rains of Castamere"
+     },
+     "airdate": {
+      "S": "2013-06-02"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "9.1"
+     },
+     "summary": {
+      "S": "<p>Robb presents himself to Walder Frey, and Edmure meets his bride. Jon faces his harshest test yet. Bran discovers a new gift. Daario and Jorah debate how to take Yunkai. House Frey joins with House Tully.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#03#E#10"
+     },
+     "tvmaze_id": {
+      "N": "4981"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "10"
+     },
+     "name": {
+      "S": "Mhysa"
+     },
+     "airdate": {
+      "S": "2013-06-09"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8"
+     },
+     "summary": {
+      "S": "<p>Joffrey challenges Tywin. Bran tells a ghost story. In Dragonstone, mercy comes from strange quarters. Daenerys waits to see if she is a conqueror or a liberator.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#04#E#01"
+     },
+     "tvmaze_id": {
+      "N": "4982"
+     },
+     "season": {
+      "N": "4"
+     },
+     "number": {
+      "N": "1"
+     },
+     "name": {
+      "S": "Two Swords"
+     },
+     "airdate": {
+      "S": "2014-04-06"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.2"
+     },
+     "summary": {
+      "S": "<p>Tyrion welcomes a guest to King's Landing. At Castle Black, Jon Snow finds himself unwelcome. Dany is pointed to Meereen, the mother of all slave cities. Arya runs into an old friend.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#04#E#02"
+     },
+     "tvmaze_id": {
+      "N": "4983"
+     },
+     "season": {
+      "N": "4"
+     },
+     "number": {
+      "N": "2"
+     },
+     "name": {
+      "S": "The Lion and the Rose"
+     },
+     "airdate": {
+      "S": "2014-04-13"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "9"
+     },
+     "summary": {
+      "S": "<p>Tyrion lends Jaime a hand. Joffrey and Margaery host a breakfast. At Dragonstone, Stannis loses patience with Davos. Ramsay finds a purpose for his pet. North of the Wall, Bran sees where they must go.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#04#E#03"
+     },
+     "tvmaze_id": {
+      "N": "4984"
+     },
+     "season": {
+      "N": "4"
+     },
+     "number": {
+      "N": "3"
+     },
+     "name": {
+      "S": "Breaker of Chains"
+     },
+     "airdate": {
+      "S": "2014-04-20"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>Tyrion ponders his options. Tywin extends an olive branch. Sam realizes Castle Black isn't safe, and Jon proposes a bold plan. The Hound teaches Arya the way things are. Dany chooses her Champion.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#04#E#04"
+     },
+     "tvmaze_id": {
+      "N": "4985"
+     },
+     "season": {
+      "N": "4"
+     },
+     "number": {
+      "N": "4"
+     },
+     "name": {
+      "S": "Oathkeeper"
+     },
+     "airdate": {
+      "S": "2014-04-27"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>Dany balances justice and mercy. Jaime tasks Brienne with his honor. Jon secures volunteers while Bran, Jojen, Meera and Hodor stumble on shelter.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#04#E#05"
+     },
+     "tvmaze_id": {
+      "N": "4986"
+     },
+     "season": {
+      "N": "4"
+     },
+     "number": {
+      "N": "5"
+     },
+     "name": {
+      "S": "First of His Name"
+     },
+     "airdate": {
+      "S": "2014-05-04"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.8"
+     },
+     "summary": {
+      "S": "<p>Cersei and Tywin plot the Crown's next move. Dany discusses future plans. Jon embarks on a new mission.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#04#E#06"
+     },
+     "tvmaze_id": {
+      "N": "4987"
+     },
+     "season": {
+      "N": "4"
+     },
+     "number": {
+      "N": "6"
+     },
+     "name": {
+      "S": "The Laws of Gods and Men"
+     },
+     "airdate": {
+      "S": "2014-05-11"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.4"
+     },
+     "summary": {
+      "S": "<p>Stannis and Davos set sail with a new strategy. Dany meets with supplicants. Tyrion faces down his father in the throne room.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#04#E#07"
+     },
+     "tvmaze_id": {
+      "N": "4988"
+     },
+     "season": {
+      "N": "4"
+     },
+     "number": {
+      "N": "7"
+     },
+     "name": {
+      "S": "Mockingbird"
+     },
+     "airdate": {
+      "S": "2014-05-18"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.2"
+     },
+     "summary": {
+      "S": "<p>Tyrion enlists an unlikely ally. Daario entreats Dany to allow him to do what he does best. Jon's warnings about the Wall's vulnerability fall on deaf ears. Brienne follows a new lead on the road with Pod.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#04#E#08"
+     },
+     "tvmaze_id": {
+      "N": "4989"
+     },
+     "season": {
+      "N": "4"
+     },
+     "number": {
+      "N": "8"
+     },
+     "name": {
+      "S": "The Mountain and the Viper"
+     },
+     "airdate": {
+      "S": "2014-06-01"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.8"
+     },
+     "summary": {
+      "S": "<p>Mole's Town receives unexpected visitors. Littlefinger's motives are questioned. Ramsay attempts to prove himself to his father. Tyrion's fate is decided.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#04#E#09"
+     },
+     "tvmaze_id": {
+      "N": "4990"
+     },
+     "season": {
+      "N": "4"
+     },
+     "number": {
+      "N": "9"
+     },
+     "name": {
+      "S": "The Watchers on the Wall"
+     },
+     "airdate": {
+      "S": "2014-06-08"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.7"
+     },
+     "summary": {
+      "S": "<p>Jon Snow and the rest of the Night's Watch face the biggest challenge to the Wall yet.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#04#E#10"
+     },
+     "tvmaze_id": {
+      "N": "4991"
+     },
+     "season": {
+      "N": "4"
+     },
+     "number": {
+      "N": "10"
+     },
+     "name": {
+      "S": "The Children"
+     },
+     "airdate": {
+      "S": "2014-06-15"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.3"
+     },
+     "summary": {
+      "S": "<p>An unexpected arrival north of the Wall changes circumstances. Dany is forced to face harsh realities. Bran learns more of his destiny. Tyrion sees the truth of his situation.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#05#E#01"
+     },
+     "tvmaze_id": {
+      "N": "116522"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "1"
+     },
+     "name": {
+      "S": "The Wars to Come"
+     },
+     "airdate": {
+      "S": "2015-04-12"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.6"
+     },
+     "summary": {
+      "S": "<p>Varys discusses a conspiracy with Tyrion; Daenerys' rule faces a new threat; Jon finds himself between two kings; and Cersei and Jaime try to move on from Tywin's demise.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#05#E#02"
+     },
+     "tvmaze_id": {
+      "N": "144328"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "2"
+     },
+     "name": {
+      "S": "The House of Black and White"
+     },
+     "airdate": {
+      "S": "2015-04-19"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.6"
+     },
+     "summary": {
+      "S": "<p>Arya arrives in Braavos; Brienne and Podrick find danger while traveling; Cersei worries about Myrcella in Dorne when Ellaria Sand seeks revenge for Oberyn's death; Jon is tempted by Stannis.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#05#E#03"
+     },
+     "tvmaze_id": {
+      "N": "144329"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "3"
+     },
+     "name": {
+      "S": "High Sparrow"
+     },
+     "airdate": {
+      "S": "2015-04-26"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.6"
+     },
+     "summary": {
+      "S": "<p>Cersei meets the High Sparrow after learning of a clergyman's embarrassing tale. Meanwhile, Davos talks to Jon about the future of Winterfell, where Ramsay Snow has just learned the identity of his future bride; Arya grows impatient doing menial tasks in the House of Black and White; and Tyrion searches for more comfortable surroundings on a long trip with Varys.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#05#E#04"
+     },
+     "tvmaze_id": {
+      "N": "144330"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "4"
+     },
+     "name": {
+      "S": "Sons of the Harpy"
+     },
+     "airdate": {
+      "S": "2015-05-03"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.4"
+     },
+     "summary": {
+      "S": "<p>The Faith Militant grow increasingly aggressive. Jaime and Bronn head south. Ellaria and the Sand Snakes vow vengeance.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#05#E#05"
+     },
+     "tvmaze_id": {
+      "N": "151777"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "5"
+     },
+     "name": {
+      "S": "Kill the Boy"
+     },
+     "airdate": {
+      "S": "2015-05-10"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.6"
+     },
+     "summary": {
+      "S": "<p>Dany makes a difficult decision in Meereen. Jon recruits the help of an unexpected ally. Brienne searches for Sansa. Theon remains under Ramsay's control.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#05#E#06"
+     },
+     "tvmaze_id": {
+      "N": "152766"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "6"
+     },
+     "name": {
+      "S": "Unbowed, Unbent, Unbroken"
+     },
+     "airdate": {
+      "S": "2015-05-17"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7"
+     },
+     "summary": {
+      "S": "<p>Arya trains. Jorah and Tyrion run into slavers. Trystane and Myrcella make plans. Jaime and Bronn reach their destination. The Sand Snakes attack.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#05#E#07"
+     },
+     "tvmaze_id": {
+      "N": "153327"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "7"
+     },
+     "name": {
+      "S": "The Gift"
+     },
+     "airdate": {
+      "S": "2015-05-24"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8"
+     },
+     "summary": {
+      "S": "<p>Jon prepares for conflict. Sansa tries to talk to Theon. Brienne waits for a sign. Stannis remains stubborn. Jaime attempts to reconnect with family.</p><p><br /><br />\u00a0</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#05#E#08"
+     },
+     "tvmaze_id": {
+      "N": "155299"
+     },
+     "season": {
+      "N": "5"
+     },
+     "number": {
+      "N": "8"
+     },
+     "name": {
+      "S": "Hardhome"
+     },
+     "airdate": {
+      "S": "2015-05-31"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.8"
+     },
+     "summary": {
+      "S": "<p>Arya makes progress in her training. Sansa confronts an old friend. Cersei struggles. Jon travels.</p><p><br /><br />\u00a0</p>"
+     }
+    }
+   }
+  }
+ ]
+}

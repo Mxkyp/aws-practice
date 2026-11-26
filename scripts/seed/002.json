@@ -1,0 +1,889 @@
+{
+ "show": [
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "SEASON#07"
+     },
+     "tvmaze_id": {
+      "N": "43194"
+     },
+     "number": {
+      "N": "7"
+     },
+     "episode_order": {
+      "N": "7"
+     },
+     "premiered": {
+      "S": "2017-07-16"
+     },
+     "ended": {
+      "S": "2017-08-27"
+     },
+     "summary": {
+      "S": "<p>The long winter is here. Throughout seven thrilling episodes, the penultimate Season 7 of this blockbuster hit series focuses on a convergence of armies and attitudes that have been brewing for years.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "SEASON#08"
+     },
+     "tvmaze_id": {
+      "N": "63232"
+     },
+     "number": {
+      "N": "8"
+     },
+     "episode_order": {
+      "N": "6"
+     },
+     "premiered": {
+      "S": "2019-04-14"
+     },
+     "ended": {
+      "S": "2019-05-19"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#01#E#01"
+     },
+     "tvmaze_id": {
+      "N": "4952"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "1"
+     },
+     "name": {
+      "S": "Winter is Coming"
+     },
+     "airdate": {
+      "S": "2011-04-17"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.2"
+     },
+     "summary": {
+      "S": "<p>Lord Eddard Stark, ruler of the North, is summoned to court by his old friend, King Robert Baratheon, to serve as the King's Hand. Eddard reluctantly agrees after learning of a possible threat to the King's life. Eddard's bastard son Jon Snow must make a painful decision about his own future, while in the distant east Viserys Targaryen plots to reclaim his father's throne, usurped by Robert, by selling his sister in marriage.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#01#E#02"
+     },
+     "tvmaze_id": {
+      "N": "4953"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "2"
+     },
+     "name": {
+      "S": "The Kingsroad"
+     },
+     "airdate": {
+      "S": "2011-04-24"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.2"
+     },
+     "summary": {
+      "S": "<p>An incident on the Kingsroad threatens Eddard and Robert's friendship. Jon and Tyrion travel to the Wall, where they discover that the reality of the Night's Watch may not match the heroic image of it.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#01#E#03"
+     },
+     "tvmaze_id": {
+      "N": "4954"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "3"
+     },
+     "name": {
+      "S": "Lord Snow"
+     },
+     "airdate": {
+      "S": "2011-05-01"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8"
+     },
+     "summary": {
+      "S": "<p>Jon Snow attempts to find his place amongst the Night's Watch. Eddard and his daughters arrive at King's Landing.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#01#E#04"
+     },
+     "tvmaze_id": {
+      "N": "4955"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "4"
+     },
+     "name": {
+      "S": "Cripples, Bastards, and Broken Things"
+     },
+     "airdate": {
+      "S": "2011-05-08"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.2"
+     },
+     "summary": {
+      "S": "<p>Tyrion stops at Winterfell on his way home and gets a frosty reception from Robb Stark. Eddard's investigation into the death of his predecessor gets underway.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#01#E#05"
+     },
+     "tvmaze_id": {
+      "N": "4956"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "5"
+     },
+     "name": {
+      "S": "The Wolf and the Lion"
+     },
+     "airdate": {
+      "S": "2011-05-15"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.5"
+     },
+     "summary": {
+      "S": "<p>Catelyn's actions on the road have repercussions for Eddard. Tyrion enjoys the dubious hospitality of the Eyrie.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#01#E#06"
+     },
+     "tvmaze_id": {
+      "N": "4957"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "6"
+     },
+     "name": {
+      "S": "A Golden Crown"
+     },
+     "airdate": {
+      "S": "2011-05-22"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.6"
+     },
+     "summary": {
+      "S": "<p>Viserys is increasingly frustrated by the lack of progress towards gaining his crown.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#01#E#07"
+     },
+     "tvmaze_id": {
+      "N": "4958"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "7"
+     },
+     "name": {
+      "S": "You Win or You Die"
+     },
+     "airdate": {
+      "S": "2011-05-29"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.8"
+     },
+     "summary": {
+      "S": "<p>Eddard's investigations in King's Landing reach a climax and a dark secret is revealed.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#01#E#08"
+     },
+     "tvmaze_id": {
+      "N": "4959"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "8"
+     },
+     "name": {
+      "S": "The Pointy End"
+     },
+     "airdate": {
+      "S": "2011-06-05"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.2"
+     },
+     "summary": {
+      "S": "<p>Tyrion joins his father's army with unexpected allies. Events in King's Landing take a turn for the worse as Arya's lessons are put to the test.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#01#E#09"
+     },
+     "tvmaze_id": {
+      "N": "4960"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "9"
+     },
+     "name": {
+      "S": "Baelor"
+     },
+     "airdate": {
+      "S": "2011-06-12"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.9"
+     },
+     "summary": {
+      "S": "<p>Catelyn must negotiate with the irascible Lord Walder Frey.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#01#E#10"
+     },
+     "tvmaze_id": {
+      "N": "4961"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "10"
+     },
+     "name": {
+      "S": "Fire and Blood"
+     },
+     "airdate": {
+      "S": "2011-06-19"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.9"
+     },
+     "summary": {
+      "S": "<p>Daenerys must realize her destiny. Jaime finds himself in an unfamiliar predicament.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#02#E#01"
+     },
+     "tvmaze_id": {
+      "N": "4962"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "1"
+     },
+     "name": {
+      "S": "The North Remembers"
+     },
+     "airdate": {
+      "S": "2012-04-01"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.2"
+     },
+     "summary": {
+      "S": "<p>War grips the continent of Westeros. As Tyrion Lannister tries to take his strong-willed nephew in hand in King's Landing, Stannis Baratheon launches his own campaign to take the Iron Throne with the help of a mysterious priestess. In the east, Daenerys must lead her retinue through a desolate wasteland whilst beyond the Wall the Night's Watch seeks the aid of a wildling.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#02#E#02"
+     },
+     "tvmaze_id": {
+      "N": "4963"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "2"
+     },
+     "name": {
+      "S": "The Night Lands"
+     },
+     "airdate": {
+      "S": "2012-04-08"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.8"
+     },
+     "summary": {
+      "S": "<p>Stannis uses Ser Davos to seek out new allies for his war with the Lannisters. On the road north, Arya confides in Gendry. Robb Stark sends Theon Greyjoy to win an alliance with his father and the fierce warriors of the Iron Islands. Cersei and Tyrion clash on how to rule in King's Landing.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#02#E#03"
+     },
+     "tvmaze_id": {
+      "N": "4964"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "3"
+     },
+     "name": {
+      "S": "What is Dead May Never Die"
+     },
+     "airdate": {
+      "S": "2012-04-15"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.2"
+     },
+     "summary": {
+      "S": "<p>Catelyn Stark treats with King Renly in the hope of winning an alliance. Tyrion undertakes a complex plan in King's Landing to expose an enemy. At Winterfell, Bran's dreams continue to trouble him.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#02#E#04"
+     },
+     "tvmaze_id": {
+      "N": "4965"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "4"
+     },
+     "name": {
+      "S": "Garden of Bones"
+     },
+     "airdate": {
+      "S": "2012-04-22"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.2"
+     },
+     "summary": {
+      "S": "<p>Tyrion attempts to restrain Joffrey's cruelty. Catelyn attempts to broker a peace between Stannis and Renly. Daenerys and her followers arrive at the great city of Qarth and hope to find refuge there. Arya and Gendry arrive at Harrenhal, a great castle now under Lannister occupation.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#02#E#05"
+     },
+     "tvmaze_id": {
+      "N": "4966"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "5"
+     },
+     "name": {
+      "S": "The Ghost of Harrenhal"
+     },
+     "airdate": {
+      "S": "2012-04-29"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>Confusion rages in the Stormlands in the wake of a devastating reversal. Catelyn must flee with a new ally, whilst Littlefinger sees an opportunity in the chaos. Theon seeks to prove himself to his father in battle. Arya receives a promise from the enigmatic Jaqen H'ghar. The Night's Watch arrives at the Fist of the First Men. Daenerys Targaryen receives a marriage proposal.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#02#E#06"
+     },
+     "tvmaze_id": {
+      "N": "4967"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "6"
+     },
+     "name": {
+      "S": "The Old Gods and the New"
+     },
+     "airdate": {
+      "S": "2012-05-06"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.8"
+     },
+     "summary": {
+      "S": "<p>Arya has a surprise visitor; Dany vows to take what is hers; Joffrey meets his subjects; Qhorin gives Jon a chance to prove himself.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#02#E#07"
+     },
+     "tvmaze_id": {
+      "N": "4968"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "7"
+     },
+     "name": {
+      "S": "A Man Without Honor"
+     },
+     "airdate": {
+      "S": "2012-05-13"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.2"
+     },
+     "summary": {
+      "S": "<p>Jaime meets a relative; Theon hunts; Dany receives an invitation.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#02#E#08"
+     },
+     "tvmaze_id": {
+      "N": "4969"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "8"
+     },
+     "name": {
+      "S": "The Prince of Winterfell"
+     },
+     "airdate": {
+      "S": "2012-05-20"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.3"
+     },
+     "summary": {
+      "S": "<p>Theon holds the fort; Arya calls in her debt with Jaqen; Robb is betrayed; Stannis and Davos approach their destination.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#02#E#09"
+     },
+     "tvmaze_id": {
+      "N": "4970"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "9"
+     },
+     "name": {
+      "S": "Blackwater"
+     },
+     "airdate": {
+      "S": "2012-05-27"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "9.2"
+     },
+     "summary": {
+      "S": "<p>A massive battle rages for control of King's Landing and the Iron Throne.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#02#E#10"
+     },
+     "tvmaze_id": {
+      "N": "4971"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "10"
+     },
+     "name": {
+      "S": "Valar Morghulis"
+     },
+     "airdate": {
+      "S": "2012-06-03"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "9"
+     },
+     "summary": {
+      "S": "<p>Tyrion awakens to a changed situation. King Joffrey doles out rewards to his subjects. As Theon stirs his men to action, Luwin offers some final advice. Brienne silences Jaime; Arya receives a gift from Jaqen; Dany goes to a strange place; Jon proves himself to Qhorin.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#03#E#01"
+     },
+     "tvmaze_id": {
+      "N": "4972"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "1"
+     },
+     "name": {
+      "S": "Valar Dohaeris"
+     },
+     "airdate": {
+      "S": "2013-03-31"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>\u00a0</p><p>Jon is brought before Mance Rayder, the King Beyond the Wall, while the Night's Watch survivors retreat south. In King's Landing, Tyrion asks for his reward. Littlefinger offers Sansa a way out. Cersei hosts a dinner for the royal family. Daenerys sails into Slaver's Bay.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#03#E#02"
+     },
+     "tvmaze_id": {
+      "N": "4973"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "2"
+     },
+     "name": {
+      "S": "Dark Wings, Dark Words"
+     },
+     "airdate": {
+      "S": "2013-04-07"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>Sansa says too much. Shae asks Tyrion for a favor. Jaime finds a way to pass the time. Arya runs into the Brotherhood Without Banners.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#82"
+     },
+     "sk": {
+      "S": "S#03#E#03"
+     },
+     "tvmaze_id": {
+      "N": "4974"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "3"
+     },
+     "name": {
+      "S": "Walk of Punishment"
+     },
+     "airdate": {
+      "S": "2013-04-14"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.3"
+     },
+     "summary": {
+      "S": "<p>Tyrion shoulders new responsibilities. Jon is taken to the Fist of the First Men. Daenerys meets with the slavers. Jaime strikes a deal with his captors.</p>"
+     }
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,904 @@
+{
+ "show": [
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#02#E#13"
+     },
+     "tvmaze_id": {
+      "N": "12211"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "13"
+     },
+     "name": {
+      "S": "ABQ"
+     },
+     "airdate": {
+      "S": "2009-05-31"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.3"
+     },
+     "summary": {
+      "S": "<p>In the Season 2 finale, Skyler's frustration with Walt's secrecy boils over; Jesse is dealt a devastating blow that leads him down a path of self-destruction, and only Walt is willing to help him; and a grief-stricken Donald experiences more tragedy.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#03#E#01"
+     },
+     "tvmaze_id": {
+      "N": "12212"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "1"
+     },
+     "name": {
+      "S": "No M\u00e1s"
+     },
+     "airdate": {
+      "S": "2010-03-21"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.8"
+     },
+     "summary": {
+      "S": "<p>In the third-season premiere, Walt faces a new threat on a new front and deals with an increasingly angry Skyler, who must consider what to do next with her life and the kids'. Meanwhile, Jesse comes face-to-face with some startling self-revelations.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#03#E#02"
+     },
+     "tvmaze_id": {
+      "N": "12213"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "2"
+     },
+     "name": {
+      "S": "Caballo sin Nombre"
+     },
+     "airdate": {
+      "S": "2010-03-28"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8"
+     },
+     "summary": {
+      "S": "<p>Despite ever-increasing tension between Walt and Skyler, he pulls out all the stops in an effort to reconcile with the family. Elsewhere, Saul is instrumental in getting Jesse involved in a most-unusual investment opportunity.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#03#E#03"
+     },
+     "tvmaze_id": {
+      "N": "12214"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "3"
+     },
+     "name": {
+      "S": "I.F.T."
+     },
+     "airdate": {
+      "S": "2010-04-04"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>Walt disregards Skyler's demands and the rift between them widens dramatically, pushing her to take even more drastic steps. Meanwhile, continuing anxiety and panic attacks plague Hank, which leads to a serious situation at the Drug Enforcement Agency.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#03#E#04"
+     },
+     "tvmaze_id": {
+      "N": "12215"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "4"
+     },
+     "name": {
+      "S": "Green Light"
+     },
+     "airdate": {
+      "S": "2010-04-11"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>Skyler's latest bit of bad news proves to be a blow to Walt, and his loss of control endangers his job and his business relationships with Saul and Jesse. Hank goes full-speed ahead into the agency's investigation of the blue-meth case, while Jesse cooks up a new plan.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#03#E#05"
+     },
+     "tvmaze_id": {
+      "N": "12216"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "5"
+     },
+     "name": {
+      "S": "M\u00e1s"
+     },
+     "airdate": {
+      "S": "2010-04-18"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.1"
+     },
+     "summary": {
+      "S": "<p>When Gus intensifies efforts to persuade Walt to get back in the meth business, Jesse takes exception and a rift appears in his and Walt's personal relationship. Meanwhile, Skyler's new relationship isn't turning out as she'd like; and Marie tells Skyler about her concerns for the increasingly troubled Hank and his well-being.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#03#E#06"
+     },
+     "tvmaze_id": {
+      "N": "12217"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "6"
+     },
+     "name": {
+      "S": "Sunset"
+     },
+     "airdate": {
+      "S": "2010-04-25"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.8"
+     },
+     "summary": {
+      "S": "<p>Walt moves into new digs and a distraught Walter Jr. demands to know just where his parents' relationship stands. Meanwhile, Hank's investigation is beginning to hit too close to home for Walt, causing serious concerns for him and Jesse.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#03#E#07"
+     },
+     "tvmaze_id": {
+      "N": "12218"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "7"
+     },
+     "name": {
+      "S": "One Minute"
+     },
+     "airdate": {
+      "S": "2010-05-02"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "9.2"
+     },
+     "summary": {
+      "S": "<p>Hank's behavior becomes increasingly more unpredictable and volatile, which leads to a confrontation with Jesse and problems at the DEA; Skyler wants Walt to make a deal; and Gus' decisions result in some serious consequences.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#03#E#08"
+     },
+     "tvmaze_id": {
+      "N": "12219"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "8"
+     },
+     "name": {
+      "S": "I See You"
+     },
+     "airdate": {
+      "S": "2010-05-09"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>The White and Schrader families anxiously await word on Hank's condition. Meanwhile, Jesse takes care of business at the lab while Walt tries to make peace with Gus, but after witnessing a terrifying flash of anger, Walt starts to fear for his and his family's lives.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#03#E#09"
+     },
+     "tvmaze_id": {
+      "N": "12220"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "9"
+     },
+     "name": {
+      "S": "Kafkaesque"
+     },
+     "airdate": {
+      "S": "2010-05-16"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>Hank's stay in the hospital is accompanied by some daunting bills, but Skyler thinks she has a way of dealing with them. Meanwhile, some of the problems between Walt and Gus are ameliorated; and Jesse seeks more independence and grabs a profitable opportunity that presents itself.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#03#E#10"
+     },
+     "tvmaze_id": {
+      "N": "12221"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "10"
+     },
+     "name": {
+      "S": "Fly"
+     },
+     "airdate": {
+      "S": "2010-05-23"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.3"
+     },
+     "summary": {
+      "S": "<p>When Walt becomes driven to distraction by a contaminant in the lab, he refuses to cook meth until they are able to get rid of it.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#03#E#11"
+     },
+     "tvmaze_id": {
+      "N": "12222"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "11"
+     },
+     "name": {
+      "S": "Abiquiu"
+     },
+     "airdate": {
+      "S": "2010-05-30"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.9"
+     },
+     "summary": {
+      "S": "<p>Skyler's increased involvement in Walt's business causes him concern; Hank's recovery is plagued by setbacks; and Jesse makes a surprising discovery as he gets more involved in his new enterprise.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#03#E#12"
+     },
+     "tvmaze_id": {
+      "N": "12223"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "12"
+     },
+     "name": {
+      "S": "Half Measures"
+     },
+     "airdate": {
+      "S": "2010-06-06"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "9.2"
+     },
+     "summary": {
+      "S": "<p>Jesse ignores Walt's advice and finds himself in a dangerous situation. Fearing for Jesse's safety, Walt takes drastic measures to try to put things right. And tragedy strikes following an unexpected confrontation.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#03#E#13"
+     },
+     "tvmaze_id": {
+      "N": "12224"
+     },
+     "season": {
+      "N": "3"
+     },
+     "number": {
+      "N": "13"
+     },
+     "name": {
+      "S": "Full Measure"
+     },
+     "airdate": {
+      "S": "2010-06-13"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "9.1"
+     },
+     "summary": {
+      "S": "<p>Jesse goes on the lam in the third-season finale. But Mike is right on his heels, so Walt works a deal with Gus and comes up with an unsettling plan that might help guarantee both his and Jesse's safety.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#04#E#01"
+     },
+     "tvmaze_id": {
+      "N": "12225"
+     },
+     "season": {
+      "N": "4"
+     },
+     "number": {
+      "N": "1"
+     },
+     "name": {
+      "S": "Box Cutter"
+     },
+     "airdate": {
+      "S": "2011-07-17"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.2"
+     },
+     "summary": {
+      "S": "<p>In the Season 4 opener, Walt and Jesse are confronted by the life-threatening consequences of their actions. Meanwhile, Skyler contends with a puzzling disappearance, and Marie finds it difficult to help a recovering Hank.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#04#E#02"
+     },
+     "tvmaze_id": {
+      "N": "12226"
+     },
+     "season": {
+      "N": "4"
+     },
+     "number": {
+      "N": "2"
+     },
+     "name": {
+      "S": "Thirty-Eight Snub"
+     },
+     "airdate": {
+      "S": "2011-07-24"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.8"
+     },
+     "summary": {
+      "S": "<p>Walt tries to establish a new alliance as he plots his next move. Meanwhile, Skyler urges Walt to consider a business opportunity that could keep the family safe.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#04#E#03"
+     },
+     "tvmaze_id": {
+      "N": "12227"
+     },
+     "season": {
+      "N": "4"
+     },
+     "number": {
+      "N": "3"
+     },
+     "name": {
+      "S": "Open House"
+     },
+     "airdate": {
+      "S": "2011-07-31"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.3"
+     },
+     "summary": {
+      "S": "<p>Goings-on at Jesse's place start to get out of control; Skyler reluctantly turns to Saul for help; Marie settles back into an old habit; and Hank hears from an old friend who needs assistance.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#04#E#04"
+     },
+     "tvmaze_id": {
+      "N": "12228"
+     },
+     "season": {
+      "N": "4"
+     },
+     "number": {
+      "N": "4"
+     },
+     "name": {
+      "S": "Bullet Points"
+     },
+     "airdate": {
+      "S": "2011-08-07"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.8"
+     },
+     "summary": {
+      "S": "<p>The Cartel makes a power move; Skyler and Walt reveal something embarrassing to the family; and Jesse's misdeeds bring some unwanted attention.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#04#E#05"
+     },
+     "tvmaze_id": {
+      "N": "12229"
+     },
+     "season": {
+      "N": "4"
+     },
+     "number": {
+      "N": "5"
+     },
+     "name": {
+      "S": "Shotgun"
+     },
+     "airdate": {
+      "S": "2011-08-14"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.7"
+     },
+     "summary": {
+      "S": "<p>Jesse's disappearance leaves Walt fearing the worst; Skyler has a surprising reunion; and Hank gives Det. Roberts bad news.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#04#E#06"
+     },
+     "tvmaze_id": {
+      "N": "12230"
+     },
+     "season": {
+      "N": "4"
+     },
+     "number": {
+      "N": "6"
+     },
+     "name": {
+      "S": "Cornered"
+     },
+     "airdate": {
+      "S": "2011-08-21"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7.8"
+     },
+     "summary": {
+      "S": "<p>A shocking discovery unsettles Skyler; Walter Jr. leans on his father to make a special purchase; Mike gets surprise help from Jesse.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#04#E#07"
+     },
+     "tvmaze_id": {
+      "N": "12231"
+     },
+     "season": {
+      "N": "4"
+     },
+     "number": {
+      "N": "7"
+     },
+     "name": {
+      "S": "Problem Dog"
+     },
+     "airdate": {
+      "S": "2011-08-28"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.2"
+     },
+     "summary": {
+      "S": "<p>A frustrated Walt takes on a risky gamble; Skyler encounters problems with her latest business venture; Hank requires Walter Jr.'s services for an unusual reason.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#04#E#08"
+     },
+     "tvmaze_id": {
+      "N": "12232"
+     },
+     "season": {
+      "N": "4"
+     },
+     "number": {
+      "N": "8"
+     },
+     "name": {
+      "S": "Hermanos"
+     },
+     "airdate": {
+      "S": "2011-09-04"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.3"
+     },
+     "summary": {
+      "S": "<p>Skyler devises a plan to cure her money woes; Hank recruits Walt to help him work out a theory, while Walt grows impatient with Jesse.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#04#E#09"
+     },
+     "tvmaze_id": {
+      "N": "12233"
+     },
+     "season": {
+      "N": "4"
+     },
+     "number": {
+      "N": "9"
+     },
+     "name": {
+      "S": "Bug"
+     },
+     "airdate": {
+      "S": "2011-09-11"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "8.2"
+     },
+     "summary": {
+      "S": "<p>Mistakes from Skyler's past prove to be impactful to the present; Gus is spurred to action against rivals; Jesse seeks help from Walt but the results are mixed.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#04#E#10"
+     },
+     "tvmaze_id": {
+      "N": "12234"
+     },
+     "season": {
+      "N": "4"
+     },
+     "number": {
+      "N": "10"
+     },
+     "name": {
+      "S": "Salud"
+     },
+     "airdate": {
+      "S": "2011-09-18"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "9.1"
+     },
+     "summary": {
+      "S": "<p>The family becomes gravely concerned when Walt doesn't show up for his son's 16th birthday celebration. And Jesse's lab skills are tested in Walt's absence.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#169"
+     },
+     "sk": {
+      "S": "S#04#E#11"
+     },
+     "tvmaze_id": {
+      "N": "12235"
+     },
+     "season": {
+      "N": "4"
+     },
+     "number": {
+      "N": "11"
+     },
+     "name": {
+      "S": "Crawl Space"
+     },
+     "airdate": {
+      "S": "2011-09-25"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "9"
+     },
+     "summary": {
+      "S": "<p>Walt moves to protect his secret and Gus; Skyler is stymied in her attempt to help Ted with his financial problem.</p>"
+     }
+    }
+   }
+  }
+ ]
+}

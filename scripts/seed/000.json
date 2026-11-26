@@ -1,0 +1,899 @@
+{
+ "show": [
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "META"
+     },
+     "tvmaze_id": {
+      "N": "1"
+     },
+     "name": {
+      "S": "Under the Dome"
+     },
+     "slug": {
+      "S": "under-the-dome"
+     },
+     "status": {
+      "S": "Ended"
+     },
+     "premiered": {
+      "S": "2013-06-24"
+     },
+     "ended": {
+      "S": "2015-09-10"
+     },
+     "genres": {
+      "L": [
+       {
+        "S": "Drama"
+       },
+       {
+        "S": "Science-Fiction"
+       },
+       {
+        "S": "Thriller"
+       }
+      ]
+     },
+     "rating": {
+      "N": "6.6"
+     },
+     "summary": {
+      "S": "<p><b>Under the Dome</b> is the story of a small town that is suddenly and inexplicably sealed off from the rest of the world by an enormous transparent dome. The town's inhabitants must deal with surviving the post-apocalyptic conditions while searching for answers about the dome, where it came from and if and when it will go away.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "SEASON#01"
+     },
+     "tvmaze_id": {
+      "N": "1"
+     },
+     "number": {
+      "N": "1"
+     },
+     "episode_order": {
+      "N": "13"
+     },
+     "premiered": {
+      "S": "2013-06-24"
+     },
+     "ended": {
+      "S": "2013-09-16"
+     },
+     "summary": {
+      "S": ""
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "SEASON#02"
+     },
+     "tvmaze_id": {
+      "N": "2"
+     },
+     "number": {
+      "N": "2"
+     },
+     "episode_order": {
+      "N": "13"
+     },
+     "premiered": {
+      "S": "2014-06-30"
+     },
+     "ended": {
+      "S": "2014-09-22"
+     },
+     "summary": {
+      "S": ""
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "SEASON#03"
+     },
+     "tvmaze_id": {
+      "N": "6233"
+     },
+     "number": {
+      "N": "3"
+     },
+     "episode_order": {
+      "N": "13"
+     },
+     "premiered": {
+      "S": "2015-06-25"
+     },
+     "ended": {
+      "S": "2015-09-10"
+     },
+     "summary": {
+      "S": ""
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#01#E#01"
+     },
+     "tvmaze_id": {
+      "N": "1"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "1"
+     },
+     "name": {
+      "S": "Pilot"
+     },
+     "airdate": {
+      "S": "2013-06-24"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "7"
+     },
+     "summary": {
+      "S": "<p>When the residents of Chester's Mill find themselves trapped under a massive transparent dome with no way out, they struggle to survive as resources rapidly dwindle and panic quickly escalates.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#01#E#02"
+     },
+     "tvmaze_id": {
+      "N": "2"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "2"
+     },
+     "name": {
+      "S": "The Fire"
+     },
+     "airdate": {
+      "S": "2013-07-01"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.8"
+     },
+     "summary": {
+      "S": "<p>While the residents of Chester's Mill face the uncertainty of life in the dome, panic is heightened when a house goes up in flames and their fire department is outside of the dome.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#01#E#03"
+     },
+     "tvmaze_id": {
+      "N": "3"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "3"
+     },
+     "name": {
+      "S": "Manhunt"
+     },
+     "airdate": {
+      "S": "2013-07-08"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.5"
+     },
+     "summary": {
+      "S": "<p>When a former deputy goes rogue, Big Jim recruits Barbie to join the manhunt to keep the town safe. Meanwhile, Junior is determined to escape the dome by going underground.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#01#E#04"
+     },
+     "tvmaze_id": {
+      "N": "4"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "4"
+     },
+     "name": {
+      "S": "Outbreak"
+     },
+     "airdate": {
+      "S": "2013-07-15"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.5"
+     },
+     "summary": {
+      "S": "<p>The people of Chester's Mill fall into a state of panic as an outbreak of meningitis strikes their community, threatening their already depleted medical supplies. Meanwhile, Julia continues to search for answers into her husband's disappearance.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#01#E#05"
+     },
+     "tvmaze_id": {
+      "N": "5"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "5"
+     },
+     "name": {
+      "S": "Blue on Blue"
+     },
+     "airdate": {
+      "S": "2013-07-22"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.7"
+     },
+     "summary": {
+      "S": "<p>The Chester's Mill residents receive an unexpected visit from their loved ones on the other side. Meanwhile, the community braces for a threat from outside the Dome.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#01#E#06"
+     },
+     "tvmaze_id": {
+      "N": "6"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "6"
+     },
+     "name": {
+      "S": "The Endless Thirst"
+     },
+     "airdate": {
+      "S": "2013-07-29"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.7"
+     },
+     "summary": {
+      "S": "<p>When the town begins to run low on water, the residents of Chester's Mill begin to fight for the remaining resources. Meanwhile, Julia discovers a strange connection that two of the town's residents have with the Dome.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#01#E#07"
+     },
+     "tvmaze_id": {
+      "N": "7"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "7"
+     },
+     "name": {
+      "S": "Imperfect Circles"
+     },
+     "airdate": {
+      "S": "2013-08-05"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.9"
+     },
+     "summary": {
+      "S": "<p>Big Jim takes matters into his own hands when he feels his authority slipping away, and the dome displays its power when a life is taken just as a newborn arrives.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#01#E#08"
+     },
+     "tvmaze_id": {
+      "N": "8"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "8"
+     },
+     "name": {
+      "S": "Thicker Than Water"
+     },
+     "airdate": {
+      "S": "2013-08-12"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.7"
+     },
+     "summary": {
+      "S": "<p>Junior stands up to his father and is shattered when he discovers the truth about his mother's past. Meanwhile, Julia learns firsthand the powers of the \"mini dome\".</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#01#E#09"
+     },
+     "tvmaze_id": {
+      "N": "9"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "9"
+     },
+     "name": {
+      "S": "The Fourth Hand"
+     },
+     "airdate": {
+      "S": "2013-08-19"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.8"
+     },
+     "summary": {
+      "S": "<p>Big Jim and Barbie discover their lives are more intertwined than they knew when a mysterious woman, Maxine, shows up unexpectedly in Chester's Mill.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#01#E#10"
+     },
+     "tvmaze_id": {
+      "N": "10"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "10"
+     },
+     "name": {
+      "S": "Let the Games Begin"
+     },
+     "airdate": {
+      "S": "2013-08-26"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.8"
+     },
+     "summary": {
+      "S": "<p>Julia uncovers the truth about her husband's disappearance and unravels some of Chester's Mill's darkest secrets. Meanwhile, Maxine shows Barbie how she plans to take control of the town.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#01#E#11"
+     },
+     "tvmaze_id": {
+      "N": "11"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "11"
+     },
+     "name": {
+      "S": "Speak of the Devil"
+     },
+     "airdate": {
+      "S": "2013-09-02"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.5"
+     },
+     "summary": {
+      "S": "<p>Big Jim turns the town against Barbie when the truth about his past is revealed. Meanwhile, Maxine makes it personal when she confronts Barbie's closest ally.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#01#E#12"
+     },
+     "tvmaze_id": {
+      "N": "12"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "12"
+     },
+     "name": {
+      "S": "Exigent Circumstances"
+     },
+     "airdate": {
+      "S": "2013-09-09"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.6"
+     },
+     "summary": {
+      "S": "<p>While the manhunt for Barbie continues, Big Jim gets the residents of Chester's Mill riled up and the town demands justice for all of Barbie's supposed crimes. Meanwhile, Joe and Norrie must find a new hiding place for the mini dome.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#01#E#13"
+     },
+     "tvmaze_id": {
+      "N": "13"
+     },
+     "season": {
+      "N": "1"
+     },
+     "number": {
+      "N": "13"
+     },
+     "name": {
+      "S": "Curtains"
+     },
+     "airdate": {
+      "S": "2013-09-16"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.1"
+     },
+     "summary": {
+      "S": "<p>Secrets of the Dome are revealed and Big Jim is determined to put an end to Barbie once and for all. Meanwhile, Junior, Angie, Joe and Norrie discover who the Monarch is after receiving a shocking visit from a familiar face.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#02#E#01"
+     },
+     "tvmaze_id": {
+      "N": "14"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "1"
+     },
+     "name": {
+      "S": "Heads Will Roll"
+     },
+     "airdate": {
+      "S": "2014-06-30"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.3"
+     },
+     "summary": {
+      "S": "<p>Barbie's fate lies in Big Jim's hands, and the Dome presents a new threat when it becomes magnetized. Meanwhile, Julia seeks out the help of a stranger to save the life of a mysterious girl who may hold clues to origin of the Dome.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#02#E#02"
+     },
+     "tvmaze_id": {
+      "N": "15"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "2"
+     },
+     "name": {
+      "S": "Infestation"
+     },
+     "airdate": {
+      "S": "2014-07-07"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.1"
+     },
+     "summary": {
+      "S": "<p>Barbie risks his life to help Rebecca save the Chester's Mill food supply when she discovers an infestation of butterfly eggs on the town's crops.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#02#E#03"
+     },
+     "tvmaze_id": {
+      "N": "16"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "3"
+     },
+     "name": {
+      "S": "Force Majeure"
+     },
+     "airdate": {
+      "S": "2014-07-14"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.3"
+     },
+     "summary": {
+      "S": "<p>When tensions in Chester's Mill continue to rise as resources dwindle, Big Jim holds a census in order to forecast how long the town can continue to exist under the dire conditions. Meanwhile, a rainstorm brings much-needed water until it changes to acid rain, threatening the lives of everyone it touches. Also, Rebecca and Lyle butt heads over the reasons for the dome's existence.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#02#E#04"
+     },
+     "tvmaze_id": {
+      "N": "17"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "4"
+     },
+     "name": {
+      "S": "Revelation"
+     },
+     "airdate": {
+      "S": "2014-07-21"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.1"
+     },
+     "summary": {
+      "S": "<p>As conditions in Chester's Mill worsen, Big Jim and Rebecca consider resorting to the extreme measure of population control, which drives a wedge between Barbie and Julia. Meanwhile, clues to Melanie's past and her connection to the Dome are revealed.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#02#E#05"
+     },
+     "tvmaze_id": {
+      "N": "18"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "5"
+     },
+     "name": {
+      "S": "Reconciliation"
+     },
+     "airdate": {
+      "S": "2014-07-28"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.3"
+     },
+     "summary": {
+      "S": "<p>Julia takes over as the leader of Chester's Mill after the town becomes divided in the wake of Big Jim and Rebecca's plans for population control. Meanwhile, Joe and Norrie help Melanie search for more clues about her identity at the Dome wall.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#02#E#06"
+     },
+     "tvmaze_id": {
+      "N": "19"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "6"
+     },
+     "name": {
+      "S": "In the Dark"
+     },
+     "airdate": {
+      "S": "2014-08-04"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.3"
+     },
+     "summary": {
+      "S": "<p>When Barbie and Sam set out to investigate a mysterious tunnel, a cave-in severs their path back to Chester's Mill. Meanwhile, Julia and Big Jim face off in a struggle for power as a dust storm rages in the town.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#02#E#07"
+     },
+     "tvmaze_id": {
+      "N": "20"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "7"
+     },
+     "name": {
+      "S": "Going Home"
+     },
+     "airdate": {
+      "S": "2014-08-11"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.3"
+     },
+     "summary": {
+      "S": "<p>When Barbie descends into the unknown abyss in the mysterious tunnel to look for Sam, he discovers a world that is familiar but filled with unanswered questions.</p>"
+     }
+    }
+   }
+  },
+  {
+   "PutRequest": {
+    "Item": {
+     "pk": {
+      "S": "SHOW#1"
+     },
+     "sk": {
+      "S": "S#02#E#08"
+     },
+     "tvmaze_id": {
+      "N": "21"
+     },
+     "season": {
+      "N": "2"
+     },
+     "number": {
+      "N": "8"
+     },
+     "name": {
+      "S": "Awakening"
+     },
+     "airdate": {
+      "S": "2014-08-18"
+     },
+     "runtime": {
+      "N": "60"
+     },
+     "rating": {
+      "N": "6.4"
+     },
+     "summary": {
+      "S": "<p>When Barbie enlists his father's help to reach out to Julia, he realizes that Don may know more about the Dome than he is letting on. Meanwhile, Big Jim appoints himself sheriff of Chester's Mill.</p>"
+     }
+    }
+   }
+  }
+ ]
+}
