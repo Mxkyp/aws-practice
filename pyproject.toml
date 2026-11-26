@@ -17,6 +17,7 @@ package = false
 [dependency-groups]
 dev = [
     "poethepoet>=0.49.0",
+    "pytest>=9.2.0",
 ]
 
 [tool.poe.env]
@@ -43,15 +44,10 @@ echo "seeded $(ls scripts/seed/*.json | wc -l) batches"
 """
 seed.help = "Load the committed seed batches (scripts/seed/*.json, <=25 puts each) into the table"
 
-smoke.shell = """
-mkdir -p build
-aws lambda invoke --function-name get_show \
-  --cli-binary-format raw-in-base64-out --payload file://scripts/smoke_get_show_event.json \
-  build/smoke.json > /dev/null
-echo "get_show -> $(cat build/smoke.json)"
-jq -e '.statusCode == 200 and (.body | fromjson | .name == "Game of Thrones" and .rating == 8.9)' build/smoke.json > /dev/null
+test-api.shell = """
+API_URL=$(terraform -chdir=infra output -raw api_invoke_url) pytest tests/api
 """
-smoke.help = "Fail unless get_show returns seeded show 82 with status 200 and a numeric rating"
+test-api.help = "HTTP tests of the deployed API against the seed data (needs infra, deploy, seed)"
 
-e2e.sequence = ["infra", "deploy", "seed", "smoke"]
-e2e.help = "Apply infra, deploy code, seed data and smoke-test against the emulator"
+e2e.sequence = ["infra", "deploy", "seed", "test-api"]
+e2e.help = "Apply infra, deploy code, seed data and run the API tests against the emulator"
